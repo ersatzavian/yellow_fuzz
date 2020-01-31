@@ -21,47 +21,6 @@ Form factor by May lol!
 
 ### For Dev Version
 
-* Resistors
-  * 100
-  * 330
-  * 1k
-  * 1.2k
-  * 2.2k
-  * 3.3k 
-  * 4.7k
-  * 10k
-  * 22k
-  * 47k
-  * 56k
-  * 100k
-  * 220k
-  * 470k
-  * 1M
-* Caps
-  * 10p
-  * 47p
-  * 220p
-  * 470p
-  * 1.5n
-  * 8.2n 
-  * 10n
-  * 15n
-  * 22n
-  * 27n
-  * 33n
-  * 47n
-  * 220n / 35V electrolytic
-  * 0.1u
-  * 1u / 50V electrolytic < check kits
-  * 10u / 16V electrolytic\
-  * 100u / 16V electrolytic
-  * 100u / 6.3V electrolytic
-* Potentiometers < check all tapers
-  * 2.2k log trim pot, PCB mount
-  * 50k logarithmic (A) - Level
-  * 50k logarithmic dual-ganged (Cx2) - Mid frequency
-  * 100k linear (B) - Low / High
-  * 250k logarithmic (A) - Distortion
 * Discretes
   * Zeners
     * MTZ5.6B
@@ -87,10 +46,17 @@ Form factor by May lol!
   * 1/4" PCB mount stereo
   * 9V Battery Clip
   * AC Adapter - check barrel sizes from Godlyke adapter I've got.
+* Potentiometers < check all tapers
+  * 2.2k log trim pot, PCB mount
+  * 50k logarithmic (A) - Level
+  * 50k logarithmic dual-ganged (Cx2) - Mid frequency
+  * 100k linear (B) - Low / High
+  * 250k logarithmic (A) - Distortion
 
 ### For Form-Factor Version
 * 1/4" Stereo Jack, Panel Mount with header footprint.
 * 1/4" Mono Jack, Panel Mount with header footprint
+* Re-evaluate all potentiometer tapers and footprints.
 
 ## References
 
