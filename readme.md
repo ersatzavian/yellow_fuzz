@@ -28,7 +28,8 @@ Form factor by May lol!
     * 1SS133
     * S5500G
 * Electromechanical
-  * Foot switch, probably no-click momentary pcb mount
+  * Foot switch, probably no-click momentary pcb mount - FS5700SPMT2B2M2QE
+    * FS5700SPMT2B2M1QE for form-factor (panel-mount, solder lugs)
   * Board-mount mini-toggles, the more fun the better.
 * Connectors
   * 9V Battery Clip
