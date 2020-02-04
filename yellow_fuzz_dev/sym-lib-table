@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name dk_Barrel-Audio-Connectors)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_Barrel-Audio-Connectors.lib)(options "")(descr ""))
+  (lib (name dk_Rotary-Potentiometers-Rheostats)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_Rotary-Potentiometers-Rheostats.lib)(options "")(descr ""))
+  (lib (name yellow_fuzz_dev)(type Legacy)(uri ${KIPRJMOD}/yellow_fuzz_dev.lib)(options "")(descr ""))
+  (lib (name dk_JFETs)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_Transistors-JFETs.lib)(options "")(descr ""))
+  (lib (name dk_NPN_Single)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_Transistors-Bipolar-BJT-Single.lib)(options "")(descr ""))
+  (lib (name dk_opamps)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_Linear-Amplifiers-Instrumentation-OP-Amps-Buffer-Amps.lib)(options "")(descr ""))
+  (lib (name dk_LEDs)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_LED-Indication-Discrete.lib)(options "")(descr ""))
+)

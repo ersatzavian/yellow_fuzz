@@ -1,6 +1,43 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Amplifier_Operational_TL074
+#
+DEF Amplifier_Operational_TL074 U 0 5 Y Y 5 L N
+F0 "U" 0 200 50 H V L CNN
+F1 "Amplifier_Operational_TL074" 0 -200 50 H V L CNN
+F2 "" -50 100 50 H I C CNN
+F3 "" 50 200 50 H I C CNN
+ALIAS LM324 TLC274 TLC279 TL074 LM324A MCP6004 TL084 TL064 LMV324 LMC6484 MCP604 MC33079 MC33174 MC33179 OPA1604 OPA1679 OPA4134 OPA4340UA OPA4376 MCP6L94 TSV914 ADA4807-4 TSV994
+$FPLIST
+ SOIC*3.9x8.7mm*P1.27mm*
+ DIP*W7.62mm*
+ TSSOP*4.4x5mm*P0.65mm*
+ SSOP*5.3x6.2mm*P0.65mm*
+ MSOP*3x3mm*P0.5mm*
+$ENDFPLIST
+DRAW
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 2 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 3 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 4 1 10 -200 200 200 0 -200 -200 -200 200 f
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 -100 100 R 50 50 1 1 I
+X + 3 -300 100 100 R 50 50 1 1 I
+X + 5 -300 100 100 R 50 50 2 1 I
+X - 6 -300 -100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+X + 10 -300 100 100 R 50 50 3 1 I
+X ~ 8 300 0 100 L 50 50 3 1 O
+X - 9 -300 -100 100 R 50 50 3 1 I
+X + 12 -300 100 100 R 50 50 4 1 I
+X - 13 -300 -100 100 R 50 50 4 1 I
+X ~ 14 300 0 100 L 50 50 4 1 O
+X V- 11 -100 -300 150 U 50 50 5 1 W
+X V+ 4 -100 300 150 D 50 50 5 1 W
+ENDDRAW
+ENDDEF
+#
 # Device_C
 #
 DEF Device_C C 0 10 N Y 1 F N
@@ -124,6 +161,135 @@ P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
 X 1 1 0 150 50 D 50 50 1 1 P
 X 2 2 150 0 50 L 50 50 1 1 P
 X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_Barrel-Audio-Connectors_SN49B12B
+#
+DEF dk_Barrel-Audio-Connectors_SN49B12B CON 0 40 Y Y 1 F N
+F0 "CON" -300 250 60 H V L CNN
+F1 "dk_Barrel-Audio-Connectors_SN49B12B" -300 -250 60 H V L CNN
+F2 "digikey-footprints:Headphone_Jack_6.35mm_SN49B12B" 200 200 60 H I L CNN
+F3 "http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf" 200 300 60 H I L CNN
+F4 "SC1522-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "SN49B12B" 200 500 60 H I L CNN "MPN"
+F6 "Connectors, Interconnects" 200 600 60 H I L CNN "Category"
+F7 "Barrel - Audio Connectors" 200 700 60 H I L CNN "Family"
+F8 "http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/switchcraft-inc/SN49B12B/SC1522-ND/412780" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "CONN JACK STEREO 6.35MM R/A" 200 1000 60 H I L CNN "Description"
+F11 "Switchcraft Inc." 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+S 200 200 -300 -200 0 1 0 f
+P 4 0 1 0 200 0 100 0 50 -50 0 0 N
+P 4 0 1 0 200 100 0 100 -50 50 -100 100 N
+P 6 0 1 0 200 -100 -150 -100 -150 100 -200 100 -200 -50 -150 -50 N
+X ~ R 400 100 200 L 50 50 1 1 P
+X ~ S 400 -100 200 L 50 50 1 1 P
+X ~ T 400 0 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_LEDs_WP7113QBC_D
+#
+DEF dk_LEDs_WP7113QBC_D D 0 0 Y Y 1 F N
+F0 "D" -150 150 60 H V C CNN
+F1 "dk_LEDs_WP7113QBC_D" 0 -150 60 H V C CNN
+F2 "digikey-footprints:LED_5mm_Radial" 200 200 60 H I L CNN
+F3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" 200 300 60 H I L CNN
+F4 "754-1489-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "WP7113QBC/D" 200 500 60 H I L CNN "MPN"
+F6 "Optoelectronics" 200 600 60 H I L CNN "Category"
+F7 "LED Indication - Discrete" 200 700 60 H I L CNN "Family"
+F8 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "LED BLUE CLEAR T-1 3/4 T/H" 200 1000 60 H I L CNN "Description"
+F11 "Kingbright" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 -25 150 -75 100 N
+P 2 0 1 0 0 50 0 -50 N
+P 2 0 1 0 25 125 -25 75 N
+P 3 0 1 0 -50 150 -25 150 -25 125 N
+P 3 0 1 0 0 125 25 125 25 100 N
+P 4 0 1 0 -100 50 -100 -50 0 0 -100 50 F
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 100 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# dk_NPN_Single_BC817-25-TP
+#
+DEF dk_NPN_Single_BC817-25-TP Q 0 0 Y Y 1 F N
+F0 "Q" -126 166 60 H V L CNN
+F1 "dk_NPN_Single_BC817-25-TP" 206 0 60 V V C CNN
+F2 "digikey-footprints:SOT-23-3" 200 200 60 H I L CNN
+F3 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" 200 300 60 H I L CNN
+F4 "BC817-25-TPMSCT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "BC817-25-TP" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - Bipolar (BJT) - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "TRANS NPN 45V 0.8A SOT-23" 200 1000 60 H I L CNN "Description"
+F11 "Micro Commercial Co" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 128 0 1 0 f
+P 2 0 1 0 -150 0 -100 0 N
+P 2 0 1 0 -140 0 0 0 N
+P 2 0 1 0 0 -50 100 -100 N
+P 2 0 1 0 0 50 100 100 N
+P 2 0 1 0 0 100 0 -100 N
+P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
+X B 1 -200 0 100 R 50 50 1 1 I
+X E 2 100 -200 100 U 50 50 1 1 P
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# yellow_fuzz_dev_NSVJ3910SB3T1GOSCT-ND
+#
+DEF yellow_fuzz_dev_NSVJ3910SB3T1GOSCT-ND Q 0 0 Y Y 1 F N
+F0 "Q" 16 195 60 H V R CNN
+F1 "yellow_fuzz_dev_NSVJ3910SB3T1GOSCT-ND" 23 -208 60 H V R CNN
+F2 "" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "J113FS-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "NSVJ3910SB3T1G" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Transistors - JFETs" 200 700 60 H I L CNN "Family"
+F8 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&pkeyword=&sv=0&pv1989=0&pv1183=u25V&pv2270=u180mV+%40+1%C2%B5A&pv2270=u200mV+%40+100%C2%B5A&pv2270=u300mV+%40+100%C2%B5A&pv2270=u600mV+%40+10%C2%B5A&pv2270=u600mV+%40+100%C2%B5A&sf=1&FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&quantity=&pbfree=1&ColumnSort=0&page=1&stock=1&rohs=1&pageSize=250" 200 900 60 H I L CNN "DK_Detail_Page"
+F9 "IC JFET N-CH 25V 50MA 3CPH" 200 1000 60 H I L CNN "Description"
+F10 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F11 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+C 0 0 152 1 1 0 f
+P 2 0 1 0 -25 -100 -25 100 N
+P 2 0 1 0 -25 0 -175 0 N
+P 3 0 1 0 -25 -75 100 -75 100 -150 N
+P 3 0 1 0 -25 75 100 75 100 150 N
+P 4 1 1 0 -75 25 -75 -25 -25 0 -75 25 F
+X S 1 100 300 200 D 50 50 1 1 P
+X D 2 100 -300 200 U 50 50 1 1 P
+X G 3 -300 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# yellow_fuzz_dev_RA49B11
+#
+DEF yellow_fuzz_dev_RA49B11 J 0 40 Y Y 1 F N
+F0 "J" -350 50 50 H V C CNN
+F1 "yellow_fuzz_dev_RA49B11" -200 -450 50 H V C CNN
+F2 "" -150 0 50 H I C CNN
+F3 "" -150 0 50 H I C CNN
+DRAW
+S 0 0 -350 -400 0 1 0 f
+P 4 0 1 0 50 -100 -50 -100 -100 -150 -150 -100 N
+P 6 0 1 0 50 -300 -200 -300 -200 -100 -250 -100 -250 -250 -200 -250 N
+X ~ S 150 -300 100 L 50 50 1 1 P
+X ~ T 150 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
