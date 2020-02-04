@@ -27,31 +27,12 @@ Form factor by May lol!
   * Diodes
     * 1SS133
     * S5500G
-  * JFETs
-    * 2SK184GR
-    * 2SK118Y
-  * NPNs
-    * 2SC3378GR
-    * 2SC248GR
-* Op Amps
-  * 2M5218AL
-* Optoelectronics
-  * LED
-    * Any blue indicator you like probably.
 * Electromechanical
   * Foot switch, probably no-click momentary pcb mount
   * Board-mount mini-toggles, the more fun the better.
 * Connectors
-  * 1/4" PCB mount mono
-  * 1/4" PCB mount stereo
   * 9V Battery Clip
   * AC Adapter - check barrel sizes from Godlyke adapter I've got.
-* Potentiometers < check all tapers
-  * 2.2k log trim pot, PCB mount
-  * 50k logarithmic (A) - Level
-  * 50k logarithmic dual-ganged (Cx2) - Mid frequency
-  * 100k linear (B) - Low / High
-  * 250k logarithmic (A) - Distortion
 
 ### For Form-Factor Version
 * 1/4" Stereo Jack, Panel Mount with header footprint.
