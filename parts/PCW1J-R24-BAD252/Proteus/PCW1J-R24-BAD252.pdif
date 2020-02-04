@@ -1,0 +1,215 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PCW1J-R24-BAD252"
+   (description "Potentiometers 2.5K 20% Sq 22mm Single Turn")
+   (family "ANA")
+   (package "PCW1JR24BAD252")
+   (attribute "Datasheet Link" "https://componentsearchengine.com/Datasheets/1/PCW1J-R24-BAD252.pdf")
+   (attribute "Geometry.Height" "27.31mm")
+   (attribute "Mouser Part Number" "652-PCW1J-R24-BAD252")
+   (attribute "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=652-PCW1J-R24-BAD252")
+   (attribute "Manufacturer_Name" "Bourns")
+   (attribute "Manufacturer_Part_Number" "PCW1J-R24-BAD252")
+   (gate
+    (symbol "PCW1J-R24-BAD252")
+    (pin "CCW" 1 PS)
+    (pin "WIPER" 2 PS)
+    (pin "CW" 3 PS)
+    (pin "MH1" MH1 PS)
+    (pin "MH2" MH2 PS)
+    (pin "MH3" MH3 PS)
+    (pin "MH4" MH4 PS)
+   )
+  )
+  (symbol "PCW1J-R24-BAD252"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 900 100) (pt 900 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1100 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PCW1JR24BAD252"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -9.145 0.17)
+      (pt 14.225 0.17)
+      (pt 14.225 22.37)
+      (pt -9.145 22.37)
+      (pt -9.145 0.17))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.145 20.5)
+      (pt -9.145 20.5)
+      (pt -9.145 22.37)
+      (pt -9.145 22.37)
+      (pt -9.145 20.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.145 22.37)
+      (pt 14.225 22.37)
+      (pt 14.225 22.37)
+      (pt -9.145 22.37)
+      (pt -9.145 22.37))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 14.225 22.37)
+      (pt 14.225 22.37)
+      (pt 14.225 20.5)
+      (pt 14.225 20.5)
+      (pt 14.225 22.37))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 14.225 17.25)
+      (pt 14.225 17.25)
+      (pt 14.225 5.25)
+      (pt 14.225 5.25)
+      (pt 14.225 17.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 14.225 2)
+      (pt 14.225 2)
+      (pt 14.225 0.17)
+      (pt 14.225 0.17)
+      (pt 14.225 2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 14.225 0.17)
+      (pt 6.75 0.17)
+      (pt 6.75 0.17)
+      (pt 14.225 0.17)
+      (pt 14.225 0.17))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 0.17)
+      (pt -9.145 0.17)
+      (pt -9.145 0.17)
+      (pt -2 0.17)
+      (pt -2 0.17))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.145 0.17)
+      (pt -9.145 0.17)
+      (pt -9.145 2)
+      (pt -9.145 2)
+      (pt -9.145 0.17))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -9.145 17.5)
+      (pt -9.145 17.5)
+      (pt -9.145 5.25)
+      (pt -9.145 5.25)
+      (pt -9.145 17.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -10.782 23.37)
+      (pt 15.862 23.37)
+      (pt 15.862 -2.45)
+      (pt -10.782 -2.45)
+      (pt -10.782 23.37))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1 -1.4)
+      (arc (pt -1.000 -1.400) (pt -1.000 -1.450) (pt -0.900 -1.350) (start 180.0) (sweep 180.0))
+      (pt -0.9 -1.4)
+      (arc (pt -0.900 -1.400) (pt -1.000 -1.450) (pt -0.900 -1.350) (start 180.0) (sweep .0))
+      (pt -1 -1.4)
+      (arc (pt -1.000 -1.400) (pt -1.000 -1.450) (pt -0.900 -1.350) (start 180.0) (sweep 180.0))
+      (pt -0.9 -1.4))))
+   (leg 1 (pt 0.000 0.000) (padstack 0))
+   (leg 2 (pt 2.540 0.000) (padstack 0))
+   (leg 3 (pt 5.080 0.000) (padstack 0))
+   (leg MH1 (pt -8.890 18.870) (padstack 0))
+   (leg MH2 (pt -8.890 3.670) (padstack 0))
+   (leg MH3 (pt 13.970 3.670) (padstack 0))
+   (leg MH4 (pt 13.970 18.870) (padstack 0))
+   (padstack 0
+    (hole 1.19)
+    (plated true)
+    (pad (layer TCOP) (round 1.785))
+    (pad (layer INNER) (round 1.785))
+    (pad (layer BCOP) (round 1.785))
+   )
+  )
+ )
+)

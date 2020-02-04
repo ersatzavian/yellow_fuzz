@@ -1,0 +1,9 @@
+Manufacturer=Bourns
+PartNumber=PCW1J-R24-BAD252
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=7
+Version=1.2
+Released=2020-02-03 11:42:26
+Downloaded=2020-02-03 21:56:47
+3D=N

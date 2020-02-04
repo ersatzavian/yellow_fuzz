@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "PCW1JR24BAD252"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "PCW1JR24BAD252")
+        (spec "default")
+    )
+)

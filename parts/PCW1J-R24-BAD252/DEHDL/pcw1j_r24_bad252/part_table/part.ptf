@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PCW1J_R24_BAD252'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Bourns", "PCW1J-R24-BAD252" (!) = "", "PCW1JR24BAD252", "Other", "652-PCW1J-R24-BAD252", "https://www.mouser.com/Search/Refine.aspx?Keyword=652-PCW1J-R24-BAD252", "Potentiometers 2.5K 20% Sq 22mm Single Turn", "https://componentsearchengine.com/Datasheets/1/PCW1J-R24-BAD252.pdf", "27.31 mm"
+END_PART
+
+END.

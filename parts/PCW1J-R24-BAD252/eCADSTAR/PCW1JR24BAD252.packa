@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PCW1J-R24-BAD252"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-02-03-11:42:26)
+    (mountForm default
+        (footprintRef "PCW1JR24BAD252")
+        (spec "System")
+    )
+)

@@ -1,0 +1,16 @@
+.PCW1J-R24-BAD252 :1 ;Potentiometers 2.5K 20% Sq 22mm Single Turn
+PCW1JR24BAD252
+*STM VR
+*NGS
+*PNM 1=1 2=2 3=3 4=MH1 5=MH2 6=MH3 7=MH4
+*PLB 1="CCW" 2="WIPER" 3="CW" 4="MH1" 5="MH2" 6="MH3" 7="MH4"
+*MXP 7
+*DFN PCW1J-R24-BAD252
+~!Mouser Part Number (652-PCW1J-R24-BAD252)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=652-PCW1J-R24-BAD252)
+~!Manufacturer_Name (Bourns)
+~!Manufacturer_Part_Number (PCW1J-R24-BAD252)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/PCW1J-R24-BAD252.pdf)
+~!Height (27.31mm)
+PCW1J-R24-BAD252
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 
