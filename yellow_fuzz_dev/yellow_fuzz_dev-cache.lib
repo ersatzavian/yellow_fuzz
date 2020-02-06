@@ -191,6 +191,31 @@ X ~ T 400 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# dk_Diodes-Rectifiers-Single_1N4148
+#
+DEF dk_Diodes-Rectifiers-Single_1N4148 D 0 40 Y Y 1 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "dk_Diodes-Rectifiers-Single_1N4148" 50 -150 50 H V C CNN
+F2 "digikey-footprints:Diode_DO-35_P10mm" 200 200 60 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" 200 300 60 H I L CNN
+F4 "1N4148FS-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "1N4148" 200 500 60 H I L CNN "MPN"
+F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
+F7 "Diodes - Rectifiers - Single" 200 700 60 H I L CNN "Family"
+F8 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "DIODE GEN PURP 100V 200MA DO35" 200 1000 60 H I L CNN "Description"
+F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F12 "Active" 200 1200 60 H I L CNN "Status"
+DRAW
+P 2 0 1 0 0 0 100 0 N
+P 2 0 1 0 0 50 0 -50 N
+P 4 0 1 0 100 50 100 -50 0 0 100 50 F
+X ~ 1 -100 0 100 R 50 50 1 1 P
+X ~ 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # dk_LEDs_WP7113QBC_D
 #
 DEF dk_LEDs_WP7113QBC_D D 0 0 Y Y 1 F N
@@ -246,6 +271,49 @@ P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
 X B 1 -200 0 100 R 50 50 1 1 I
 X E 2 100 -200 100 U 50 50 1 1 P
 X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+9V
+#
+DEF power_+9V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+9V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +9V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# yellow_fuzz_dev_+4V5
+#
+DEF yellow_fuzz_dev_+4V5 #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "yellow_fuzz_dev_+4V5" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +4V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

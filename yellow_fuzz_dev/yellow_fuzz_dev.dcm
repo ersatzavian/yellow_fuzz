@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +4V5
+D Power symbol creates a global label with name "+4V5"
+K power-flag
+$ENDCMP
+#
 $CMP NSVJ3910SB3T1GOSCT-ND
 D JFET N-CH 35V 625MW TO92
 K J113FS-ND
