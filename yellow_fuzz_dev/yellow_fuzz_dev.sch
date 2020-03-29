@@ -4230,17 +4230,6 @@ F 7 "DMG2301L-7DICT-ND" H 2600 3800 50  0001 C CNN "Supplier Part Number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Barrel_Jack_Switch J?
-U 1 1 5F1031A8
-P 1400 6600
-F 0 "J?" H 1457 6917 50  0000 C CNN
-F 1 "Barrel_Jack_Switch" H 1457 6826 50  0000 C CNN
-F 2 "" H 1450 6560 50  0001 C CNN
-F 3 "~" H 1450 6560 50  0001 C CNN
-	1    1400 6600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5F10C1BD
 P 3900 13200
@@ -4491,4 +4480,21 @@ Wire Wire Line
 	3600 14050 3600 13850
 Wire Wire Line
 	2950 14550 2950 14650
+$Comp
+L PJ-202A:PJ-202A J?
+U 1 1 5E83659F
+P 2100 8450
+F 0 "J?" H 1848 8417 50  0000 R CNN
+F 1 "PJ-202A" H 1848 8508 50  0000 R CNN
+F 2 "CUI_PJ-202A" H 2100 8450 50  0001 L BNN
+F 3 "Manufacturer recommendations" H 2100 8450 50  0001 L BNN
+F 4 "1.02" H 2100 8450 50  0001 L BNN "Field4"
+F 5 "CUI INC" H 2100 8450 50  0001 L BNN "Field5"
+F 6 "CUI" H 2100 8450 50  0001 C CNN "Manufacturer"
+F 7 "PJ-202A" H 2100 8450 50  0001 C CNN "Manufacturer Part Number"
+F 8 "Digi-Key" H 2100 8450 50  0001 C CNN "Supplier"
+F 9 "CP-202A-ND" H 2100 8450 50  0001 C CNN "Supplier Part Number"
+	1    2100 8450
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
