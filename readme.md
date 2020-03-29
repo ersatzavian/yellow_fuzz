@@ -1,10 +1,12 @@
-# Yellow Fuzz
+# Graduator
 
 A bass fuzz for my good friend! Don't tell him, it's a surprise. Starting with a Boss MT-2 (I know, ew, don't tell anybody) because that's allegedly how Arion Salazar got most of his fuzz tone's on Third Eye Blind's self-titled (check out 2:20-2:30 in Graduate, of 4:10 in Thanks a Lot if you like yours with phaser). Hell yeah we want that, don't pretend you don't like that record. 
 
 Adding the popular mods as options, retuning most of the gyrator filters down a bit, adding trim pots for some of the key filters and gains, and doing a non-form-factor layout so I can get all my dumb bugs out of my system before it's annoying to rework.
 
 Form factor by May lol!
+
+Formerly "yellow fuzz" after BRC's "yellow bikes" that happen to be green. Didn't like the sound of it, now it's the Graduator.
 
 ## Mods Planned
 
@@ -22,12 +24,6 @@ Form factor by May lol!
 
 ### For Dev Version
 
-* Discretes
-  * Zeners
-    * MTZ5.6B
-  * Diodes
-    * 1SS133
-    * S5500G
 * Electromechanical
   * Foot switch, probably no-click momentary pcb mount - FS5700SPMT2B2M2QE
     * FS5700SPMT2B2M1QE for form-factor (panel-mount, solder lugs)
@@ -41,9 +37,20 @@ Form factor by May lol!
 * 1/4" Mono Jack, Panel Mount with header footprint
 * Re-evaluate all potentiometer tapers and footprints.
 
+## Issues
+
+### Don't Use KiCad
+
+First and foremost: KiCad's BOM workflow (link symbols to footprints at individual part level -> link to ordering information at footprint level to build BOM from layout) makes no sense to me. Either I'm misunderstanding how this tool works or it's been built to serve the workflow some small community of hobbyists was using. Either way, never again. 
+
+This workflow, plus the look and feel of KiCad's schematic editor, made capturing the design about as smooth and rewarding as swallowing a fork.
+
+### OK Actual Issues
+
 ## References
 
 ### Other Pedals I'm eyeing
+* DOD FX91 Bass Overdrive
 * Darkglass - Duality
 * Zvex - Wooly Mammoth
 * Death by Audio - Fuzz War
