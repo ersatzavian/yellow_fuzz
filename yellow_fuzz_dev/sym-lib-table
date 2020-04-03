@@ -8,4 +8,6 @@
   (lib (name dk_LEDs)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_LED-Indication-Discrete.lib)(options "")(descr ""))
   (lib (name dk_Diodes-Rectifiers-Single)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_Diodes-Rectifiers-Single.lib)(options "")(descr ""))
   (lib (name yellow_fuzz_dev-rescue)(type Legacy)(uri ${KIPRJMOD}/yellow_fuzz_dev-rescue.lib)(options "")(descr ""))
+  (lib (name dk_Battery-Holders-Clips-Contacts)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_Battery-Holders-Clips-Contacts.lib)(options "")(descr ""))
+  (lib (name dk_Tactile-Switches)(type Legacy)(uri C:/Users/tbyrne/digikey-kicad-library/digikey-symbols/dk_Tactile-Switches.lib)(options "")(descr ""))
 )
