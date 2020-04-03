@@ -173,21 +173,6 @@ F 11 "Active" H 3600 3500 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:TL074 U?
-U 5 1 5E3E2209
-P 7500 15050
-F 0 "U?" H 7458 15096 50  0000 L CNN
-F 1 "TL074" H 7458 15005 50  0000 L CNN
-F 2 "digikey:SOIC-14_W3.9mm" H 7450 15150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7550 15250 50  0001 C CNN
-F 4 "Texas Instruments" H 7500 15050 50  0001 C CNN "Manufacturer"
-F 5 "TL074BCDR" H 7500 15050 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 7500 15050 50  0001 C CNN "Supplier"
-F 7 "296-14999-1-ND" H 7500 15050 50  0001 C CNN "Supplier PN"
-	5    7500 15050
-	1    0    0    -1  
-$EndComp
-$Comp
 L yellow_fuzz_dev-rescue:WP7113QBC_D-dk_LEDs D?
 U 1 1 5E402560
 P 2500 6250
@@ -631,62 +616,6 @@ Wire Wire Line
 Wire Wire Line
 	20250 2700 20350 2700
 $Comp
-L Amplifier_Operational:TL074 U?
-U 1 1 5E4591E3
-P 7450 12350
-F 0 "U?" H 7450 11983 50  0000 C CNN
-F 1 "TL074" H 7450 12074 50  0000 C CNN
-F 2 "" H 7400 12450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 7500 12550 50  0001 C CNN
-	1    7450 12350
-	0    -1   1    0   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U?
-U 3 1 5E45CE00
-P 12550 10250
-F 0 "U?" H 12550 10617 50  0000 C CNN
-F 1 "TL074" H 12550 10526 50  0000 C CNN
-F 2 "digikey:SOIC-14_W3.9mm" H 12500 10350 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 12600 10450 50  0001 C CNN
-F 4 "Texas Instruments" H 12550 10250 50  0001 C CNN "Manufacturer"
-F 5 "TL074BCDR" H 12550 10250 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 12550 10250 50  0001 C CNN "Supplier"
-F 7 "296-14999-1-ND" H 12550 10250 50  0001 C CNN "Supplier PN"
-	3    12550 10250
-	1    0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U?
-U 4 1 5E45EA5B
-P 16200 10950
-F 0 "U?" H 16200 11317 50  0000 C CNN
-F 1 "TL074" H 16200 11226 50  0000 C CNN
-F 2 "digikey:SOIC-14_W3.9mm" H 16150 11050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 16250 11150 50  0001 C CNN
-F 4 "Texas Instruments" H 16200 10950 50  0001 C CNN "Manufacturer"
-F 5 "TL074BCDR" H 16200 10950 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 16200 10950 50  0001 C CNN "Supplier"
-F 7 "296-14999-1-ND" H 16200 10950 50  0001 C CNN "Supplier PN"
-	4    16200 10950
-	-1   0    0    1   
-$EndComp
-$Comp
-L Amplifier_Operational:TL074 U?
-U 5 1 5E460A24
-P 8750 15050
-F 0 "U?" H 8708 15096 50  0000 L CNN
-F 1 "TL074" H 8708 15005 50  0000 L CNN
-F 2 "digikey:SOIC-14_W3.9mm" H 8700 15150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 8800 15250 50  0001 C CNN
-F 4 "Texas Instruments" H 8750 15050 50  0001 C CNN "Manufacturer"
-F 5 "TL074BCDR" H 8750 15050 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 8750 15050 50  0001 C CNN "Supplier"
-F 7 "296-14999-1-ND" H 8750 15050 50  0001 C CNN "Supplier PN"
-	5    8750 15050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5E475213
 P 10350 9300
@@ -758,19 +687,19 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E48346B
-P 12550 9700
-F 0 "R?" H 12600 9850 50  0000 L CNN
-F 1 "47k" H 12600 9750 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12480 9700 50  0001 C CNN
-F 3 "~" H 12550 9700 50  0001 C CNN
-F 4 "RC0603JR-0747KL" H 12550 9700 50  0001 C CNN "Manufacturer PN"
-F 5 "5%" H 12650 9550 50  0000 C CNN "Tolerance"
-F 6 "Yageo" H 12550 9700 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 12550 9700 50  0001 C CNN "Supplier"
-F 8 "RC0603JR-0747KL" H 12550 9700 50  0001 C CNN "Supplier PN"
-F 9 "0.1 W" H 12550 9700 50  0001 C CNN "Power"
-F 10 "0603" H 12600 9650 50  0000 L CNN "Package"
-	1    12550 9700
+P 12550 9050
+F 0 "R?" H 12600 9200 50  0000 L CNN
+F 1 "47k" H 12600 9100 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12480 9050 50  0001 C CNN
+F 3 "~" H 12550 9050 50  0001 C CNN
+F 4 "RC0603JR-0747KL" H 12550 9050 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" H 12650 8900 50  0000 C CNN "Tolerance"
+F 6 "Yageo" H 12550 9050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 12550 9050 50  0001 C CNN "Supplier"
+F 8 "RC0603JR-0747KL" H 12550 9050 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 12550 9050 50  0001 C CNN "Power"
+F 10 "0603" H 12600 9000 50  0000 L CNN "Package"
+	1    12550 9050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -810,18 +739,18 @@ $EndComp
 $Comp
 L Device:C C?
 U 1 1 5E48D017
-P 12550 9250
-F 0 "C?" H 12665 9387 50  0000 L CNN
-F 1 "100p" H 12650 9300 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12588 9100 50  0001 C CNN
-F 3 "~" H 12550 9250 50  0001 C CNN
-F 4 "Yageo" H 12550 9250 50  0001 C CNN "Manufacturer"
-F 5 "CC0603JRNPO9BN101" H 12550 9250 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 12550 9250 50  0001 C CNN "Supplier"
-F 7 "311-1069-1-ND" H 12550 9250 50  0001 C CNN "Supplier PN"
-F 8 "0603" H 12665 9205 50  0000 L CNN "Package"
-F 9 "50V" H 12665 9114 50  0000 L CNN "Voltage"
-	1    12550 9250
+P 12550 8600
+F 0 "C?" H 12665 8737 50  0000 L CNN
+F 1 "100p" H 12650 8650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12588 8450 50  0001 C CNN
+F 3 "~" H 12550 8600 50  0001 C CNN
+F 4 "Yageo" H 12550 8600 50  0001 C CNN "Manufacturer"
+F 5 "CC0603JRNPO9BN101" H 12550 8600 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 12550 8600 50  0001 C CNN "Supplier"
+F 7 "311-1069-1-ND" H 12550 8600 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 12665 8555 50  0000 L CNN "Package"
+F 9 "50V" H 12665 8464 50  0000 L CNN "Voltage"
+	1    12550 8600
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1147,22 +1076,11 @@ Connection ~ 7350 11150
 Wire Wire Line
 	7350 11150 7350 11300
 Wire Wire Line
-	6200 12650 6200 11150
-Wire Wire Line
 	6200 11150 6600 11150
 Wire Wire Line
 	7350 11600 7350 11750
 Wire Wire Line
 	7550 12050 7550 11900
-Wire Wire Line
-	7550 11900 8000 11900
-Wire Wire Line
-	8000 11900 8000 12650
-Wire Wire Line
-	6200 12650 7450 12650
-Connection ~ 7450 12650
-Wire Wire Line
-	7450 12650 8000 12650
 $Comp
 L yellow_fuzz_dev:+4V5 #PWR?
 U 1 1 5E85D11D
@@ -1205,21 +1123,6 @@ Wire Wire Line
 	8900 11000 9200 11000
 Wire Wire Line
 	9200 11000 9200 10850
-$Comp
-L Amplifier_Operational:TL074 U?
-U 2 1 5E45AF49
-P 10350 10150
-F 0 "U?" H 10350 10517 50  0000 C CNN
-F 1 "TL074" H 10350 10426 50  0000 C CNN
-F 2 "digikey:SOIC-14_W3.9mm" H 10300 10250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 10400 10350 50  0001 C CNN
-F 4 "Texas Instruments" H 10350 10150 50  0001 C CNN "Manufacturer"
-F 5 "TL074BCDR" H 10350 10150 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 10350 10150 50  0001 C CNN "Supplier"
-F 7 "296-14999-1-ND" H 10350 10150 50  0001 C CNN "Supplier PN"
-	2    10350 10150
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	10050 10250 9600 10250
 Connection ~ 9200 10250
@@ -1293,27 +1196,17 @@ Connection ~ 11950 10950
 Wire Wire Line
 	11950 10950 11950 10350
 Wire Wire Line
-	12400 9700 12150 9700
-Wire Wire Line
-	12150 9700 12150 10150
+	12400 9050 12150 9050
 Connection ~ 12150 10150
 Wire Wire Line
 	12150 10150 11950 10150
 Wire Wire Line
-	12400 9250 12150 9250
+	12400 8600 12150 8600
 Wire Wire Line
-	12150 9250 12150 9700
-Connection ~ 12150 9700
-Wire Wire Line
-	12700 9700 13150 9700
-Wire Wire Line
-	13150 9700 13150 10150
+	12700 9050 13150 9050
 Connection ~ 13150 10250
 Wire Wire Line
-	13150 9700 13150 9250
-Wire Wire Line
-	13150 9250 12700 9250
-Connection ~ 13150 9700
+	13150 8600 12700 8600
 $Comp
 L power:GND #PWR?
 U 1 1 5EA46ED3
@@ -1401,11 +1294,7 @@ Wire Wire Line
 Wire Wire Line
 	16500 10850 16650 10850
 Wire Wire Line
-	16650 10850 16650 10500
-Wire Wire Line
-	16650 10500 15750 10500
-Wire Wire Line
-	15750 10500 15750 10950
+	16650 10300 15750 10300
 Connection ~ 15750 10950
 Wire Wire Line
 	15750 10950 15900 10950
@@ -4020,17 +3909,6 @@ F 3 "" H 7700 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+9V #PWR?
-U 1 1 5F38C236
-P 8650 14500
-F 0 "#PWR?" H 8650 14350 50  0001 C CNN
-F 1 "+9V" H 8665 14673 50  0000 C CNN
-F 2 "" H 8650 14500 50  0001 C CNN
-F 3 "" H 8650 14500 50  0001 C CNN
-	1    8650 14500
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5F38C46F
 P 7850 7200
@@ -4041,84 +3919,6 @@ F 3 "" H 7850 7200 50  0001 C CNN
 	1    7850 7200
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F38C9EF
-P 8650 15600
-F 0 "#PWR?" H 8650 15350 50  0001 C CNN
-F 1 "GND" H 8655 15427 50  0000 C CNN
-F 2 "" H 8650 15600 50  0001 C CNN
-F 3 "" H 8650 15600 50  0001 C CNN
-	1    8650 15600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F38CD2A
-P 9100 15050
-F 0 "C?" H 9215 15187 50  0000 L CNN
-F 1 "0.1u" H 9200 15100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9138 14900 50  0001 C CNN
-F 3 "~" H 9100 15050 50  0001 C CNN
-F 4 "KEMET" H 9100 15050 50  0001 C CNN "Manufacturer"
-F 5 "C0603C104M5RACTU" H 9100 15050 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 9100 15050 50  0001 C CNN "Supplier"
-F 7 "399-7845-1-ND" H 9100 15050 50  0001 C CNN "Supplier PN"
-F 8 "0603" H 9215 15005 50  0000 L CNN "Package"
-F 9 "50V" H 9215 14914 50  0000 L CNN "Voltage"
-	1    9100 15050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5F3C4449
-P 7800 15050
-F 0 "C?" H 7915 15187 50  0000 L CNN
-F 1 "0.1u" H 7900 15100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7838 14900 50  0001 C CNN
-F 3 "~" H 7800 15050 50  0001 C CNN
-F 4 "KEMET" H 7800 15050 50  0001 C CNN "Manufacturer"
-F 5 "C0603C104M5RACTU" H 7800 15050 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 7800 15050 50  0001 C CNN "Supplier"
-F 7 "399-7845-1-ND" H 7800 15050 50  0001 C CNN "Supplier PN"
-F 8 "0603" H 7915 15005 50  0000 L CNN "Package"
-F 9 "50V" H 7915 14914 50  0000 L CNN "Voltage"
-	1    7800 15050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7400 15350 7400 15400
-Wire Wire Line
-	7800 15200 7800 15400
-Wire Wire Line
-	7800 15400 7400 15400
-Connection ~ 7400 15400
-Wire Wire Line
-	7400 15400 7400 15600
-Wire Wire Line
-	7450 14250 7450 14200
-Wire Wire Line
-	8650 14500 8650 14700
-Wire Wire Line
-	7850 14200 7450 14200
-Wire Wire Line
-	7850 14200 7850 14400
-Wire Wire Line
-	8650 15350 8650 15400
-Wire Wire Line
-	9100 15200 9100 15400
-Wire Wire Line
-	9100 15400 8650 15400
-Connection ~ 8650 15400
-Wire Wire Line
-	8650 15400 8650 15600
-Wire Wire Line
-	9100 14900 9100 14700
-Wire Wire Line
-	9100 14700 8650 14700
-Connection ~ 8650 14700
-Wire Wire Line
-	8650 14700 8650 14750
 Text Label 2750 6250 0    50   ~ 0
 LED_EN_L
 Wire Wire Line
@@ -4569,4 +4369,287 @@ F 3 "" H 18600 7100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	18600 7000 18600 7100
+$Comp
+L dk_opamps:TL072CP U?
+U 1 1 6055F0B8
+P 10350 10150
+F 0 "U?" H 10694 10203 60  0000 L CNN
+F 1 "TL072CP" H 10694 10097 60  0000 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 10550 10350 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 10550 10450 60  0001 L CNN
+F 4 "296-1775-5-ND" H 10550 10550 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 10550 10650 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 10550 10750 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 10550 10850 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 10550 10950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 10550 11050 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 10550 11150 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 10550 11250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10550 11350 60  0001 L CNN "Status"
+	1    10350 10150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_opamps:TL072CP U?
+U 2 1 6055FE53
+P 7450 12350
+F 0 "U?" V 7397 12594 60  0000 L CNN
+F 1 "TL072CP" V 7503 12594 60  0000 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 7650 12550 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 7650 12650 60  0001 L CNN
+F 4 "296-1775-5-ND" H 7650 12750 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 7650 12850 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 7650 12950 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 7650 13050 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 7650 13150 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 7650 13250 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 7650 13350 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 7650 13450 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 7650 13550 60  0001 L CNN "Status"
+	2    7450 12350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 605631CF
+P 10350 9850
+F 0 "#PWR?" H 10350 9700 50  0001 C CNN
+F 1 "+9V" H 10365 10023 50  0000 C CNN
+F 2 "" H 10350 9850 50  0001 C CNN
+F 3 "" H 10350 9850 50  0001 C CNN
+	1    10350 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60563755
+P 10350 10450
+F 0 "#PWR?" H 10350 10200 50  0001 C CNN
+F 1 "GND" H 10355 10277 50  0000 C CNN
+F 2 "" H 10350 10450 50  0001 C CNN
+F 3 "" H 10350 10450 50  0001 C CNN
+	1    10350 10450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR?
+U 1 1 6056401F
+P 8200 12300
+F 0 "#PWR?" H 8200 12150 50  0001 C CNN
+F 1 "+9V" H 8215 12473 50  0000 C CNN
+F 2 "" H 8200 12300 50  0001 C CNN
+F 3 "" H 8200 12300 50  0001 C CNN
+	1    8200 12300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 605646B2
+P 7150 12450
+F 0 "#PWR?" H 7150 12200 50  0001 C CNN
+F 1 "GND" H 7155 12277 50  0000 C CNN
+F 2 "" H 7150 12450 50  0001 C CNN
+F 3 "" H 7150 12450 50  0001 C CNN
+	1    7150 12450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 12350 7150 12350
+Wire Wire Line
+	7150 12350 7150 12450
+$Comp
+L Device:C C?
+U 1 1 6056150A
+P 8200 12550
+F 0 "C?" H 8315 12687 50  0000 L CNN
+F 1 "0.1u" H 8300 12600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8238 12400 50  0001 C CNN
+F 3 "~" H 8200 12550 50  0001 C CNN
+F 4 "KEMET" H 8200 12550 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104M5RACTU" H 8200 12550 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 8200 12550 50  0001 C CNN "Supplier"
+F 7 "399-7845-1-ND" H 8200 12550 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 8315 12505 50  0000 L CNN "Package"
+F 9 "50V" H 8315 12414 50  0000 L CNN "Voltage"
+	1    8200 12550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 12300 8200 12350
+Wire Wire Line
+	8200 12350 7650 12350
+Connection ~ 8200 12350
+Wire Wire Line
+	8200 12350 8200 12400
+Wire Wire Line
+	7450 12900 6200 12900
+Wire Wire Line
+	7450 12650 7450 12900
+Wire Wire Line
+	6200 11150 6200 12900
+Wire Wire Line
+	8550 11900 8550 12900
+Wire Wire Line
+	8550 12900 7450 12900
+Wire Wire Line
+	7550 11900 8550 11900
+Connection ~ 7450 12900
+$Comp
+L power:GND #PWR?
+U 1 1 609EB962
+P 8200 12700
+F 0 "#PWR?" H 8200 12450 50  0001 C CNN
+F 1 "GND" H 8205 12527 50  0000 C CNN
+F 2 "" H 8200 12700 50  0001 C CNN
+F 3 "" H 8200 12700 50  0001 C CNN
+	1    8200 12700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 9850 10350 9950
+Wire Wire Line
+	10350 10350 10350 10450
+$Comp
+L dk_opamps:TL072CP U?
+U 1 1 60AF3FEE
+P 12550 10250
+F 0 "U?" H 12894 10303 60  0000 L CNN
+F 1 "TL072CP" H 12894 10197 60  0000 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 12750 10450 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12750 10550 60  0001 L CNN
+F 4 "296-1775-5-ND" H 12750 10650 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 12750 10750 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 12750 10850 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 12750 10950 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12750 11050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 12750 11150 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 12750 11250 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 12750 11350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12750 11450 60  0001 L CNN "Status"
+	1    12550 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_opamps:TL072CP U?
+U 2 1 60AF4A55
+P 16200 10950
+F 0 "U?" H 16600 10900 60  0000 C CNN
+F 1 "TL072CP" H 16500 10800 60  0000 C CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 16400 11150 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 16400 11250 60  0001 L CNN
+F 4 "296-1775-5-ND" H 16400 11350 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 16400 11450 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 16400 11550 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 16400 11650 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 16400 11750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 16400 11850 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 16400 11950 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 16400 12050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 16400 12150 60  0001 L CNN "Status"
+	2    16200 10950
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12150 8600 12150 9050
+Connection ~ 12150 9050
+Wire Wire Line
+	12150 9050 12150 10150
+Wire Wire Line
+	13150 8600 13150 9050
+Connection ~ 13150 9050
+Wire Wire Line
+	13150 9050 13150 10150
+$Comp
+L power:+9V #PWR?
+U 1 1 60BFFE53
+P 12800 9450
+F 0 "#PWR?" H 12800 9300 50  0001 C CNN
+F 1 "+9V" H 12815 9623 50  0000 C CNN
+F 2 "" H 12800 9450 50  0001 C CNN
+F 3 "" H 12800 9450 50  0001 C CNN
+	1    12800 9450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60C003D3
+P 12800 9700
+F 0 "C?" H 12915 9837 50  0000 L CNN
+F 1 "0.1u" H 12900 9750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 12838 9550 50  0001 C CNN
+F 3 "~" H 12800 9700 50  0001 C CNN
+F 4 "KEMET" H 12800 9700 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104M5RACTU" H 12800 9700 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 12800 9700 50  0001 C CNN "Supplier"
+F 7 "399-7845-1-ND" H 12800 9700 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 12915 9655 50  0000 L CNN "Package"
+F 9 "50V" H 12915 9564 50  0000 L CNN "Voltage"
+	1    12800 9700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C00C80
+P 12800 9900
+F 0 "#PWR?" H 12800 9650 50  0001 C CNN
+F 1 "GND" H 12805 9727 50  0000 C CNN
+F 2 "" H 12800 9900 50  0001 C CNN
+F 3 "" H 12800 9900 50  0001 C CNN
+	1    12800 9900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 9500 12550 9500
+Wire Wire Line
+	12550 9500 12550 10050
+Wire Wire Line
+	12800 9450 12800 9500
+Connection ~ 12800 9500
+Wire Wire Line
+	12800 9500 12800 9550
+Wire Wire Line
+	12800 9850 12800 9900
+$Comp
+L power:GND #PWR?
+U 1 1 60D4E8CD
+P 12550 10550
+F 0 "#PWR?" H 12550 10300 50  0001 C CNN
+F 1 "GND" H 12555 10377 50  0000 C CNN
+F 2 "" H 12550 10550 50  0001 C CNN
+F 3 "" H 12550 10550 50  0001 C CNN
+	1    12550 10550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12550 10450 12550 10550
+Wire Wire Line
+	15750 10300 15750 10950
+Wire Wire Line
+	16650 10300 16650 10850
+$Comp
+L power:GND #PWR?
+U 1 1 60EA21AF
+P 16200 11250
+F 0 "#PWR?" H 16200 11000 50  0001 C CNN
+F 1 "GND" H 16205 11077 50  0000 C CNN
+F 2 "" H 16200 11250 50  0001 C CNN
+F 3 "" H 16200 11250 50  0001 C CNN
+	1    16200 11250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16200 11150 16200 11250
+$Comp
+L power:+9V #PWR?
+U 1 1 60EE65D6
+P 16200 10650
+F 0 "#PWR?" H 16200 10500 50  0001 C CNN
+F 1 "+9V" H 16215 10823 50  0000 C CNN
+F 2 "" H 16200 10650 50  0001 C CNN
+F 3 "" H 16200 10650 50  0001 C CNN
+	1    16200 10650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16200 10650 16200 10750
 $EndSCHEMATC

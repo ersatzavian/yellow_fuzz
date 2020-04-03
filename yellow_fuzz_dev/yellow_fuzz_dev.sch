@@ -3501,23 +3501,6 @@ F 9 "50V" H 6765 3914 50  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 5E3D7DDB
-P 7850 3800
-F 0 "C?" H 7965 3937 50  0000 L CNN
-F 1 "220p" H 7950 3850 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7888 3650 50  0001 C CNN
-F 3 "~" H 7850 3800 50  0001 C CNN
-F 4 "Yageo" H 7850 3800 50  0001 C CNN "Manufacturer"
-F 5 "CC0603KRX7R9BB221" H 7850 3800 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 7850 3800 50  0001 C CNN "Supplier"
-F 7 "311-1077-1-ND" H 7850 3800 50  0001 C CNN "Supplier PN"
-F 8 "0603" H 7965 3755 50  0000 L CNN "Package"
-F 9 "50V" H 7965 3664 50  0000 L CNN "Voltage"
-	1    7850 3800
-	0    1    1    0   
-$EndComp
-$Comp
 L Device:R R?
 U 1 1 5E3D6D33
 P 7850 4450
@@ -3640,23 +3623,6 @@ F 9 "0.1 W" H 6650 6700 50  0001 C CNN "Power"
 F 10 "0603" H 6700 6650 50  0000 L CNN "Package"
 	1    6650 6700
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C?
-U 1 1 5E3CC437
-P 6400 7000
-F 0 "C?" H 6515 7137 50  0000 L CNN
-F 1 "15n" H 6500 7050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6438 6850 50  0001 C CNN
-F 3 "~" H 6400 7000 50  0001 C CNN
-F 4 "Yageo" H 6400 7000 50  0001 C CNN "Manufacturer"
-F 5 "CC0603KRX7R9BB153" H 6400 7000 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 6400 7000 50  0001 C CNN "Supplier"
-F 7 "311-1430-1-ND" H 6400 7000 50  0001 C CNN "Supplier PN"
-F 8 "0603" H 6515 6955 50  0000 L CNN "Package"
-F 9 "50V" H 6515 6864 50  0000 L CNN "Voltage"
-	1    6400 7000
-	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
@@ -4652,4 +4618,38 @@ F 3 "" H 16200 10650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	16200 10650 16200 10750
+$Comp
+L Device:C C?
+U 1 1 60FEC222
+P 6400 7000
+F 0 "C?" H 6515 7137 50  0000 L CNN
+F 1 "1.0u" H 6500 7050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6438 6850 50  0001 C CNN
+F 3 "~" H 6400 7000 50  0001 C CNN
+F 4 "Yageo" H 6400 7000 50  0001 C CNN "Manufacturer"
+F 5 "CC0603ZRY5V7BB105" H 6400 7000 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 6400 7000 50  0001 C CNN "Supplier"
+F 7 "311-1372-1-ND" H 6400 7000 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 6515 6955 50  0000 L CNN "Package"
+F 9 "16V" H 6515 6864 50  0000 L CNN "Voltage"
+	1    6400 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 60FECBAA
+P 7850 3800
+F 0 "C?" H 7965 3937 50  0000 L CNN
+F 1 "100p" H 7950 3850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7888 3650 50  0001 C CNN
+F 3 "~" H 7850 3800 50  0001 C CNN
+F 4 "Yageo" H 7850 3800 50  0001 C CNN "Manufacturer"
+F 5 "CC0603JRNPO9BN101" H 7850 3800 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 7850 3800 50  0001 C CNN "Supplier"
+F 7 "311-1069-1-ND" H 7850 3800 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 7965 3755 50  0000 L CNN "Package"
+F 9 "50V" H 7965 3664 50  0000 L CNN "Voltage"
+	1    7850 3800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
