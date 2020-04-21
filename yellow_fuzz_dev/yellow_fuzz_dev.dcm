@@ -10,4 +10,16 @@ D JFET N-CH 35V 625MW TO92
 K J113FS-ND
 $ENDCMP
 #
+$CMP SW_SP3T_A24JP
+D Switch, three position, single pole triple throw, 3 position switch, SP3T
+K switch sp3t ON-ON-ON
+F ~
+$ENDCMP
+#
+$CMP SW_SPST_A11JP
+D Single Pole Single Throw (SPST) switch
+K switch lever
+F ~
+$ENDCMP
+#
 #End Doc Library

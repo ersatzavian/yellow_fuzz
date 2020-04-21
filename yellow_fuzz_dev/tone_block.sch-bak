@@ -1,0 +1,1073 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R_POT_US RV?
+U 1 1 5EA9653E
+P 12950 5450
+F 0 "RV?" H 12883 5541 50  0000 R CNN
+F 1 "R_POT_US" H 12883 5405 50  0001 R CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PCW1J_R24_B_Single_Vertical" H 12950 5450 50  0001 C CNN
+F 3 "~" H 12950 5450 50  0001 C CNN
+F 4 "Bourns" H 12950 5450 50  0001 C CNN "Manufacturer"
+F 5 "PTV111-4420A-A503" H 12950 5450 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 12950 5450 50  0001 C CNN "Supplier"
+F 7 "652-PTV111-4420AA503" H 12950 5450 50  0001 C CNN "Supplier PN"
+F 8 "Log" H 12883 5450 50  0000 R CNN "Taper"
+F 9 "50k" H 12883 5359 50  0000 R CNN "Value"
+	1    12950 5450
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:R_POT_Dual_Separate RV?
+U 2 1 5EA9654A
+P 10250 6450
+F 0 "RV?" H 10180 6541 50  0000 R CNN
+F 1 "R_POT_Dual_Separate" H 10180 6405 50  0001 R CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10250 6450 50  0001 C CNN
+F 3 "~" H 10250 6450 50  0001 C CNN
+F 4 "Bourns" H 10250 6450 50  0001 C CNN "Manufacturer"
+F 5 "PTV112-4420A-A503" H 10250 6450 50  0001 C CNN "Manufactuerer PN"
+F 6 "Mouser" H 10250 6450 50  0001 C CNN "Supplier"
+F 7 "652-PTV112-4420AA503" H 10250 6450 50  0001 C CNN "Supplier PN"
+F 8 "Log" H 10180 6450 50  0000 R CNN "Taper"
+F 9 "50k Dual" H 10180 6359 50  0000 R CNN "Value"
+	2    10250 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA96557
+P 6250 3600
+F 0 "R?" V 6200 3350 50  0000 L CNN
+F 1 "22k" V 6200 3750 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6180 3600 50  0001 C CNN
+F 3 "~" H 6250 3600 50  0001 C CNN
+F 4 "RC0603JR-0722KL" H 6250 3600 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" V 6300 3400 50  0000 C CNN "Tolerance"
+F 6 "Yageo" H 6250 3600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 6250 3600 50  0001 C CNN "Supplier"
+F 8 "311-22KGRCT-ND" H 6250 3600 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 6250 3600 50  0001 C CNN "Power"
+F 10 "0603" V 6300 3750 50  0000 L CNN "Package"
+	1    6250 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA96563
+P 6250 3050
+F 0 "C?" V 6200 2800 50  0000 L CNN
+F 1 "10p" V 6200 3200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6288 2900 50  0001 C CNN
+F 3 "~" H 6250 3050 50  0001 C CNN
+F 4 "Yageo" H 6250 3050 50  0001 C CNN "Manufacturer"
+F 5 "CC0603JRNPO9BN100" H 6250 3050 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 6250 3050 50  0001 C CNN "Supplier"
+F 7 "311-1058-1-ND" H 6250 3050 50  0001 C CNN "Supplier PN"
+F 8 "0603" V 6300 3200 50  0000 L CNN "Package"
+F 9 "50V" V 6300 2800 50  0000 L CNN "Voltage"
+	1    6250 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5EA9656E
+P 7000 4450
+F 0 "C?" V 6950 4250 50  0000 L CNN
+F 1 "1u" V 6950 4600 50  0000 L CNN
+F 2 "" H 7000 4450 50  0001 C CNN
+F 3 "~" H 7000 4450 50  0001 C CNN
+F 4 "Nichicon" H 7000 4450 50  0001 C CNN "Manufacturer"
+F 5 "UST1H010MDD1TE" H 7000 4450 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 7000 4450 50  0001 C CNN "Supplier"
+F 7 "493-17436-1-ND" H 7000 4450 50  0001 C CNN "Supplier PN"
+F 8 "50V" V 7050 4600 50  0000 L CNN "Voltage"
+	1    7000 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA9657B
+P 7700 4450
+F 0 "R?" V 7650 4200 50  0000 L CNN
+F 1 "47k" V 7650 4600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 4450 50  0001 C CNN
+F 3 "~" H 7700 4450 50  0001 C CNN
+F 4 "RC0603JR-0747KL" H 7700 4450 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" V 7750 4250 50  0000 C CNN "Tolerance"
+F 6 "Yageo" H 7700 4450 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7700 4450 50  0001 C CNN "Supplier"
+F 8 "RC0603JR-0747KL" H 7700 4450 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 7700 4450 50  0001 C CNN "Power"
+F 10 "0603" V 7750 4600 50  0000 L CNN "Package"
+	1    7700 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA96588
+P 8450 3350
+F 0 "R?" V 8400 3100 50  0000 L CNN
+F 1 "47k" V 8400 3500 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8380 3350 50  0001 C CNN
+F 3 "~" H 8450 3350 50  0001 C CNN
+F 4 "RC0603JR-0747KL" H 8450 3350 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" V 8500 3150 50  0000 C CNN "Tolerance"
+F 6 "Yageo" H 8450 3350 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 8450 3350 50  0001 C CNN "Supplier"
+F 8 "RC0603JR-0747KL" H 8450 3350 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 8450 3350 50  0001 C CNN "Power"
+F 10 "0603" V 8500 3500 50  0000 L CNN "Package"
+	1    8450 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5EA96593
+P 9050 4850
+F 0 "C?" H 8850 4750 50  0000 L CNN
+F 1 "1u" H 8850 4850 50  0000 L CNN
+F 2 "" H 9050 4850 50  0001 C CNN
+F 3 "~" H 9050 4850 50  0001 C CNN
+F 4 "Nichicon" H 9050 4850 50  0001 C CNN "Manufacturer"
+F 5 "UST1H010MDD1TE" H 9050 4850 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 9050 4850 50  0001 C CNN "Supplier"
+F 7 "493-17436-1-ND" H 9050 4850 50  0001 C CNN "Supplier PN"
+F 8 "50V" H 8800 4950 50  0000 L CNN "Voltage"
+	1    9050 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA965A0
+P 7350 5250
+F 0 "R?" H 7400 5400 50  0000 L CNN
+F 1 "330" H 7400 5300 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7280 5250 50  0001 C CNN
+F 3 "~" H 7350 5250 50  0001 C CNN
+F 4 "CR0603-JW-331ELF" H 7350 5250 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" H 7400 5100 50  0000 L CNN "Tolerance"
+F 6 "Bourns Inc." H 7350 5250 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7350 5250 50  0001 C CNN "Supplier"
+F 8 "CR0603-JW-331ELFCT-ND" H 7350 5250 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 7350 5250 50  0001 C CNN "Power"
+F 10 "0603" H 7400 5200 50  0000 L CNN "Package"
+	1    7350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA965AC
+P 8450 2900
+F 0 "C?" V 8400 2700 50  0000 L CNN
+F 1 "100p" V 8400 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8488 2750 50  0001 C CNN
+F 3 "~" H 8450 2900 50  0001 C CNN
+F 4 "Yageo" H 8450 2900 50  0001 C CNN "Manufacturer"
+F 5 "CC0603JRNPO9BN101" H 8450 2900 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 8450 2900 50  0001 C CNN "Supplier"
+F 7 "311-1069-1-ND" H 8450 2900 50  0001 C CNN "Supplier PN"
+F 8 "0603" V 8500 3000 50  0000 L CNN "Package"
+F 9 "50V" V 8500 2700 50  0000 L CNN "Voltage"
+	1    8450 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA965B9
+P 4450 3600
+F 0 "R?" H 4500 3750 50  0000 L CNN
+F 1 "2.2k" H 4500 3650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4380 3600 50  0001 C CNN
+F 3 "~" H 4450 3600 50  0001 C CNN
+F 4 "ERJ-3GEYJ222V" H 4450 3600 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" H 4500 3450 50  0000 L CNN "Tolerance"
+F 6 "Panasonic Electronic Components" H 4450 3600 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4450 3600 50  0001 C CNN "Supplier"
+F 8 "ERJ-3GEYJ222V" H 4450 3600 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 4450 3600 50  0001 C CNN "Power"
+F 10 "0603" H 4500 3550 50  0000 L CNN "Package"
+	1    4450 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA965C5
+P 4450 4050
+F 0 "C?" H 4565 4187 50  0000 L CNN
+F 1 "10n" H 4550 4100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 3900 50  0001 C CNN
+F 3 "~" H 4450 4050 50  0001 C CNN
+F 4 "Yageo" H 4450 4050 50  0001 C CNN "Manufacturer"
+F 5 "CC0603KPX7R9BB103" H 4450 4050 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 4450 4050 50  0001 C CNN "Supplier"
+F 7 "311-1572-1-ND" H 4450 4050 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 4565 4005 50  0000 L CNN "Package"
+F 9 "50V" H 4565 3914 50  0000 L CNN "Voltage"
+	1    4450 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA965D2
+P 2650 5450
+F 0 "R?" V 2600 5200 50  0000 L CNN
+F 1 "2.2k" V 2600 5650 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2580 5450 50  0001 C CNN
+F 3 "~" H 2650 5450 50  0001 C CNN
+F 4 "ERJ-3GEYJ222V" H 2650 5450 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" V 2700 5200 50  0000 L CNN "Tolerance"
+F 6 "Panasonic Electronic Components" H 2650 5450 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2650 5450 50  0001 C CNN "Supplier"
+F 8 "ERJ-3GEYJ222V" H 2650 5450 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 2650 5450 50  0001 C CNN "Power"
+F 10 "0603" V 2700 5650 50  0000 L CNN "Package"
+	1    2650 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5EA965DD
+P 3250 5150
+F 0 "C?" H 3350 5250 50  0000 L CNN
+F 1 "220n" H 3350 5150 50  0000 L CNN
+F 2 "" H 3250 5150 50  0001 C CNN
+F 3 "~" H 3250 5150 50  0001 C CNN
+F 4 "Nichicon" H 3250 5150 50  0001 C CNN "Manufacturer"
+F 5 "UVR2AR22MDD" H 3250 5150 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 3250 5150 50  0001 C CNN "Supplier"
+F 7 "493-1137-ND" H 3250 5150 50  0001 C CNN "Supplier PN"
+F 8 "35V" H 3350 5050 50  0000 L CNN "Voltage"
+	1    3250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA965E9
+P 3250 5750
+F 0 "C?" H 3365 5887 50  0000 L CNN
+F 1 "47n" H 3350 5800 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3288 5600 50  0001 C CNN
+F 3 "~" H 3250 5750 50  0001 C CNN
+F 4 "Yageo" H 3250 5750 50  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB473" H 3250 5750 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 3250 5750 50  0001 C CNN "Supplier"
+F 7 "311-1427-1-ND" H 3250 5750 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 3365 5705 50  0000 L CNN "Package"
+F 9 "50V" H 3365 5614 50  0000 L CNN "Voltage"
+	1    3250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA965F6
+P 2650 6050
+F 0 "R?" V 2600 5800 50  0000 L CNN
+F 1 "100k" V 2600 6250 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2580 6050 50  0001 C CNN
+F 3 "~" H 2650 6050 50  0001 C CNN
+F 4 "CR0603-JW-104ELF" H 2650 6050 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" V 2700 5850 50  0000 C CNN "Tolerance"
+F 6 "Bourns Inc." H 2650 6050 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 2650 6050 50  0001 C CNN "Supplier"
+F 8 "CR0603-JW-104ELFCT-ND" H 2650 6050 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 2650 6050 50  0001 C CNN "Power"
+F 10 "0603" V 2700 6250 50  0000 L CNN "Package"
+	1    2650 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0168
+U 1 1 5EA965FC
+P 4450 4350
+F 0 "#PWR0168" H 4450 4100 50  0001 C CNN
+F 1 "GND" H 4455 4177 50  0000 C CNN
+F 2 "" H 4450 4350 50  0001 C CNN
+F 3 "" H 4450 4350 50  0001 C CNN
+	1    4450 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA96609
+P 9050 5850
+F 0 "R?" H 9100 6000 50  0000 L CNN
+F 1 "330" H 9100 5900 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8980 5850 50  0001 C CNN
+F 3 "~" H 9050 5850 50  0001 C CNN
+F 4 "CR0603-JW-331ELF" H 9050 5850 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" H 9100 5700 50  0000 L CNN "Tolerance"
+F 6 "Bourns Inc." H 9050 5850 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 9050 5850 50  0001 C CNN "Supplier"
+F 8 "CR0603-JW-331ELFCT-ND" H 9050 5850 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 9050 5850 50  0001 C CNN "Power"
+F 10 "0603" H 9100 5800 50  0000 L CNN "Package"
+	1    9050 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA96616
+P 7850 5550
+F 0 "R?" H 7900 5700 50  0000 L CNN
+F 1 "1M" H 7900 5600 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7780 5550 50  0001 C CNN
+F 3 "~" H 7850 5550 50  0001 C CNN
+F 4 "RC0201JR-071ML" H 7850 5550 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" H 7950 5400 50  0000 C CNN "Tolerance"
+F 6 "Yageo" H 7850 5550 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 7850 5550 50  0001 C CNN "Supplier"
+F 8 "311-1MNCT-ND" H 7850 5550 50  0001 C CNN "Supplier PN"
+F 9 "0.05 W" H 7850 5550 50  0001 C CNN "Power"
+F 10 "0603" H 7900 5500 50  0000 L CNN "Package"
+	1    7850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:+4V5 #PWR0169
+U 1 1 5EA9661C
+P 8350 5650
+F 0 "#PWR0169" H 8350 5500 50  0001 C CNN
+F 1 "+4V5" H 8365 5823 50  0000 C CNN
+F 2 "" H 8350 5650 50  0001 C CNN
+F 3 "" H 8350 5650 50  0001 C CNN
+	1    8350 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA96628
+P 9650 5250
+F 0 "C?" H 9765 5387 50  0000 L CNN
+F 1 "0.1u" H 9750 5300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9688 5100 50  0001 C CNN
+F 3 "~" H 9650 5250 50  0001 C CNN
+F 4 "KEMET" H 9650 5250 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104M5RACTU" H 9650 5250 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 9650 5250 50  0001 C CNN "Supplier"
+F 7 "399-7845-1-ND" H 9650 5250 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 9765 5205 50  0000 L CNN "Package"
+F 9 "50V" H 9765 5114 50  0000 L CNN "Voltage"
+	1    9650 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 5EA96634
+P 5100 3350
+F 0 "RV?" H 5033 3441 50  0000 R CNN
+F 1 "R_POT_US" H 5033 3305 50  0001 R CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5100 3350 50  0001 C CNN
+F 3 "~" H 5100 3350 50  0001 C CNN
+F 4 "Bourns" H 5100 3350 50  0001 C CNN "Manufacturer"
+F 5 "PTV111-4420A-A104" H 5100 3350 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 5100 3350 50  0001 C CNN "Supplier"
+F 7 "652-PTV111-4420AA104" H 5100 3350 50  0001 C CNN "Supplier PN"
+F 8 "Log" H 5033 3350 50  0000 R CNN "Taper"
+F 9 "100k" H 5033 3259 50  0000 R CNN "Value"
+	1    5100 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 5EA96640
+P 5100 5000
+F 0 "RV?" H 5033 5091 50  0000 R CNN
+F 1 "R_POT_US" H 5033 4955 50  0001 R CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5100 5000 50  0001 C CNN
+F 3 "~" H 5100 5000 50  0001 C CNN
+F 4 "Bourns" H 5100 5000 50  0001 C CNN "Manufacturer"
+F 5 "PTV111-4420A-A104" H 5100 5000 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 5100 5000 50  0001 C CNN "Supplier"
+F 7 "652-PTV111-4420AA104" H 5100 5000 50  0001 C CNN "Supplier PN"
+F 8 "Log" H 5033 5000 50  0000 R CNN "Taper"
+F 9 "100k" H 5033 4909 50  0000 R CNN "Value"
+	1    5100 5000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT_US RV?
+U 1 1 5EA9664C
+P 8350 6250
+F 0 "RV?" V 8300 6550 50  0000 R CNN
+F 1 "R_POT_US" H 8283 6205 50  0001 R CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 8350 6250 50  0001 C CNN
+F 3 "~" H 8350 6250 50  0001 C CNN
+F 4 "Bourns" H 8350 6250 50  0001 C CNN "Manufacturer"
+F 5 "PTV111-4420A-A104" H 8350 6250 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 8350 6250 50  0001 C CNN "Supplier"
+F 7 "652-PTV111-4420AA104" H 8350 6250 50  0001 C CNN "Supplier PN"
+F 8 "Log" V 8550 6550 50  0000 R CNN "Taper"
+F 9 "100k" V 8450 6550 50  0000 R CNN "Value"
+	1    8350 6250
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R_POT_Dual_Separate RV?
+U 1 1 5EA96658
+P 10650 6050
+F 0 "RV?" V 10800 6000 50  0000 R CNN
+F 1 "R_POT_Dual_Separate" H 10580 6005 50  0001 R CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10580 5959 50  0001 R CNN
+F 3 "~" H 10650 6050 50  0001 C CNN
+F 4 "Bourns" H 10650 6050 50  0001 C CNN "Manufacturer"
+F 5 "PTV112-4420A-A503" H 10650 6050 50  0001 C CNN "Manufacturer PN"
+F 6 "Mouser" H 10650 6050 50  0001 C CNN "Supplier"
+F 7 "652-PTV112-4420AA503" H 10650 6050 50  0001 C CNN "Supplier PN"
+F 8 "Log" V 10550 6000 50  0000 R CNN "Taper"
+F 9 "50k Dual" V 10450 6000 50  0000 R CNN "Value"
+	1    10650 6050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA96664
+P 9600 6950
+F 0 "C?" H 9715 7087 50  0000 L CNN
+F 1 "8.2n" H 9700 7000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9638 6800 50  0001 C CNN
+F 3 "~" H 9600 6950 50  0001 C CNN
+F 4 "Yageo" H 9600 6950 50  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R8BB822" H 9600 6950 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 9600 6950 50  0001 C CNN "Supplier"
+F 7 "311-4092-1-ND" H 9600 6950 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 9715 6905 50  0000 L CNN "Package"
+F 9 "50V" H 9715 6814 50  0000 L CNN "Voltage"
+	1    9600 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA96670
+P 11150 5400
+F 0 "C?" H 10900 5550 50  0000 L CNN
+F 1 "22n" H 10900 5450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11188 5250 50  0001 C CNN
+F 3 "~" H 11150 5400 50  0001 C CNN
+F 4 "Yageo" H 11150 5400 50  0001 C CNN "Manufacturer"
+F 5 "CC0603KRX7R9BB223" H 11150 5400 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 11150 5400 50  0001 C CNN "Supplier"
+F 7 "311-1370-1-ND" H 11150 5400 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 10850 5350 50  0000 L CNN "Package"
+F 9 "50V" H 10900 5250 50  0000 L CNN "Voltage"
+	1    11150 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA9667D
+P 10250 6950
+F 0 "R?" H 10300 7100 50  0000 L CNN
+F 1 "2.2k" H 10300 7000 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10180 6950 50  0001 C CNN
+F 3 "~" H 10250 6950 50  0001 C CNN
+F 4 "ERJ-3GEYJ222V" H 10250 6950 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" H 10300 6800 50  0000 L CNN "Tolerance"
+F 6 "Panasonic Electronic Components" H 10250 6950 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10250 6950 50  0001 C CNN "Supplier"
+F 8 "ERJ-3GEYJ222V" H 10250 6950 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 10250 6950 50  0001 C CNN "Power"
+F 10 "0603" H 10300 6900 50  0000 L CNN "Package"
+	1    10250 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 5EA96688
+P 12950 4900
+F 0 "C?" H 13050 5000 50  0000 L CNN
+F 1 "10u" H 13050 4900 50  0000 L CNN
+F 2 "" H 12950 4900 50  0001 C CNN
+F 3 "~" H 12950 4900 50  0001 C CNN
+F 4 "Wurth Elektronik" H 12950 4900 50  0001 C CNN "Manufacturer"
+F 5 "860010372001" H 12950 4900 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 12950 4900 50  0001 C CNN "Supplier"
+F 7 "732-8593-1-ND" H 12950 4900 50  0001 C CNN "Supplier PN"
+F 8 "16V" H 13050 4800 50  0000 L CNN "Voltage"
+	1    12950 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 5300 3250 5450
+Wire Wire Line
+	2800 5450 3250 5450
+Connection ~ 3250 5450
+Wire Wire Line
+	3250 5450 3250 5600
+Wire Wire Line
+	2100 5450 2500 5450
+Wire Wire Line
+	3250 5900 3250 6050
+Wire Wire Line
+	3450 6350 3450 6200
+$Comp
+L yellow_fuzz_dev:+4V5 #PWR0170
+U 1 1 5EA96695
+P 2350 5950
+F 0 "#PWR0170" H 2350 5800 50  0001 C CNN
+F 1 "+4V5" H 2365 6123 50  0000 C CNN
+F 2 "" H 2350 5950 50  0001 C CNN
+F 3 "" H 2350 5950 50  0001 C CNN
+	1    2350 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5950 2350 6050
+Wire Wire Line
+	2350 6050 2500 6050
+Wire Wire Line
+	2800 6050 3250 6050
+Connection ~ 3250 6050
+Wire Wire Line
+	3250 6050 3250 6350
+Wire Wire Line
+	4950 3350 4450 3350
+Wire Wire Line
+	4450 3350 4450 3450
+Wire Wire Line
+	4450 3750 4450 3900
+Wire Wire Line
+	4450 4200 4450 4350
+Wire Wire Line
+	5100 3500 5100 4550
+Wire Wire Line
+	4950 5000 3250 5000
+Wire Wire Line
+	5100 3200 5100 3050
+Wire Wire Line
+	5100 3050 4800 3050
+Wire Wire Line
+	4800 3050 4800 5300
+Wire Wire Line
+	4800 5300 5100 5300
+Wire Wire Line
+	5100 5300 5100 5150
+Connection ~ 5100 4550
+Wire Wire Line
+	5100 4550 5100 4700
+Wire Wire Line
+	5950 4350 5800 4350
+Wire Wire Line
+	5800 4350 5800 3600
+Wire Wire Line
+	5800 3050 5100 3050
+Connection ~ 5100 3050
+Wire Wire Line
+	6100 3050 5800 3050
+Connection ~ 5800 3050
+Wire Wire Line
+	6100 3600 5800 3600
+Connection ~ 5800 3600
+Wire Wire Line
+	5800 3600 5800 3050
+Wire Wire Line
+	6550 4450 6700 4450
+Wire Wire Line
+	6700 4450 6700 3600
+Wire Wire Line
+	6700 3050 6400 3050
+Wire Wire Line
+	6400 3600 6700 3600
+Connection ~ 6700 3600
+Wire Wire Line
+	6700 3600 6700 3050
+Wire Wire Line
+	8150 4450 8050 4450
+Wire Wire Line
+	7550 4450 7350 4450
+Wire Wire Line
+	6850 4450 6700 4450
+Connection ~ 6700 4450
+Wire Wire Line
+	7350 5100 7350 4450
+Connection ~ 7350 4450
+Wire Wire Line
+	7350 4450 7150 4450
+Wire Wire Line
+	7850 5400 7850 5250
+Wire Wire Line
+	7850 4650 8150 4650
+Wire Wire Line
+	7350 5400 7350 6250
+Wire Wire Line
+	7350 6250 8200 6250
+Wire Wire Line
+	8500 6250 9050 6250
+Wire Wire Line
+	9050 6250 9050 6000
+Wire Wire Line
+	9050 5700 9050 5000
+Wire Wire Line
+	9050 4700 9050 4550
+Wire Wire Line
+	9050 4550 8750 4550
+Wire Wire Line
+	8350 5650 8350 5800
+Wire Wire Line
+	8350 5800 7850 5800
+Wire Wire Line
+	7850 5800 7850 5700
+Wire Wire Line
+	9500 5250 7850 5250
+Connection ~ 7850 5250
+Wire Wire Line
+	7850 5250 7850 4650
+Wire Wire Line
+	8300 3350 8050 3350
+Connection ~ 8050 4450
+Wire Wire Line
+	8050 4450 7850 4450
+Wire Wire Line
+	8300 2900 8050 2900
+Wire Wire Line
+	8600 3350 9050 3350
+Connection ~ 9050 4550
+$Comp
+L power:GND #PWR0171
+U 1 1 5EA966DA
+P 10250 7300
+F 0 "#PWR0171" H 10250 7050 50  0001 C CNN
+F 1 "GND" H 10255 7127 50  0000 C CNN
+F 2 "" H 10250 7300 50  0001 C CNN
+F 3 "" H 10250 7300 50  0001 C CNN
+	1    10250 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA966E7
+P 11150 5900
+F 0 "R?" H 11200 6050 50  0000 L CNN
+F 1 "2.2k" H 11200 5950 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11080 5900 50  0001 C CNN
+F 3 "~" H 11150 5900 50  0001 C CNN
+F 4 "ERJ-3GEYJ222V" H 11150 5900 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" H 11200 5750 50  0000 L CNN "Tolerance"
+F 6 "Panasonic Electronic Components" H 11150 5900 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 11150 5900 50  0001 C CNN "Supplier"
+F 8 "ERJ-3GEYJ222V" H 11150 5900 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 11150 5900 50  0001 C CNN "Power"
+F 10 "0603" H 11200 5850 50  0000 L CNN "Package"
+	1    11150 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 5250 10250 5250
+Wire Wire Line
+	10250 5250 10250 5800
+Wire Wire Line
+	10500 6050 10250 6050
+Connection ~ 10250 6050
+Wire Wire Line
+	10250 6050 10250 6200
+Wire Wire Line
+	10400 6450 10450 6450
+Wire Wire Line
+	10450 6450 10450 6200
+Wire Wire Line
+	10450 6200 10250 6200
+Connection ~ 10250 6200
+Wire Wire Line
+	10250 6200 10250 6300
+Wire Wire Line
+	10650 5900 10650 5800
+Wire Wire Line
+	10650 5800 10250 5800
+Connection ~ 10250 5800
+Wire Wire Line
+	10250 5800 10250 5950
+Wire Wire Line
+	10250 6800 10250 6600
+Wire Wire Line
+	10250 7100 10250 7300
+Wire Wire Line
+	10250 5950 9600 5950
+Wire Wire Line
+	9600 5950 9600 6800
+Connection ~ 10250 5950
+Wire Wire Line
+	10250 5950 10250 6050
+$Comp
+L power:GND #PWR0172
+U 1 1 5EA96701
+P 9600 7300
+F 0 "#PWR0172" H 9600 7050 50  0001 C CNN
+F 1 "GND" H 9605 7127 50  0000 C CNN
+F 2 "" H 9600 7300 50  0001 C CNN
+F 3 "" H 9600 7300 50  0001 C CNN
+	1    9600 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 7100 9600 7300
+Wire Wire Line
+	10800 6050 11150 6050
+Wire Wire Line
+	11150 5750 11150 5550
+Wire Wire Line
+	11150 5250 11650 5250
+Wire Wire Line
+	12400 5150 12550 5150
+Wire Wire Line
+	12550 4600 11650 4600
+Connection ~ 11650 5250
+Wire Wire Line
+	11650 5250 11800 5250
+Wire Wire Line
+	8350 6400 8350 7700
+Wire Wire Line
+	8350 7700 12550 7700
+Wire Wire Line
+	12550 7700 12550 5350
+Wire Wire Line
+	12550 5350 12400 5350
+Wire Wire Line
+	9050 4450 12950 4450
+Connection ~ 9050 4450
+Wire Wire Line
+	9050 4450 9050 4550
+$Comp
+L power:GND #PWR0173
+U 1 1 5EA96716
+P 12950 5800
+F 0 "#PWR0173" H 12950 5550 50  0001 C CNN
+F 1 "GND" H 12955 5627 50  0000 C CNN
+F 2 "" H 12950 5800 50  0001 C CNN
+F 3 "" H 12950 5800 50  0001 C CNN
+	1    12950 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12950 4450 12950 4750
+Wire Wire Line
+	12950 5050 12950 5300
+Wire Wire Line
+	12950 5600 12950 5800
+Text Notes 4450 5700 0    236  ~ 47
+Low
+Text Notes 4450 2900 0    236  ~ 47
+High
+Text Notes 7250 6700 0    236  ~ 47
+Mid\n
+Text Notes 10750 6900 0    236  ~ 47
+Mid Freq\n
+Text Notes 13350 6000 0    236  ~ 47
+Level\n
+Wire Wire Line
+	14100 5450 13100 5450
+Text Label 5200 4550 0    50   ~ 0
+TONE_IN
+Text Label 10700 4450 0    50   ~ 0
+TONE_OUT
+Text Label 13350 5450 0    50   ~ 0
+TONE_OUT
+$Comp
+L dk_opamps:TL072CP U?
+U 1 1 5EA96735
+P 6250 4450
+F 0 "U?" H 6350 4300 60  0000 L CNN
+F 1 "TL072CP" H 6350 4200 60  0000 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 6450 4650 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 6450 4750 60  0001 L CNN
+F 4 "296-1775-5-ND" H 6450 4850 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 6450 4950 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6450 5050 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 6450 5150 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 6450 5250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 6450 5350 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 6450 5450 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 6450 5550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6450 5650 60  0001 L CNN "Status"
+	1    6250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_opamps:TL072CP U?
+U 2 1 5EA96744
+P 3350 6650
+F 0 "U?" V 3500 6800 60  0000 L CNN
+F 1 "TL072CP" V 3600 6800 60  0000 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 3550 6850 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 3550 6950 60  0001 L CNN
+F 4 "296-1775-5-ND" H 3550 7050 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 3550 7150 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3550 7250 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 3550 7350 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 3550 7450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 3550 7550 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 3550 7650 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 3550 7750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3550 7850 60  0001 L CNN "Status"
+	2    3350 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+9V #PWR0174
+U 1 1 5EA9674A
+P 6250 4150
+F 0 "#PWR0174" H 6250 4000 50  0001 C CNN
+F 1 "+9V" H 6265 4323 50  0000 C CNN
+F 2 "" H 6250 4150 50  0001 C CNN
+F 3 "" H 6250 4150 50  0001 C CNN
+	1    6250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0175
+U 1 1 5EA96750
+P 6250 4750
+F 0 "#PWR0175" H 6250 4500 50  0001 C CNN
+F 1 "GND" H 6255 4577 50  0000 C CNN
+F 2 "" H 6250 4750 50  0001 C CNN
+F 3 "" H 6250 4750 50  0001 C CNN
+	1    6250 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+9V #PWR0176
+U 1 1 5EA96756
+P 4100 6600
+F 0 "#PWR0176" H 4100 6450 50  0001 C CNN
+F 1 "+9V" H 4115 6773 50  0000 C CNN
+F 2 "" H 4100 6600 50  0001 C CNN
+F 3 "" H 4100 6600 50  0001 C CNN
+	1    4100 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0177
+U 1 1 5EA9675C
+P 3050 6750
+F 0 "#PWR0177" H 3050 6500 50  0001 C CNN
+F 1 "GND" H 3055 6577 50  0000 C CNN
+F 2 "" H 3050 6750 50  0001 C CNN
+F 3 "" H 3050 6750 50  0001 C CNN
+	1    3050 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 6650 3050 6650
+Wire Wire Line
+	3050 6650 3050 6750
+$Comp
+L Device:C C?
+U 1 1 5EA9676A
+P 4100 6850
+F 0 "C?" H 4215 6987 50  0000 L CNN
+F 1 "0.1u" H 4200 6900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4138 6700 50  0001 C CNN
+F 3 "~" H 4100 6850 50  0001 C CNN
+F 4 "KEMET" H 4100 6850 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104M5RACTU" H 4100 6850 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 4100 6850 50  0001 C CNN "Supplier"
+F 7 "399-7845-1-ND" H 4100 6850 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 4215 6805 50  0000 L CNN "Package"
+F 9 "50V" H 4215 6714 50  0000 L CNN "Voltage"
+	1    4100 6850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 6600 4100 6650
+Wire Wire Line
+	4100 6650 3550 6650
+Connection ~ 4100 6650
+Wire Wire Line
+	4100 6650 4100 6700
+Wire Wire Line
+	3350 7200 2100 7200
+Wire Wire Line
+	3350 6950 3350 7200
+Wire Wire Line
+	2100 5450 2100 7200
+Wire Wire Line
+	4450 6200 4450 7200
+Wire Wire Line
+	4450 7200 3350 7200
+Wire Wire Line
+	3450 6200 4450 6200
+Connection ~ 3350 7200
+$Comp
+L power:GND #PWR0178
+U 1 1 5EA9677B
+P 4100 7000
+F 0 "#PWR0178" H 4100 6750 50  0001 C CNN
+F 1 "GND" H 4105 6827 50  0000 C CNN
+F 2 "" H 4100 7000 50  0001 C CNN
+F 3 "" H 4100 7000 50  0001 C CNN
+	1    4100 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4150 6250 4250
+Wire Wire Line
+	6250 4650 6250 4750
+$Comp
+L dk_opamps:TL072CP U?
+U 1 1 5EA9678C
+P 8450 4550
+F 0 "U?" H 8550 4400 60  0000 L CNN
+F 1 "TL072CP" H 8550 4300 60  0000 L CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 8650 4750 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8650 4850 60  0001 L CNN
+F 4 "296-1775-5-ND" H 8650 4950 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 8650 5050 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 8650 5150 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 8650 5250 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8650 5350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 8650 5450 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 8650 5550 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 8650 5650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8650 5750 60  0001 L CNN "Status"
+	1    8450 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_opamps:TL072CP U?
+U 2 1 5EA9679B
+P 12100 5250
+F 0 "U?" H 12550 5100 60  0000 C CNN
+F 1 "TL072CP" H 12450 5000 60  0000 C CNN
+F 2 "digikey-footprints:DIP-8_W7.62mm" H 12300 5450 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12300 5550 60  0001 L CNN
+F 4 "296-1775-5-ND" H 12300 5650 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 12300 5750 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 12300 5850 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 12300 5950 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12300 6050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 12300 6150 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 12300 6250 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 12300 6350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12300 6450 60  0001 L CNN "Status"
+	2    12100 5250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8050 2900 8050 3350
+Connection ~ 8050 3350
+Wire Wire Line
+	8050 3350 8050 4450
+Wire Wire Line
+	9050 3350 9050 4450
+$Comp
+L power:+9V #PWR0179
+U 1 1 5EA967A7
+P 8700 3750
+F 0 "#PWR0179" H 8700 3600 50  0001 C CNN
+F 1 "+9V" H 8715 3923 50  0000 C CNN
+F 2 "" H 8700 3750 50  0001 C CNN
+F 3 "" H 8700 3750 50  0001 C CNN
+	1    8700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5EA967B3
+P 8700 4000
+F 0 "C?" H 8815 4137 50  0000 L CNN
+F 1 "0.1u" H 8800 4050 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8738 3850 50  0001 C CNN
+F 3 "~" H 8700 4000 50  0001 C CNN
+F 4 "KEMET" H 8700 4000 50  0001 C CNN "Manufacturer"
+F 5 "C0603C104M5RACTU" H 8700 4000 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 8700 4000 50  0001 C CNN "Supplier"
+F 7 "399-7845-1-ND" H 8700 4000 50  0001 C CNN "Supplier PN"
+F 8 "0603" H 8815 3955 50  0000 L CNN "Package"
+F 9 "50V" H 8815 3864 50  0000 L CNN "Voltage"
+	1    8700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0180
+U 1 1 5EA967B9
+P 8700 4200
+F 0 "#PWR0180" H 8700 3950 50  0001 C CNN
+F 1 "GND" H 8705 4027 50  0000 C CNN
+F 2 "" H 8700 4200 50  0001 C CNN
+F 3 "" H 8700 4200 50  0001 C CNN
+	1    8700 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 3800 8450 3800
+Wire Wire Line
+	8450 3800 8450 4350
+Wire Wire Line
+	8700 3750 8700 3800
+Connection ~ 8700 3800
+Wire Wire Line
+	8700 3800 8700 3850
+Wire Wire Line
+	8700 4150 8700 4200
+$Comp
+L power:GND #PWR0181
+U 1 1 5EA967C5
+P 8450 4850
+F 0 "#PWR0181" H 8450 4600 50  0001 C CNN
+F 1 "GND" H 8455 4677 50  0000 C CNN
+F 2 "" H 8450 4850 50  0001 C CNN
+F 3 "" H 8450 4850 50  0001 C CNN
+	1    8450 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4750 8450 4850
+Wire Wire Line
+	11650 4600 11650 5250
+Wire Wire Line
+	12550 4600 12550 5150
+$Comp
+L power:GND #PWR0182
+U 1 1 5EA967CE
+P 12100 5550
+F 0 "#PWR0182" H 12100 5300 50  0001 C CNN
+F 1 "GND" H 12105 5377 50  0000 C CNN
+F 2 "" H 12100 5550 50  0001 C CNN
+F 3 "" H 12100 5550 50  0001 C CNN
+	1    12100 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 5450 12100 5550
+$Comp
+L power:+9V #PWR0183
+U 1 1 5EA967D5
+P 12100 4950
+F 0 "#PWR0183" H 12100 4800 50  0001 C CNN
+F 1 "+9V" H 12115 5123 50  0000 C CNN
+F 2 "" H 12100 4950 50  0001 C CNN
+F 3 "" H 12100 4950 50  0001 C CNN
+	1    12100 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 4950 12100 5050
+Text HLabel 2550 4700 0    50   Input ~ 0
+TONE_IN
+Connection ~ 9050 3350
+Wire Wire Line
+	9050 2900 9050 3350
+Wire Wire Line
+	9050 2900 8600 2900
+Wire Wire Line
+	5100 4550 5950 4550
+Wire Wire Line
+	2550 4700 5100 4700
+Connection ~ 5100 4700
+Wire Wire Line
+	5100 4700 5100 4850
+Text HLabel 14100 5450 2    50   Output ~ 0
+TONE_OUT
+$EndSCHEMATC
