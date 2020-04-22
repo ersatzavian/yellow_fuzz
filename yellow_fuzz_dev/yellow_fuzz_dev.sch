@@ -14,41 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L yellow_fuzz_dev-rescue:SN49B12B-dk_Barrel-Audio-Connectors CON1
-U 1 1 5E393460
-P 1300 2300
-F 0 "CON1" H 1358 2687 60  0000 C CNN
-F 1 "SN49B12B" H 1358 2581 60  0000 C CNN
-F 2 "digikey:Headphone_Jack_6.35mm_SN49B12B" H 1500 2500 60  0001 L CNN
-F 3 "http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf" H 1500 2600 60  0001 L CNN
-F 4 "SC1522-ND" H 1500 2700 60  0001 L CNN "Digi-Key_PN"
-F 5 "SN49B12B" H 1500 2800 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1500 2900 60  0001 L CNN "Category"
-F 7 "Barrel - Audio Connectors" H 1500 3000 60  0001 L CNN "Family"
-F 8 "http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf" H 1500 3100 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/switchcraft-inc/SN49B12B/SC1522-ND/412780" H 1500 3200 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN JACK STEREO 6.35MM R/A" H 1500 3300 60  0001 L CNN "Description"
-F 11 "Switchcraft Inc." H 1500 3400 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1500 3500 60  0001 L CNN "Status"
-	1    1300 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L yellow_fuzz_dev:RA49B11 J2
-U 1 1 5E397D55
-P 20500 2400
-F 0 "J2" H 20408 2565 50  0000 C CNN
-F 1 "RA49B11" H 20408 2474 50  0000 C CNN
-F 2 "yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B" H 20408 2473 50  0001 C CNN
-F 3 "" H 20350 2400 50  0001 C CNN
-F 4 "Switchcraft Inc." H 20500 2400 50  0001 C CNN "Manufacturer"
-F 5 "RA49B11" H 20500 2400 50  0001 C CNN "Manufacturer PN"
-F 6 "Digi-Key" H 20500 2400 50  0001 C CNN "Supplier"
-F 7 "SC2546-ND" H 20500 2400 50  0001 C CNN "Supplier PN"
-	1    20500 2400
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:R R1
 U 1 1 5E3CBF9C
 P 2000 2300
@@ -1378,26 +1343,6 @@ Wire Wire Line
 Wire Wire Line
 	16200 14300 16200 14400
 $Comp
-L dk_Battery-Holders-Clips-Contacts:BC9VPC BAT1
-U 1 1 5E899F74
-P 2700 14850
-F 0 "BAT1" V 2647 14998 60  0000 L CNN
-F 1 "BC9VPC" V 2753 14998 60  0000 L CNN
-F 2 "digikey:Battery_Holder_9V_BC9VPC-ND" H 2900 15050 60  0001 L CNN
-F 3 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15150 60  0001 L CNN
-F 4 "BC9VPC-ND" H 2900 15250 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC9VPC" H 2900 15350 60  0001 L CNN "MPN"
-F 6 "Battery Products" H 2900 15450 60  0001 L CNN "Category"
-F 7 "Battery Holders, Clips, Contacts" H 2900 15550 60  0001 L CNN "Family"
-F 8 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747" H 2900 15750 60  0001 L CNN "DK_Detail_Page"
-F 10 "BATTERY HOLDER 9V PC PIN" H 2900 15850 60  0001 L CNN "Description"
-F 11 "MPD (Memory Protection Devices)" H 2900 15950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2900 16050 60  0001 L CNN "Status"
-	1    2700 14850
-	0    1    1    0   
-$EndComp
-$Comp
 L Transistor_FET:DMN2041L Q3
 U 1 1 5E927B65
 P 2800 15550
@@ -2361,10 +2306,10 @@ F 12 "Active" H 3900 9600 60  0001 L CNN "Status"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT_US RV1
+L Device:R_POT_US P2
 U 1 1 5E3629ED
 P 8300 7650
-F 0 "RV1" V 8250 8000 50  0000 R CNN
+F 0 "P2" V 8250 8000 50  0000 R CNN
 F 1 "R_POT_US" H 8233 7605 50  0001 R CNN
 F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8300 7650 50  0001 C CNN
 F 3 "~" H 8300 7650 50  0001 C CNN
@@ -2394,26 +2339,6 @@ Wire Wire Line
 	3500 2650 3500 2700
 Wire Wire Line
 	17050 9950 16650 9950
-$Comp
-L dk_Tactile-Switches:1825910-6 S1
-U 1 1 5F05E30E
-P 14950 14900
-F 0 "S1" H 14950 15247 60  0000 C CNN
-F 1 "1825910-6" H 14950 15141 60  0000 C CNN
-F 2 "digikey:Switch_Tactile_THT_6x6mm" H 15150 15100 60  0001 L CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 15150 15200 60  0001 L CNN
-F 4 "450-1650-ND" H 15150 15300 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-6" H 15150 15400 60  0001 L CNN "MPN"
-F 6 "Switches" H 15150 15500 60  0001 L CNN "Category"
-F 7 "Tactile Switches" H 15150 15600 60  0001 L CNN "Family"
-F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 15150 15700 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 15150 15800 60  0001 L CNN "DK_Detail_Page"
-F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 15150 15900 60  0001 L CNN "Description"
-F 11 "TE Connectivity ALCOSWITCH Switches" H 15150 16000 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 15150 16100 60  0001 L CNN "Status"
-	1    14950 14900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0145
 U 1 1 5F062F4F
@@ -2644,26 +2569,6 @@ Connection ~ 17300 2100
 Wire Wire Line
 	17300 2100 17400 2100
 $Comp
-L dk_opamps:TL072CP U1
-U 1 1 5FB2A3BA
-P 4900 10050
-F 0 "U1" H 5050 9850 60  0000 L CNN
-F 1 "TL072CP" H 5050 9750 60  0000 L CNN
-F 2 "digikey:DIP-8_W7.62mm" H 5100 10250 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 5100 10350 60  0001 L CNN
-F 4 "296-1775-5-ND" H 5100 10450 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 5100 10550 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 5100 10650 60  0001 L CNN "Category"
-F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 5100 10750 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 5100 10850 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 5100 10950 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 5100 11050 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 5100 11150 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 5100 11250 60  0001 L CNN "Status"
-	1    4900 10050
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C10
 U 1 1 5FC22C7A
 P 5050 9550
@@ -2731,46 +2636,6 @@ $EndComp
 Wire Wire Line
 	8300 10150 8300 10250
 $Comp
-L dk_opamps:TL072CP U2
-U 2 1 5FF41AD4
-P 15650 9950
-F 0 "U2" H 15800 9800 60  0000 L CNN
-F 1 "TL072CP" H 15800 9700 60  0000 L CNN
-F 2 "digikey:DIP-8_W7.62mm" H 15850 10150 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 15850 10250 60  0001 L CNN
-F 4 "296-1775-5-ND" H 15850 10350 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 15850 10450 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 15850 10550 60  0001 L CNN "Category"
-F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 15850 10650 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 15850 10750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 15850 10850 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 15850 10950 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 15850 11050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 15850 11150 60  0001 L CNN "Status"
-	2    15650 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_opamps:TL072CP U2
-U 1 1 5FF43BA5
-P 14100 9850
-F 0 "U2" H 14250 9700 60  0000 L CNN
-F 1 "TL072CP" H 14250 9600 60  0000 L CNN
-F 2 "digikey:DIP-8_W7.62mm" H 14300 10050 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 14300 10150 60  0001 L CNN
-F 4 "296-1775-5-ND" H 14300 10250 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 14300 10350 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 14300 10450 60  0001 L CNN "Category"
-F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 14300 10550 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 14300 10650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 14300 10750 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 14300 10850 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 14300 10950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 14300 11050 60  0001 L CNN "Status"
-	1    14100 9850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+9V #PWR0153
 U 1 1 5FF4497B
 P 14100 9050
@@ -2807,26 +2672,6 @@ F 7 "399-7845-1-ND" H 14250 9300 50  0001 C CNN "Supplier PN"
 F 8 "0603" H 14365 9255 50  0000 L CNN "Package"
 F 9 "50V" H 14365 9164 50  0000 L CNN "Voltage"
 	1    14250 9300
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_opamps:TL072CP U1
-U 2 1 5FB2CA83
-P 8300 9950
-F 0 "U1" H 8500 9800 60  0000 L CNN
-F 1 "TL072CP" H 8500 9700 60  0000 L CNN
-F 2 "digikey:DIP-8_W7.62mm" H 8500 10150 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8500 10250 60  0001 L CNN
-F 4 "296-1775-5-ND" H 8500 10350 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 8500 10450 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 8500 10550 60  0001 L CNN "Category"
-F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 8500 10650 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8500 10750 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 8500 10850 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 8500 10950 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 8500 11050 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8500 11150 60  0001 L CNN "Status"
-	2    8300 9950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3230,26 +3075,6 @@ Wire Wire Line
 Connection ~ 4350 7950
 Text Notes 5950 10650 0    50   Italic 0
 First-order BPF (6 dB of cut at fc). \nfc = 200 Hz.
-$Comp
-L dk_Barrel-Power-Connectors:PJ-202A J1
-U 1 1 5EA1D674
-P 1700 13500
-F 0 "J1" H 1633 13725 50  0000 C CNN
-F 1 "PJ-202A" H 1633 13634 50  0000 C CNN
-F 2 "digikey:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" H 1900 13700 60  0001 L CNN
-F 3 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 1900 13800 60  0001 L CNN
-F 4 "CP-202A-ND" H 1900 13900 60  0001 L CNN "Digi-Key_PN"
-F 5 "PJ-202A" H 1900 14000 60  0001 L CNN "MPN"
-F 6 "Connectors, Interconnects" H 1900 14100 60  0001 L CNN "Category"
-F 7 "Barrel - Power Connectors" H 1900 14200 60  0001 L CNN "Family"
-F 8 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 1900 14300 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007" H 1900 14400 60  0001 L CNN "DK_Detail_Page"
-F 10 "CONN PWR JACK 2X5.5MM KINKED PIN" H 1900 14500 60  0001 L CNN "Description"
-F 11 "CUI Inc." H 1900 14600 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 1900 14700 60  0001 L CNN "Status"
-	1    1700 13500
-	1    0    0    -1  
-$EndComp
 Text Notes 17150 8950 0    236  ~ 47
 Tone
 Wire Wire Line
@@ -3934,30 +3759,6 @@ Wire Wire Line
 	11000 12900 11000 13050
 Wire Wire Line
 	11200 12850 11200 13050
-$Comp
-L yellow_fuzz_dev:3362P-1-102TLF POT2
-U 1 1 5EA2F341
-P 10200 10850
-F 0 "POT2" V 9950 11900 60  0000 R CNN
-F 1 "3362P-1-102TLF" V 10050 11900 60  0000 R CNN
-F 2 "yellow_fuzz_dev:3362P-1-102TLF" H 10400 11050 60  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10400 11150 60  0001 L CNN
-F 4 "3362P-1-102TLF-ND" H 10400 11250 60  0001 L CNN "Digi-Key_PN"
-F 5 "3362P-1-102TLF" H 10400 11350 60  0001 L CNN "MPN"
-F 6 "Potentiometers, Variable Resistors" H 10400 11450 60  0001 L CNN "Category"
-F 7 "Rotary Potentiometers, Rheostats" H 10400 11550 60  0001 L CNN "Family"
-F 8 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10400 11650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/bourns-inc/3362P-1-102TLF/3362P-1-102TLF-ND/2536611" H 10400 11750 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRIMMER 1K OHM 0.5W PC PIN TOP" H 10400 11850 60  0001 L CNN "Description"
-F 11 "Bourns Inc." H 10400 11950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10400 12050 60  0001 L CNN "Status"
-	1    10200 10850
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	9850 10850 9700 10850
-Wire Wire Line
-	9700 10850 9700 11450
 Wire Wire Line
 	9700 11450 10200 11450
 Wire Wire Line
@@ -3970,30 +3771,6 @@ Wire Wire Line
 Connection ~ 10200 9950
 Wire Wire Line
 	10200 9950 10600 9950
-$Comp
-L yellow_fuzz_dev:3362P-1-102TLF POT3
-U 1 1 5EB5C0CB
-P 10600 10850
-F 0 "POT3" V 10350 11300 60  0000 R CNN
-F 1 "3362P-1-102TLF" V 11300 11900 60  0001 R CNN
-F 2 "yellow_fuzz_dev:3362P-1-102TLF" H 10800 11050 60  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10800 11150 60  0001 L CNN
-F 4 "3362P-1-102TLF-ND" H 10800 11250 60  0001 L CNN "Digi-Key_PN"
-F 5 "3362P-1-102TLF" H 10800 11350 60  0001 L CNN "MPN"
-F 6 "Potentiometers, Variable Resistors" H 10800 11450 60  0001 L CNN "Category"
-F 7 "Rotary Potentiometers, Rheostats" H 10800 11550 60  0001 L CNN "Family"
-F 8 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10800 11650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/bourns-inc/3362P-1-102TLF/3362P-1-102TLF-ND/2536611" H 10800 11750 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRIMMER 1K OHM 0.5W PC PIN TOP" H 10800 11850 60  0001 L CNN "Description"
-F 11 "Bourns Inc." H 10800 11950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10800 12050 60  0001 L CNN "Status"
-	1    10600 10850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	10950 10850 11100 10850
-Wire Wire Line
-	11100 10850 11100 11450
 Wire Wire Line
 	11100 11450 10600 11450
 Wire Wire Line
@@ -4009,10 +3786,10 @@ Connection ~ 10600 9950
 Wire Wire Line
 	10600 9950 11000 9950
 $Comp
-L yellow_fuzz_dev:3386P-1-204TLF POT1
+L yellow_fuzz_dev:3386P-1-204TLF P1
 U 1 1 5EC00541
 P 4900 8600
-F 0 "POT1" H 4650 8350 60  0000 C CNN
+F 0 "P1" H 4650 8350 60  0000 C CNN
 F 1 "3386P-1-204TLF" H 4950 8263 60  0000 C CNN
 F 2 "yellow_fuzz_dev:3386P" H 5100 8800 60  0001 L CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 5100 8900 60  0001 L CNN
@@ -4202,5 +3979,224 @@ F 7 "732-8593-1-ND" H 19050 2500 50  0001 C CNN "Supplier PN"
 F 8 "16V" V 19100 2200 50  0000 L CNN "Voltage"
 	1    19050 2500
 	0    -1   1    0   
+$EndComp
+$Comp
+L yellow_fuzz_dev:1825910-6 S1
+U 1 1 5ECF5927
+P 14950 14900
+F 0 "S1" H 14750 15250 60  0000 C CNN
+F 1 "1825910-6" H 14950 15141 60  0000 C CNN
+F 2 "yellow_fuzz_dev:Switch_Tactile_THT_6x6mm" H 15150 15100 60  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 15150 15200 60  0001 L CNN
+F 4 "450-1650-ND" H 15150 15300 60  0001 L CNN "Digi-Key_PN"
+F 5 "1825910-6" H 15150 15400 60  0001 L CNN "MPN"
+F 6 "Switches" H 15150 15500 60  0001 L CNN "Category"
+F 7 "Tactile Switches" H 15150 15600 60  0001 L CNN "Family"
+F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 15150 15700 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536" H 15150 15800 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 15150 15900 60  0001 L CNN "Description"
+F 11 "TE Connectivity ALCOSWITCH Switches" H 15150 16000 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 15150 16100 60  0001 L CNN "Status"
+	1    14950 14900
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:TL072CP U1
+U 1 1 5ED31A23
+P 4900 10050
+F 0 "U1" H 5050 9900 60  0000 L CNN
+F 1 "TL072CP" H 5050 9800 60  0000 L CNN
+F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 5100 10250 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 5100 10350 60  0001 L CNN
+F 4 "296-1775-5-ND" H 5100 10450 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 5100 10550 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 5100 10650 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 5100 10750 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 5100 10850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 5100 10950 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 5100 11050 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 5100 11150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 5100 11250 60  0001 L CNN "Status"
+	1    4900 10050
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:TL072CP U1
+U 2 1 5ED33807
+P 8300 9950
+F 0 "U1" H 8500 9800 60  0000 L CNN
+F 1 "TL072CP" H 8500 9700 60  0000 L CNN
+F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 8500 10150 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8500 10250 60  0001 L CNN
+F 4 "296-1775-5-ND" H 8500 10350 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 8500 10450 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 8500 10550 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 8500 10650 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8500 10750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 8500 10850 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 8500 10950 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 8500 11050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8500 11150 60  0001 L CNN "Status"
+	2    8300 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:TL072CP U2
+U 1 1 5EDA458A
+P 14100 9850
+F 0 "U2" H 14250 9700 60  0000 L CNN
+F 1 "TL072CP" H 14250 9600 60  0000 L CNN
+F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 14300 10050 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 14300 10150 60  0001 L CNN
+F 4 "296-1775-5-ND" H 14300 10250 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 14300 10350 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 14300 10450 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 14300 10550 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 14300 10650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 14300 10750 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 14300 10850 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 14300 10950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 14300 11050 60  0001 L CNN "Status"
+	1    14100 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:TL072CP U2
+U 2 1 5EDA4E21
+P 15650 9950
+F 0 "U2" H 15850 9800 60  0000 L CNN
+F 1 "TL072CP" H 15850 9700 60  0000 L CNN
+F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 15850 10150 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 15850 10250 60  0001 L CNN
+F 4 "296-1775-5-ND" H 15850 10350 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 15850 10450 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 15850 10550 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 15850 10650 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 15850 10750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 15850 10850 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 15850 10950 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 15850 11050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 15850 11150 60  0001 L CNN "Status"
+	2    15650 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:3362P-1-102TLF P3
+U 1 1 5EE31C7C
+P 10200 10950
+F 0 "P3" V 10400 12100 60  0000 R CNN
+F 1 "3362P-1-102TLF" V 10300 12100 60  0000 R CNN
+F 2 "yellow_fuzz_dev:3362PT" H 10400 11150 60  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10400 11250 60  0001 L CNN
+F 4 "3362P-1-102TLF-ND" H 10400 11350 60  0001 L CNN "Digi-Key_PN"
+F 5 "3362P-1-102TLF" H 10400 11450 60  0001 L CNN "MPN"
+F 6 "Potentiometers, Variable Resistors" H 10400 11550 60  0001 L CNN "Category"
+F 7 "Rotary Potentiometers, Rheostats" H 10400 11650 60  0001 L CNN "Family"
+F 8 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10400 11750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/bourns-inc/3362P-1-102TLF/3362P-1-102TLF-ND/2536611" H 10400 11850 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRIMMER 1K OHM 0.5W PC PIN TOP" H 10400 11950 60  0001 L CNN "Description"
+F 11 "Bourns Inc." H 10400 12050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10400 12150 60  0001 L CNN "Status"
+	1    10200 10950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9850 10950 9700 10950
+Wire Wire Line
+	9700 10950 9700 11450
+$Comp
+L yellow_fuzz_dev:3362P-1-102TLF P4
+U 1 1 5EF0F665
+P 10600 10950
+F 0 "P4" V 10850 11350 60  0000 R CNN
+F 1 "3362P-1-102TLF" V 10700 12100 60  0001 R CNN
+F 2 "yellow_fuzz_dev:3362PT" H 10800 11150 60  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10800 11250 60  0001 L CNN
+F 4 "3362P-1-102TLF-ND" H 10800 11350 60  0001 L CNN "Digi-Key_PN"
+F 5 "3362P-1-102TLF" H 10800 11450 60  0001 L CNN "MPN"
+F 6 "Potentiometers, Variable Resistors" H 10800 11550 60  0001 L CNN "Category"
+F 7 "Rotary Potentiometers, Rheostats" H 10800 11650 60  0001 L CNN "Family"
+F 8 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10800 11750 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/bourns-inc/3362P-1-102TLF/3362P-1-102TLF-ND/2536611" H 10800 11850 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRIMMER 1K OHM 0.5W PC PIN TOP" H 10800 11950 60  0001 L CNN "Description"
+F 11 "Bourns Inc." H 10800 12050 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10800 12150 60  0001 L CNN "Status"
+	1    10600 10950
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	10950 10950 11100 10950
+Wire Wire Line
+	11100 10950 11100 11450
+$Comp
+L yellow_fuzz_dev:PJ-202A J1
+U 1 1 5EF8F8A4
+P 1700 13500
+F 0 "J1" H 1550 13750 50  0000 C CNN
+F 1 "PJ-202A" H 1633 13634 50  0000 C CNN
+F 2 "yellow_fuzz_dev:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" H 1900 13700 60  0001 L CNN
+F 3 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 1900 13800 60  0001 L CNN
+F 4 "CP-202A-ND" H 1900 13900 60  0001 L CNN "Digi-Key_PN"
+F 5 "PJ-202A" H 1900 14000 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1900 14100 60  0001 L CNN "Category"
+F 7 "Barrel - Power Connectors" H 1900 14200 60  0001 L CNN "Family"
+F 8 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 1900 14300 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007" H 1900 14400 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN PWR JACK 2X5.5MM KINKED PIN" H 1900 14500 60  0001 L CNN "Description"
+F 11 "CUI Inc." H 1900 14600 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1900 14700 60  0001 L CNN "Status"
+	1    1700 13500
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:SN49B12B J3
+U 1 1 5EF915FE
+P 1300 2300
+F 0 "J3" H 1000 2650 60  0000 C CNN
+F 1 "SN49B12B" H 1200 2550 60  0000 C CNN
+F 2 "yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B" H 1500 2500 60  0001 L CNN
+F 3 "http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf" H 1500 2600 60  0001 L CNN
+F 4 "SC1522-ND" H 1500 2700 60  0001 L CNN "Digi-Key_PN"
+F 5 "SN49B12B" H 1500 2800 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1500 2900 60  0001 L CNN "Category"
+F 7 "Barrel - Audio Connectors" H 1500 3000 60  0001 L CNN "Family"
+F 8 "http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf" H 1500 3100 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/switchcraft-inc/SN49B12B/SC1522-ND/412780" H 1500 3200 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN JACK STEREO 6.35MM R/A" H 1500 3300 60  0001 L CNN "Description"
+F 11 "Switchcraft Inc." H 1500 3400 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1500 3500 60  0001 L CNN "Status"
+	1    1300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:RA49B11 J2
+U 1 1 5EF93178
+P 20500 2400
+F 0 "J2" H 20500 2550 50  0000 R CNN
+F 1 "RA49B11" H 20500 2450 50  0000 R CNN
+F 2 "yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B" H 20350 2400 50  0001 C CNN
+F 3 "" H 20350 2400 50  0001 C CNN
+	1    20500 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:BC9VPC BAT1
+U 1 1 5F040678
+P 2700 14850
+F 0 "BAT1" V 2647 14998 60  0000 L CNN
+F 1 "BC9VPC" V 2753 14998 60  0000 L CNN
+F 2 "yellow_fuzz_dev:Battery_Holder_9V_BC9VPC-ND" H 2900 15050 60  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15150 60  0001 L CNN
+F 4 "BC9VPC-ND" H 2900 15250 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC9VPC" H 2900 15350 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 2900 15450 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 2900 15550 60  0001 L CNN "Family"
+F 8 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747" H 2900 15750 60  0001 L CNN "DK_Detail_Page"
+F 10 "BATTERY HOLDER 9V PC PIN" H 2900 15850 60  0001 L CNN "Description"
+F 11 "MPD (Memory Protection Devices)" H 2900 15950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2900 16050 60  0001 L CNN "Status"
+	1    2700 14850
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

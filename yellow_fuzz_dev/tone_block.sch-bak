@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_POT_US RV6
+L Device:R_POT_US P9
 U 1 1 5EA9653E
 P 12950 5450
-F 0 "RV6" H 12883 5541 50  0000 R CNN
+F 0 "P9" H 12900 5250 50  0000 R CNN
 F 1 "R_POT_US" H 12883 5405 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PCW1J_R24_B_Single_Vertical" H 12950 5450 50  0001 C CNN
 F 3 "~" H 12950 5450 50  0001 C CNN
@@ -31,10 +31,10 @@ F 9 "50k" H 12883 5359 50  0000 R CNN "Value"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT_Dual_Separate RV5
+L Device:R_POT_Dual_Separate P8
 U 1 1 5EA9654A
 P 10250 6450
-F 0 "RV5" H 10180 6541 50  0000 R CNN
+F 0 "P8" H 10180 6541 50  0000 R CNN
 F 1 "R_POT_Dual_Separate" H 10180 6405 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10250 6450 50  0001 C CNN
 F 3 "~" H 10250 6450 50  0001 C CNN
@@ -86,9 +86,9 @@ $Comp
 L Device:CP1 C43
 U 1 1 5EA9656E
 P 7000 4450
-F 0 "C43" V 6950 4250 50  0000 L CNN
+F 0 "C43" V 6950 4200 50  0000 L CNN
 F 1 "1u" V 6950 4600 50  0000 L CNN
-F 2 "" H 7000 4450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 7000 4450 50  0001 C CNN
 F 3 "~" H 7000 4450 50  0001 C CNN
 F 4 "Nichicon" H 7000 4450 50  0001 C CNN "Manufacturer"
 F 5 "UST1H010MDD1TE" H 7000 4450 50  0001 C CNN "Manufacturer PN"
@@ -138,9 +138,9 @@ $Comp
 L Device:CP1 C46
 U 1 1 5EA96593
 P 9050 4850
-F 0 "C46" H 8850 4750 50  0000 L CNN
+F 0 "C46" H 8800 4750 50  0000 L CNN
 F 1 "1u" H 8850 4850 50  0000 L CNN
-F 2 "" H 9050 4850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 9050 4850 50  0001 C CNN
 F 3 "~" H 9050 4850 50  0001 C CNN
 F 4 "Nichicon" H 9050 4850 50  0001 C CNN "Manufacturer"
 F 5 "UST1H010MDD1TE" H 9050 4850 50  0001 C CNN "Manufacturer PN"
@@ -244,7 +244,7 @@ U 1 1 5EA965DD
 P 3250 5150
 F 0 "C38" H 3350 5250 50  0000 L CNN
 F 1 "220n" H 3350 5150 50  0000 L CNN
-F 2 "" H 3250 5150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3250 5150 50  0001 C CNN
 F 3 "~" H 3250 5150 50  0001 C CNN
 F 4 "Nichicon" H 3250 5150 50  0001 C CNN "Manufacturer"
 F 5 "UVR2AR22MDD" H 3250 5150 50  0001 C CNN "Manufacturer PN"
@@ -365,10 +365,10 @@ F 9 "50V" H 9765 5114 50  0000 L CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT_US RV2
+L Device:R_POT_US P5
 U 1 1 5EA96634
 P 5100 3350
-F 0 "RV2" H 5033 3441 50  0000 R CNN
+F 0 "P5" H 5050 3150 50  0000 R CNN
 F 1 "R_POT_US" H 5033 3305 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5100 3350 50  0001 C CNN
 F 3 "~" H 5100 3350 50  0001 C CNN
@@ -382,10 +382,10 @@ F 9 "100k" H 5033 3259 50  0000 R CNN "Value"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_POT_US RV3
+L Device:R_POT_US P6
 U 1 1 5EA96640
 P 5100 5000
-F 0 "RV3" H 5033 5091 50  0000 R CNN
+F 0 "P6" H 5033 5091 50  0000 R CNN
 F 1 "R_POT_US" H 5033 4955 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5100 5000 50  0001 C CNN
 F 3 "~" H 5100 5000 50  0001 C CNN
@@ -399,10 +399,10 @@ F 9 "100k" H 5033 4909 50  0000 R CNN "Value"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_US RV4
+L Device:R_POT_US P7
 U 1 1 5EA9664C
 P 8350 6250
-F 0 "RV4" V 8300 6550 50  0000 R CNN
+F 0 "P7" V 8300 6550 50  0000 R CNN
 F 1 "R_POT_US" H 8283 6205 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 8350 6250 50  0001 C CNN
 F 3 "~" H 8350 6250 50  0001 C CNN
@@ -416,10 +416,10 @@ F 9 "100k" V 8450 6550 50  0000 R CNN "Value"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_POT_Dual_Separate RV5
+L Device:R_POT_Dual_Separate P8
 U 2 1 5EA96658
 P 10650 6050
-F 0 "RV5" V 10800 6000 50  0000 R CNN
+F 0 "P8" V 10800 6000 50  0000 R CNN
 F 1 "R_POT_Dual_Separate" H 10580 6005 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10580 5959 50  0001 R CNN
 F 3 "~" H 10650 6050 50  0001 C CNN
@@ -490,7 +490,7 @@ U 1 1 5EA96688
 P 12950 4900
 F 0 "C50" H 13050 5000 50  0000 L CNN
 F 1 "10u" H 13050 4900 50  0000 L CNN
-F 2 "" H 12950 4900 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12950 4900 50  0001 C CNN
 F 3 "~" H 12950 4900 50  0001 C CNN
 F 4 "Wurth Elektronik" H 12950 4900 50  0001 C CNN "Manufacturer"
 F 5 "860010372001" H 12950 4900 50  0001 C CNN "Manufacturer PN"
@@ -775,46 +775,6 @@ TONE_OUT
 Text Label 13350 5450 0    50   ~ 0
 TONE_OUT
 $Comp
-L dk_opamps:TL072CP U3
-U 1 1 5EA96735
-P 6250 4450
-F 0 "U3" H 6350 4300 60  0000 L CNN
-F 1 "TL072CP" H 6350 4200 60  0000 L CNN
-F 2 "digikey:DIP-8_W7.62mm" H 6450 4650 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 6450 4750 60  0001 L CNN
-F 4 "296-1775-5-ND" H 6450 4850 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 6450 4950 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 6450 5050 60  0001 L CNN "Category"
-F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 6450 5150 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 6450 5250 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 6450 5350 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 6450 5450 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 6450 5550 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 6450 5650 60  0001 L CNN "Status"
-	1    6250 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_opamps:TL072CP U3
-U 2 1 5EA96744
-P 3350 6650
-F 0 "U3" V 3500 6800 60  0000 L CNN
-F 1 "TL072CP" V 3600 6800 60  0000 L CNN
-F 2 "digikey:DIP-8_W7.62mm" H 3550 6850 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 3550 6950 60  0001 L CNN
-F 4 "296-1775-5-ND" H 3550 7050 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 3550 7150 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 3550 7250 60  0001 L CNN "Category"
-F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 3550 7350 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 3550 7450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 3550 7550 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 3550 7650 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 3550 7750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 3550 7850 60  0001 L CNN "Status"
-	2    3350 6650
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+9V #PWR0174
 U 1 1 5EA9674A
 P 6250 4150
@@ -914,46 +874,6 @@ Wire Wire Line
 	6250 4150 6250 4250
 Wire Wire Line
 	6250 4650 6250 4750
-$Comp
-L dk_opamps:TL072CP U4
-U 1 1 5EA9678C
-P 8450 4550
-F 0 "U4" H 8550 4400 60  0000 L CNN
-F 1 "TL072CP" H 8550 4300 60  0000 L CNN
-F 2 "digikey:DIP-8_W7.62mm" H 8650 4750 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8650 4850 60  0001 L CNN
-F 4 "296-1775-5-ND" H 8650 4950 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 8650 5050 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 8650 5150 60  0001 L CNN "Category"
-F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 8650 5250 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8650 5350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 8650 5450 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 8650 5550 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 8650 5650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8650 5750 60  0001 L CNN "Status"
-	1    8450 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_opamps:TL072CP U4
-U 2 1 5EA9679B
-P 12100 5250
-F 0 "U4" H 12550 5100 60  0000 C CNN
-F 1 "TL072CP" H 12450 5000 60  0000 C CNN
-F 2 "digikey:DIP-8_W7.62mm" H 12300 5450 60  0001 L CNN
-F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12300 5550 60  0001 L CNN
-F 4 "296-1775-5-ND" H 12300 5650 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 12300 5750 60  0001 L CNN "MPN"
-F 6 "Integrated Circuits (ICs)" H 12300 5850 60  0001 L CNN "Category"
-F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 12300 5950 60  0001 L CNN "Family"
-F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12300 6050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 12300 6150 60  0001 L CNN "DK_Detail_Page"
-F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 12300 6250 60  0001 L CNN "Description"
-F 11 "Texas Instruments" H 12300 6350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 12300 6450 60  0001 L CNN "Status"
-	2    12100 5250
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	8050 2900 8050 3350
 Connection ~ 8050 3350
@@ -1052,8 +972,6 @@ F 3 "" H 12100 4950 50  0001 C CNN
 	1    12100 4950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12100 4950 12100 5050
 Text HLabel 2550 4700 0    50   Input ~ 0
 TONE_IN
 Connection ~ 9050 3350
@@ -1072,4 +990,86 @@ Text HLabel 14100 5450 2    50   Output ~ 0
 TONE_OUT
 Text Notes 7850 2150 0    50   Italic 0
 Stock tone block, no changes.
+$Comp
+L yellow_fuzz_dev:TL072CP U3
+U 1 1 5EE12DB9
+P 6250 4450
+F 0 "U3" H 6450 4300 60  0000 L CNN
+F 1 "TL072CP" H 6450 4200 60  0000 L CNN
+F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 6450 4650 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 6450 4750 60  0001 L CNN
+F 4 "296-1775-5-ND" H 6450 4850 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 6450 4950 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 6450 5050 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 6450 5150 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 6450 5250 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 6450 5350 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 6450 5450 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 6450 5550 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 6450 5650 60  0001 L CNN "Status"
+	1    6250 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:TL072CP U3
+U 2 1 5EE14323
+P 3350 6650
+F 0 "U3" V 3500 6800 60  0000 L CNN
+F 1 "TL072CP" V 3600 6800 60  0000 L CNN
+F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 3550 6850 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 3550 6950 60  0001 L CNN
+F 4 "296-1775-5-ND" H 3550 7050 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 3550 7150 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 3550 7250 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 3550 7350 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 3550 7450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 3550 7550 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 3550 7650 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 3550 7750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3550 7850 60  0001 L CNN "Status"
+	2    3350 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L yellow_fuzz_dev:TL072CP U4
+U 2 1 5EE1DAE2
+P 12100 5250
+F 0 "U4" H 12550 5150 60  0000 L CNN
+F 1 "TL072CP" H 12350 5050 60  0000 L CNN
+F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 12300 5450 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12300 5550 60  0001 L CNN
+F 4 "296-1775-5-ND" H 12300 5650 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 12300 5750 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 12300 5850 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 12300 5950 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12300 6050 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 12300 6150 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 12300 6250 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 12300 6350 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 12300 6450 60  0001 L CNN "Status"
+	2    12100 5250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 4950 12100 5050
+$Comp
+L yellow_fuzz_dev:TL072CP U4
+U 1 1 5EE29E47
+P 8450 4550
+F 0 "U4" H 8550 4350 60  0000 L CNN
+F 1 "TL072CP" H 8550 4250 60  0000 L CNN
+F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 8650 4750 60  0001 L CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8650 4850 60  0001 L CNN
+F 4 "296-1775-5-ND" H 8650 4950 60  0001 L CNN "Digi-Key_PN"
+F 5 "TL072CP" H 8650 5050 60  0001 L CNN "MPN"
+F 6 "Integrated Circuits (ICs)" H 8650 5150 60  0001 L CNN "Category"
+F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 8650 5250 60  0001 L CNN "Family"
+F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8650 5350 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 8650 5450 60  0001 L CNN "DK_Detail_Page"
+F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 8650 5550 60  0001 L CNN "Description"
+F 11 "Texas Instruments" H 8650 5650 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8650 5750 60  0001 L CNN "Status"
+	1    8450 4550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
