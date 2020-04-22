@@ -1,4 +1,4 @@
-(module Potentiometer_Bourns_PTV111_4420A_Single_Vertical (layer F.Cu) (tedit 5E374886)
+(module Potentiometer_Bourns_PTV111_4420A_Single_Vertical (layer F.Cu) (tedit 5E9F781B)
   (descr "Single-Turn Trim Potentiometer, PCB Mount, Vertical Adjust, 6mm Flatted Shaft, 20mm Length")
   (fp_text reference REF** (at -5.43 -8.95) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -21,8 +21,8 @@
   (pad 2 thru_hole circle (at -1.25 11) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -3.75 11) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 1.25 11) (size 1.5 1.5) (drill 1) (layers *.Cu *.Mask))
-  (model C:/Users/tbyrne/yellow_fuzz/parts/PTV111-4420A.stp
-    (offset (xyz 0 0 1))
+  (model /Users/tom/yellow_fuzz/parts/PTV111-4420A.stp
+    (offset (xyz 0 0 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

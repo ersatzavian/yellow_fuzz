@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_POT_US RV?
+L Device:R_POT_US RV6
 U 1 1 5EA9653E
 P 12950 5450
-F 0 "RV?" H 12883 5541 50  0000 R CNN
+F 0 "RV6" H 12883 5541 50  0000 R CNN
 F 1 "R_POT_US" H 12883 5405 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PCW1J_R24_B_Single_Vertical" H 12950 5450 50  0001 C CNN
 F 3 "~" H 12950 5450 50  0001 C CNN
@@ -31,10 +31,10 @@ F 9 "50k" H 12883 5359 50  0000 R CNN "Value"
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:R_POT_Dual_Separate RV?
-U 2 1 5EA9654A
+L Device:R_POT_Dual_Separate RV5
+U 1 1 5EA9654A
 P 10250 6450
-F 0 "RV?" H 10180 6541 50  0000 R CNN
+F 0 "RV5" H 10180 6541 50  0000 R CNN
 F 1 "R_POT_Dual_Separate" H 10180 6405 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10250 6450 50  0001 C CNN
 F 3 "~" H 10250 6450 50  0001 C CNN
@@ -44,14 +44,14 @@ F 6 "Mouser" H 10250 6450 50  0001 C CNN "Supplier"
 F 7 "652-PTV112-4420AA503" H 10250 6450 50  0001 C CNN "Supplier PN"
 F 8 "Log" H 10180 6450 50  0000 R CNN "Taper"
 F 9 "50k Dual" H 10180 6359 50  0000 R CNN "Value"
-	2    10250 6450
+	1    10250 6450
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R59
 U 1 1 5EA96557
 P 6250 3600
-F 0 "R?" V 6200 3350 50  0000 L CNN
+F 0 "R59" V 6200 3350 50  0000 L CNN
 F 1 "22k" V 6200 3750 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6180 3600 50  0001 C CNN
 F 3 "~" H 6250 3600 50  0001 C CNN
@@ -66,10 +66,10 @@ F 10 "0603" V 6300 3750 50  0000 L CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C42
 U 1 1 5EA96563
 P 6250 3050
-F 0 "C?" V 6200 2800 50  0000 L CNN
+F 0 "C42" V 6200 2800 50  0000 L CNN
 F 1 "10p" V 6200 3200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6288 2900 50  0001 C CNN
 F 3 "~" H 6250 3050 50  0001 C CNN
@@ -83,12 +83,12 @@ F 9 "50V" V 6300 2800 50  0000 L CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:CP1 C43
 U 1 1 5EA9656E
 P 7000 4450
-F 0 "C?" V 6950 4250 50  0000 L CNN
+F 0 "C43" V 6950 4200 50  0000 L CNN
 F 1 "1u" V 6950 4600 50  0000 L CNN
-F 2 "" H 7000 4450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 7000 4450 50  0001 C CNN
 F 3 "~" H 7000 4450 50  0001 C CNN
 F 4 "Nichicon" H 7000 4450 50  0001 C CNN "Manufacturer"
 F 5 "UST1H010MDD1TE" H 7000 4450 50  0001 C CNN "Manufacturer PN"
@@ -99,10 +99,10 @@ F 8 "50V" V 7050 4600 50  0000 L CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R61
 U 1 1 5EA9657B
 P 7700 4450
-F 0 "R?" V 7650 4200 50  0000 L CNN
+F 0 "R61" V 7650 4200 50  0000 L CNN
 F 1 "47k" V 7650 4600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7630 4450 50  0001 C CNN
 F 3 "~" H 7700 4450 50  0001 C CNN
@@ -117,10 +117,10 @@ F 10 "0603" V 7750 4600 50  0000 L CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R63
 U 1 1 5EA96588
 P 8450 3350
-F 0 "R?" V 8400 3100 50  0000 L CNN
+F 0 "R63" V 8400 3100 50  0000 L CNN
 F 1 "47k" V 8400 3500 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8380 3350 50  0001 C CNN
 F 3 "~" H 8450 3350 50  0001 C CNN
@@ -135,12 +135,12 @@ F 10 "0603" V 8500 3500 50  0000 L CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:CP1 C46
 U 1 1 5EA96593
 P 9050 4850
-F 0 "C?" H 8850 4750 50  0000 L CNN
+F 0 "C46" H 8800 4750 50  0000 L CNN
 F 1 "1u" H 8850 4850 50  0000 L CNN
-F 2 "" H 9050 4850 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm" H 9050 4850 50  0001 C CNN
 F 3 "~" H 9050 4850 50  0001 C CNN
 F 4 "Nichicon" H 9050 4850 50  0001 C CNN "Manufacturer"
 F 5 "UST1H010MDD1TE" H 9050 4850 50  0001 C CNN "Manufacturer PN"
@@ -151,10 +151,10 @@ F 8 "50V" H 8800 4950 50  0000 L CNN "Voltage"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R60
 U 1 1 5EA965A0
 P 7350 5250
-F 0 "R?" H 7400 5400 50  0000 L CNN
+F 0 "R60" H 7400 5400 50  0000 L CNN
 F 1 "330" H 7400 5300 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7280 5250 50  0001 C CNN
 F 3 "~" H 7350 5250 50  0001 C CNN
@@ -169,10 +169,10 @@ F 10 "0603" H 7400 5200 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C44
 U 1 1 5EA965AC
 P 8450 2900
-F 0 "C?" V 8400 2700 50  0000 L CNN
+F 0 "C44" V 8400 2700 50  0000 L CNN
 F 1 "100p" V 8400 3000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8488 2750 50  0001 C CNN
 F 3 "~" H 8450 2900 50  0001 C CNN
@@ -186,10 +186,10 @@ F 9 "50V" V 8500 2700 50  0000 L CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R58
 U 1 1 5EA965B9
 P 4450 3600
-F 0 "R?" H 4500 3750 50  0000 L CNN
+F 0 "R58" H 4500 3750 50  0000 L CNN
 F 1 "2.2k" H 4500 3650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4380 3600 50  0001 C CNN
 F 3 "~" H 4450 3600 50  0001 C CNN
@@ -204,10 +204,10 @@ F 10 "0603" H 4500 3550 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C41
 U 1 1 5EA965C5
 P 4450 4050
-F 0 "C?" H 4565 4187 50  0000 L CNN
+F 0 "C41" H 4565 4187 50  0000 L CNN
 F 1 "10n" H 4550 4100 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4488 3900 50  0001 C CNN
 F 3 "~" H 4450 4050 50  0001 C CNN
@@ -221,10 +221,10 @@ F 9 "50V" H 4565 3914 50  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R56
 U 1 1 5EA965D2
 P 2650 5450
-F 0 "R?" V 2600 5200 50  0000 L CNN
+F 0 "R56" V 2600 5200 50  0000 L CNN
 F 1 "2.2k" V 2600 5650 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2580 5450 50  0001 C CNN
 F 3 "~" H 2650 5450 50  0001 C CNN
@@ -239,12 +239,12 @@ F 10 "0603" V 2700 5650 50  0000 L CNN "Package"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:CP1 C38
 U 1 1 5EA965DD
 P 3250 5150
-F 0 "C?" H 3350 5250 50  0000 L CNN
+F 0 "C38" H 3350 5250 50  0000 L CNN
 F 1 "220n" H 3350 5150 50  0000 L CNN
-F 2 "" H 3250 5150 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 3250 5150 50  0001 C CNN
 F 3 "~" H 3250 5150 50  0001 C CNN
 F 4 "Nichicon" H 3250 5150 50  0001 C CNN "Manufacturer"
 F 5 "UVR2AR22MDD" H 3250 5150 50  0001 C CNN "Manufacturer PN"
@@ -255,10 +255,10 @@ F 8 "35V" H 3350 5050 50  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C39
 U 1 1 5EA965E9
 P 3250 5750
-F 0 "C?" H 3365 5887 50  0000 L CNN
+F 0 "C39" H 3365 5887 50  0000 L CNN
 F 1 "47n" H 3350 5800 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3288 5600 50  0001 C CNN
 F 3 "~" H 3250 5750 50  0001 C CNN
@@ -272,10 +272,10 @@ F 9 "50V" H 3365 5614 50  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R57
 U 1 1 5EA965F6
 P 2650 6050
-F 0 "R?" V 2600 5800 50  0000 L CNN
+F 0 "R57" V 2600 5800 50  0000 L CNN
 F 1 "100k" V 2600 6250 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2580 6050 50  0001 C CNN
 F 3 "~" H 2650 6050 50  0001 C CNN
@@ -301,10 +301,10 @@ F 3 "" H 4450 4350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R64
 U 1 1 5EA96609
 P 9050 5850
-F 0 "R?" H 9100 6000 50  0000 L CNN
+F 0 "R64" H 9100 6000 50  0000 L CNN
 F 1 "330" H 9100 5900 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 8980 5850 50  0001 C CNN
 F 3 "~" H 9050 5850 50  0001 C CNN
@@ -319,10 +319,10 @@ F 10 "0603" H 9100 5800 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R62
 U 1 1 5EA96616
 P 7850 5550
-F 0 "R?" H 7900 5700 50  0000 L CNN
+F 0 "R62" H 7900 5700 50  0000 L CNN
 F 1 "1M" H 7900 5600 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7780 5550 50  0001 C CNN
 F 3 "~" H 7850 5550 50  0001 C CNN
@@ -348,10 +348,10 @@ F 3 "" H 8350 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C48
 U 1 1 5EA96628
 P 9650 5250
-F 0 "C?" H 9765 5387 50  0000 L CNN
+F 0 "C48" H 9765 5387 50  0000 L CNN
 F 1 "0.1u" H 9750 5300 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9688 5100 50  0001 C CNN
 F 3 "~" H 9650 5250 50  0001 C CNN
@@ -365,10 +365,10 @@ F 9 "50V" H 9765 5114 50  0000 L CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT_US RV?
+L Device:R_POT_US RV2
 U 1 1 5EA96634
 P 5100 3350
-F 0 "RV?" H 5033 3441 50  0000 R CNN
+F 0 "RV2" H 5033 3441 50  0000 R CNN
 F 1 "R_POT_US" H 5033 3305 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5100 3350 50  0001 C CNN
 F 3 "~" H 5100 3350 50  0001 C CNN
@@ -382,10 +382,10 @@ F 9 "100k" H 5033 3259 50  0000 R CNN "Value"
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R_POT_US RV?
+L Device:R_POT_US RV3
 U 1 1 5EA96640
 P 5100 5000
-F 0 "RV?" H 5033 5091 50  0000 R CNN
+F 0 "RV3" H 5033 5091 50  0000 R CNN
 F 1 "R_POT_US" H 5033 4955 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5100 5000 50  0001 C CNN
 F 3 "~" H 5100 5000 50  0001 C CNN
@@ -399,10 +399,10 @@ F 9 "100k" H 5033 4909 50  0000 R CNN "Value"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT_US RV?
+L Device:R_POT_US RV4
 U 1 1 5EA9664C
 P 8350 6250
-F 0 "RV?" V 8300 6550 50  0000 R CNN
+F 0 "RV4" V 8300 6550 50  0000 R CNN
 F 1 "R_POT_US" H 8283 6205 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 8350 6250 50  0001 C CNN
 F 3 "~" H 8350 6250 50  0001 C CNN
@@ -416,10 +416,10 @@ F 9 "100k" V 8450 6550 50  0000 R CNN "Value"
 	0    -1   1    0   
 $EndComp
 $Comp
-L Device:R_POT_Dual_Separate RV?
-U 1 1 5EA96658
+L Device:R_POT_Dual_Separate RV5
+U 2 1 5EA96658
 P 10650 6050
-F 0 "RV?" V 10800 6000 50  0000 R CNN
+F 0 "RV5" V 10800 6000 50  0000 R CNN
 F 1 "R_POT_Dual_Separate" H 10580 6005 50  0001 R CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10580 5959 50  0001 R CNN
 F 3 "~" H 10650 6050 50  0001 C CNN
@@ -429,14 +429,14 @@ F 6 "Mouser" H 10650 6050 50  0001 C CNN "Supplier"
 F 7 "652-PTV112-4420AA503" H 10650 6050 50  0001 C CNN "Supplier PN"
 F 8 "Log" V 10550 6000 50  0000 R CNN "Taper"
 F 9 "50k Dual" V 10450 6000 50  0000 R CNN "Value"
-	1    10650 6050
+	2    10650 6050
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C47
 U 1 1 5EA96664
 P 9600 6950
-F 0 "C?" H 9715 7087 50  0000 L CNN
+F 0 "C47" H 9715 7087 50  0000 L CNN
 F 1 "8.2n" H 9700 7000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9638 6800 50  0001 C CNN
 F 3 "~" H 9600 6950 50  0001 C CNN
@@ -450,10 +450,10 @@ F 9 "50V" H 9715 6814 50  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C49
 U 1 1 5EA96670
 P 11150 5400
-F 0 "C?" H 10900 5550 50  0000 L CNN
+F 0 "C49" H 10900 5550 50  0000 L CNN
 F 1 "22n" H 10900 5450 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 11188 5250 50  0001 C CNN
 F 3 "~" H 11150 5400 50  0001 C CNN
@@ -467,10 +467,10 @@ F 9 "50V" H 10900 5250 50  0000 L CNN "Voltage"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R65
 U 1 1 5EA9667D
 P 10250 6950
-F 0 "R?" H 10300 7100 50  0000 L CNN
+F 0 "R65" H 10300 7100 50  0000 L CNN
 F 1 "2.2k" H 10300 7000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10180 6950 50  0001 C CNN
 F 3 "~" H 10250 6950 50  0001 C CNN
@@ -485,12 +485,12 @@ F 10 "0603" H 10300 6900 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C?
+L Device:CP1 C50
 U 1 1 5EA96688
 P 12950 4900
-F 0 "C?" H 13050 5000 50  0000 L CNN
+F 0 "C50" H 13050 5000 50  0000 L CNN
 F 1 "10u" H 13050 4900 50  0000 L CNN
-F 2 "" H 12950 4900 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 12950 4900 50  0001 C CNN
 F 3 "~" H 12950 4900 50  0001 C CNN
 F 4 "Wurth Elektronik" H 12950 4900 50  0001 C CNN "Manufacturer"
 F 5 "860010372001" H 12950 4900 50  0001 C CNN "Manufacturer PN"
@@ -647,10 +647,10 @@ F 3 "" H 10250 7300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R66
 U 1 1 5EA966E7
 P 11150 5900
-F 0 "R?" H 11200 6050 50  0000 L CNN
+F 0 "R66" H 11200 6050 50  0000 L CNN
 F 1 "2.2k" H 11200 5950 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11080 5900 50  0001 C CNN
 F 3 "~" H 11150 5900 50  0001 C CNN
@@ -775,12 +775,12 @@ TONE_OUT
 Text Label 13350 5450 0    50   ~ 0
 TONE_OUT
 $Comp
-L dk_opamps:TL072CP U?
+L dk_opamps:TL072CP U3
 U 1 1 5EA96735
 P 6250 4450
-F 0 "U?" H 6350 4300 60  0000 L CNN
+F 0 "U3" H 6350 4300 60  0000 L CNN
 F 1 "TL072CP" H 6350 4200 60  0000 L CNN
-F 2 "digikey-footprints:DIP-8_W7.62mm" H 6450 4650 60  0001 L CNN
+F 2 "digikey:DIP-8_W7.62mm" H 6450 4650 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 6450 4750 60  0001 L CNN
 F 4 "296-1775-5-ND" H 6450 4850 60  0001 L CNN "Digi-Key_PN"
 F 5 "TL072CP" H 6450 4950 60  0001 L CNN "MPN"
@@ -795,12 +795,12 @@ F 12 "Active" H 6450 5650 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_opamps:TL072CP U?
+L dk_opamps:TL072CP U3
 U 2 1 5EA96744
 P 3350 6650
-F 0 "U?" V 3500 6800 60  0000 L CNN
+F 0 "U3" V 3500 6800 60  0000 L CNN
 F 1 "TL072CP" V 3600 6800 60  0000 L CNN
-F 2 "digikey-footprints:DIP-8_W7.62mm" H 3550 6850 60  0001 L CNN
+F 2 "digikey:DIP-8_W7.62mm" H 3550 6850 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 3550 6950 60  0001 L CNN
 F 4 "296-1775-5-ND" H 3550 7050 60  0001 L CNN "Digi-Key_PN"
 F 5 "TL072CP" H 3550 7150 60  0001 L CNN "MPN"
@@ -863,10 +863,10 @@ Wire Wire Line
 Wire Wire Line
 	3050 6650 3050 6750
 $Comp
-L Device:C C?
+L Device:C C40
 U 1 1 5EA9676A
 P 4100 6850
-F 0 "C?" H 4215 6987 50  0000 L CNN
+F 0 "C40" H 4215 6987 50  0000 L CNN
 F 1 "0.1u" H 4200 6900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4138 6700 50  0001 C CNN
 F 3 "~" H 4100 6850 50  0001 C CNN
@@ -915,12 +915,12 @@ Wire Wire Line
 Wire Wire Line
 	6250 4650 6250 4750
 $Comp
-L dk_opamps:TL072CP U?
+L dk_opamps:TL072CP U4
 U 1 1 5EA9678C
 P 8450 4550
-F 0 "U?" H 8550 4400 60  0000 L CNN
+F 0 "U4" H 8550 4400 60  0000 L CNN
 F 1 "TL072CP" H 8550 4300 60  0000 L CNN
-F 2 "digikey-footprints:DIP-8_W7.62mm" H 8650 4750 60  0001 L CNN
+F 2 "digikey:DIP-8_W7.62mm" H 8650 4750 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8650 4850 60  0001 L CNN
 F 4 "296-1775-5-ND" H 8650 4950 60  0001 L CNN "Digi-Key_PN"
 F 5 "TL072CP" H 8650 5050 60  0001 L CNN "MPN"
@@ -935,12 +935,12 @@ F 12 "Active" H 8650 5750 60  0001 L CNN "Status"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_opamps:TL072CP U?
+L dk_opamps:TL072CP U4
 U 2 1 5EA9679B
 P 12100 5250
-F 0 "U?" H 12550 5100 60  0000 C CNN
+F 0 "U4" H 12550 5100 60  0000 C CNN
 F 1 "TL072CP" H 12450 5000 60  0000 C CNN
-F 2 "digikey-footprints:DIP-8_W7.62mm" H 12300 5450 60  0001 L CNN
+F 2 "digikey:DIP-8_W7.62mm" H 12300 5450 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12300 5550 60  0001 L CNN
 F 4 "296-1775-5-ND" H 12300 5650 60  0001 L CNN "Digi-Key_PN"
 F 5 "TL072CP" H 12300 5750 60  0001 L CNN "MPN"
@@ -973,10 +973,10 @@ F 3 "" H 8700 3750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C45
 U 1 1 5EA967B3
 P 8700 4000
-F 0 "C?" H 8815 4137 50  0000 L CNN
+F 0 "C45" H 8815 4137 50  0000 L CNN
 F 1 "0.1u" H 8800 4050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8738 3850 50  0001 C CNN
 F 3 "~" H 8700 4000 50  0001 C CNN
@@ -1070,4 +1070,6 @@ Wire Wire Line
 	5100 4700 5100 4850
 Text HLabel 14100 5450 2    50   Output ~ 0
 TONE_OUT
+Text Notes 7850 2150 0    50   Italic 0
+Stock tone block, no changes.
 $EndSCHEMATC

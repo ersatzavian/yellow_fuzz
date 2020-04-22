@@ -5,6 +5,18 @@ D Power symbol creates a global label with name "+4V5"
 K power-flag
 $ENDCMP
 #
+$CMP 3362P-1-102TLF
+D TRIMMER 1K OHM 0.5W PC PIN TOP
+K 3362P-1-102TLF-ND
+F https://www.bourns.com/docs/Product-Datasheets/3362.pdf
+$ENDCMP
+#
+$CMP 3386P-1-204TLF
+D TRIMMER 1K OHM 0.5W PC PIN TOP
+K 3386P-1-204TLF-ND
+F https://www.bourns.com/docs/Product-Datasheets/3362.pdf
+$ENDCMP
+#
 $CMP NSVJ3910SB3T1GOSCT-ND
 D JFET N-CH 35V 625MW TO92
 K J113FS-ND

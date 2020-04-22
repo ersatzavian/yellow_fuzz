@@ -1,4 +1,4 @@
-(module Potentiometer_Bourns_PCW1D_C25_B_Single_Vertical (layer F.Cu) (tedit 5E3744BB)
+(module Potentiometer_Bourns_PCW1D_C25_B_Single_Vertical (layer F.Cu) (tedit 5E9F77D9)
   (descr "Single-Turn Trim Potentiometer, PCB Mount, Vertical Adjust, No Anti-Rotation Tab, 1/4\" Flatted Shaft, 3/4\" Length")
   (fp_text reference REF** (at -11.43 -12.7) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
@@ -24,8 +24,8 @@
   (pad 2 thru_hole circle (at 0 11.27) (size 1.8 1.8) (drill 1.19) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -2.54 11.27) (size 1.8 1.8) (drill 1.19) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 2.54 11.27) (size 1.8 1.8) (drill 1.19) (layers *.Cu *.Mask))
-  (model C:/Users/tbyrne/yellow_fuzz/parts/pcl1d-c24-bab.stp
-    (offset (xyz 0 0 2.2))
+  (model /Users/tom/yellow_fuzz/parts/pcl1d-c24-bab.stp
+    (offset (xyz 0 0 2.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
