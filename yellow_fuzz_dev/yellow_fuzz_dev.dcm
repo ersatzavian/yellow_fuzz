@@ -40,6 +40,26 @@ K CP-202A-ND
 F https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf
 $ENDCMP
 #
+$CMP PTV111-4420A-A104
+D POT 100K LOG
+F https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf
+$ENDCMP
+#
+$CMP PTV111-4420A-A503
+D POT 50K OHM LOG
+F https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf
+$ENDCMP
+#
+$CMP PTV112-4420A-A104
+D POT 100K DUAL GANGED LOG
+F https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf
+$ENDCMP
+#
+$CMP PTV112-4420A-A503
+D POT 50K DUAL GANGED LOG
+F https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf
+$ENDCMP
+#
 $CMP SN49B12B
 D CONN JACK STEREO 6.35MM R/A
 K SC1522-ND SN49B

@@ -56,53 +56,6 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_R_POT_Dual_Separate
-#
-DEF Device_R_POT_Dual_Separate RV 0 40 Y N 2 F N
-F0 "RV" -175 0 50 V V C CNN
-F1 "Device_R_POT_Dual_Separate" -100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Potentiometer*
-$ENDFPLIST
-DRAW
-S 40 100 -40 -100 0 1 10 N
-P 2 0 1 0 100 0 60 0 N
-P 4 0 1 0 45 0 90 20 90 -20 45 0 F
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-X 3 3 0 -150 50 U 50 50 1 1 P
-X 4 4 0 150 50 D 50 50 2 1 P
-X 5 5 150 0 50 L 50 50 2 1 P
-X 6 6 0 -150 50 U 50 50 2 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_R_POT_US
-#
-DEF Device_R_POT_US RV 0 40 Y N 1 F N
-F0 "RV" -175 0 50 V V C CNN
-F1 "Device_R_POT_US" -100 0 50 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- Potentiometer*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 0 -90 0 -100 N
-P 2 0 1 0 0 100 0 90 N
-P 2 0 1 0 100 0 60 0 N
-P 4 0 1 0 45 0 90 20 90 -20 45 0 F
-P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
-P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
-P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-X 3 3 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Diode_BAS16W
 #
 DEF Diode_BAS16W D 0 20 N N 1 F N
@@ -501,6 +454,110 @@ P 5 1 1 0 -100 -100 -125 -100 -100 -150 -75 -100 -100 -100 N
 X ~ 1 100 0 100 L 50 50 1 1 P
 X ~ 2 100 -200 100 L 50 50 1 1 P
 X ~ 3 100 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# yellow_fuzz_dev_PTV111-4420A-A104
+#
+DEF yellow_fuzz_dev_PTV111-4420A-A104 P 0 0 Y Y 1 F N
+F0 "P" -600 350 60 H V L CNN
+F1 "yellow_fuzz_dev_PTV111-4420A-A104" 190 20 60 H I L CNN
+F2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "Bourns" 200 400 60 H I L CNN "Manufacturer"
+F5 "PTV111-4420A-A104" 200 500 60 H I L CNN "Manufacturer Part Number"
+F6 "Mouser" 200 600 60 H I L CNN "Supplier"
+F7 "652-PTV111-4420AA104" 200 700 60 H I L CNN "Supplier Part Number"
+F8 "Single" -600 250 50 H I L CNN "Gangs"
+F9 "Log" -600 150 50 H V L CNN "Taper"
+F10 "100k" -600 250 50 H V L CNN "Resistance"
+DRAW
+P 2 0 1 0 -370 0 -400 0 N
+P 4 0 1 0 -270 90 -250 50 -230 90 -270 90 F
+P 9 0 1 0 -370 0 -350 -50 -310 50 -270 -50 -230 50 -190 -50 -150 50 -130 0 -100 0 N
+X CCW 1 -500 0 100 R 50 50 1 1 P
+X S 2 -250 250 200 D 50 50 1 1 P
+X CW 3 0 0 100 L 50 50 1 1 P
+X ~ 4 -500 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# yellow_fuzz_dev_PTV111-4420A-A503
+#
+DEF yellow_fuzz_dev_PTV111-4420A-A503 P 0 0 Y Y 1 F N
+F0 "P" -600 350 60 H V L CNN
+F1 "yellow_fuzz_dev_PTV111-4420A-A503" 190 20 60 H I L CNN
+F2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "Bourns" 200 400 60 H I L CNN "Manufacturer"
+F5 "PTV111-4420A-A503" 200 500 60 H I L CNN "Manufacturer Part Number"
+F6 "Mouser" 200 600 60 H I L CNN "Supplier"
+F7 "652-PTV111-4420AA503" 200 700 60 H I L CNN "Supplier Part Number"
+F8 "Single" -600 250 50 H I L CNN "Gangs"
+F9 "Log" -600 150 50 H V L CNN "Taper"
+F10 "50k" -600 250 50 H V L CNN "Resistance"
+DRAW
+P 2 0 1 0 -370 0 -400 0 N
+P 4 0 1 0 -270 90 -250 50 -230 90 -270 90 F
+P 9 0 1 0 -370 0 -350 -50 -310 50 -270 -50 -230 50 -190 -50 -150 50 -130 0 -100 0 N
+X CCW 1 -500 0 100 R 50 50 1 1 P
+X S 2 -250 250 200 D 50 50 1 1 P
+X CW 3 0 0 100 L 50 50 1 1 P
+X ~ 4 -500 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# yellow_fuzz_dev_PTV112-4420A-A104
+#
+DEF yellow_fuzz_dev_PTV112-4420A-A104 P 0 0 Y Y 2 F N
+F0 "P" -600 450 60 H V L CNN
+F1 "yellow_fuzz_dev_PTV112-4420A-A104" 190 20 60 H I L CNN
+F2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "Bourns" 200 400 60 H I L CNN "Manufacturer"
+F5 "PTV112-4420A-A104" 200 500 60 H I L CNN "Manufacturer Part Number"
+F6 "Mouser" 200 600 60 H I L CNN "Supplier"
+F7 "652-PTV1124420AA104" 200 700 60 H I L CNN "Supplier Part Number"
+F8 "Dual" -600 250 50 H V L CNN "Gangs"
+F9 "Log" -600 150 50 H V L CNN "Taper"
+F10 "100k" -600 350 50 H V L CNN "Resistance"
+DRAW
+P 2 0 1 0 -370 0 -400 0 N
+P 4 0 1 0 -270 90 -250 50 -230 90 -270 90 F
+P 9 0 1 0 -370 0 -350 -50 -310 50 -270 -50 -230 50 -190 -50 -150 50 -130 0 -100 0 N
+X CCW 1 -500 0 100 R 50 50 1 1 P
+X S 2 -250 250 200 D 50 50 1 1 P
+X CW 3 0 0 100 L 50 50 1 1 P
+X CCW 4 -500 0 100 R 50 50 2 1 P
+X S 5 -250 250 200 D 50 50 2 1 P
+X CW 6 0 0 100 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# yellow_fuzz_dev_PTV112-4420A-A503
+#
+DEF yellow_fuzz_dev_PTV112-4420A-A503 P 0 0 Y Y 2 F N
+F0 "P" -600 450 60 H V L CNN
+F1 "yellow_fuzz_dev_PTV112-4420A-A503" 190 20 60 H I L CNN
+F2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" 200 200 60 H I L CNN
+F3 "" 200 300 60 H I L CNN
+F4 "Bourns" 200 400 60 H I L CNN "Manufacturer"
+F5 "PTV112-4420A-A503" 200 500 60 H I L CNN "Manufacturer Part Number"
+F6 "Mouser" 200 600 60 H I L CNN "Supplier"
+F7 "652-PTV112-4420AA503" 200 700 60 H I L CNN "Supplier Part Number"
+F8 "Dual" -600 250 50 H V L CNN "Gangs"
+F9 "Log" -600 150 50 H V L CNN "Taper"
+F10 "50k" -600 350 50 H V L CNN "Resistance"
+DRAW
+P 2 0 1 0 -370 0 -400 0 N
+P 4 0 1 0 -270 90 -250 50 -230 90 -270 90 F
+P 9 0 1 0 -370 0 -350 -50 -310 50 -270 -50 -230 50 -190 -50 -150 50 -130 0 -100 0 N
+X CCW 1 -500 0 100 R 50 50 1 1 P
+X S 2 -250 250 200 D 50 50 1 1 P
+X CW 3 0 0 100 L 50 50 1 1 P
+X CCW 4 -500 0 100 R 50 50 2 1 P
+X S 5 -250 250 200 D 50 50 2 1 P
+X CW 6 0 0 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #

@@ -1469,7 +1469,7 @@ F 7 "Digi-Key" V 2700 10850 50  0001 C CNN "Supplier"
 	1    2700 10850
 	0    -1   -1   0   
 $EndComp
-Text Notes 7800 7250 0    236  ~ 47
+Text Notes 7500 6700 0    236  ~ 47
 Dist
 $Comp
 L power:GND #PWR0131
@@ -1493,22 +1493,6 @@ F 3 "" H 18500 3050 50  0001 C CNN
 	1    18500 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8150 7650 7550 7650
-Connection ~ 8750 8300
-Connection ~ 8550 7650
-Wire Wire Line
-	8750 7650 8750 8300
-Wire Wire Line
-	8550 7650 8750 7650
-Wire Wire Line
-	8550 7650 8450 7650
-Wire Wire Line
-	8550 7900 8550 7650
-Wire Wire Line
-	8300 7900 8550 7900
-Wire Wire Line
-	8300 7800 8300 7900
 Connection ~ 16100 9950
 Wire Wire Line
 	16350 9950 16100 9950
@@ -2304,23 +2288,6 @@ F 11 "Micro Commercial Co" H 3900 9500 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 3900 9600 60  0001 L CNN "Status"
 	1    3700 8400
 	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_POT_US P2
-U 1 1 5E3629ED
-P 8300 7650
-F 0 "P2" V 8250 8000 50  0000 R CNN
-F 1 "R_POT_US" H 8233 7605 50  0001 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_PTV09A-1_Single_Vertical" H 8300 7650 50  0001 C CNN
-F 3 "~" H 8300 7650 50  0001 C CNN
-F 4 "Bourns" H 8300 7650 50  0001 C CNN "Manufacturer"
-F 5 "PTV09A-4030U-A204" H 8300 7650 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 8300 7650 50  0001 C CNN "Supplier"
-F 7 "652-PTV09A-4030UA204" H 8300 7650 50  0001 C CNN "Supplier PN"
-F 8 "Log" V 8450 8000 50  0000 R CNN "Taper"
-F 9 "200k" V 8350 8000 50  0000 R CNN "Value"
-	1    8300 7650
-	0    -1   1    0   
 $EndComp
 Text Notes 950  1700 0    236  ~ 47
 Input
@@ -3549,8 +3516,6 @@ F 10 "0603" H 7600 7950 50  0000 L CNN "Package"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7550 7650 7550 7850
-Wire Wire Line
 	7550 8150 7550 8300
 Connection ~ 7550 8300
 $Comp
@@ -4199,4 +4164,73 @@ F 12 "Active" H 2900 16050 60  0001 L CNN "Status"
 	1    2700 14850
 	0    1    1    0   
 $EndComp
+$Comp
+L yellow_fuzz_dev:PTV112-4420A-A104 P2
+U 1 1 5EB889C3
+P 8100 7500
+F 0 "P2" H 7850 7087 60  0000 C CNN
+F 1 "PTV112-4420A-A104" H 8290 7520 60  0001 L CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 8300 7700 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 8300 7800 60  0001 L CNN
+F 4 "Bourns" H 8300 7900 60  0001 L CNN "Manufacturer"
+F 5 "PTV112-4420A-A104" H 8300 8000 60  0001 L CNN "Manufacturer Part Number"
+F 6 "Mouser" H 8300 8100 60  0001 L CNN "Supplier"
+F 7 "652-PTV1124420AA104" H 8300 8200 60  0001 L CNN "Supplier Part Number"
+F 8 "Dual" H 7850 7185 50  0000 C CNN "Gangs"
+F 9 "Log" H 7850 7276 50  0000 C CNN "Taper"
+F 10 "100k" H 7850 7367 50  0000 C CNN "Resistance"
+	1    8100 7500
+	1    0    0    1   
+$EndComp
+$Comp
+L yellow_fuzz_dev:PTV112-4420A-A104 P2
+U 2 1 5EB8AEC6
+P 8800 7500
+F 0 "P2" H 8550 7087 60  0000 C CNN
+F 1 "PTV112-4420A-A104" H 8990 7520 60  0001 L CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 9000 7700 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 9000 7800 60  0001 L CNN
+F 4 "Bourns" H 9000 7900 60  0001 L CNN "Manufacturer"
+F 5 "PTV112-4420A-A104" H 9000 8000 60  0001 L CNN "Manufacturer Part Number"
+F 6 "Mouser" H 9000 8100 60  0001 L CNN "Supplier"
+F 7 "652-PTV1124420AA104" H 9000 8200 60  0001 L CNN "Supplier Part Number"
+F 8 "Dual" H 8550 7185 50  0000 C CNN "Gangs"
+F 9 "Log" H 8550 7276 50  0000 C CNN "Taper"
+F 10 "100k" H 8550 7367 50  0000 C CNN "Resistance"
+	2    8800 7500
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	7850 7750 7850 7800
+Wire Wire Line
+	7850 7800 8150 7800
+Wire Wire Line
+	8150 7800 8150 7500
+Wire Wire Line
+	8150 7500 8100 7500
+Wire Wire Line
+	8550 7750 8550 7800
+Wire Wire Line
+	8550 7800 8850 7800
+Wire Wire Line
+	8850 7800 8850 7500
+Wire Wire Line
+	8850 7500 8800 7500
+Wire Wire Line
+	7550 7850 7550 7500
+Wire Wire Line
+	7550 7500 7600 7500
+Wire Wire Line
+	8850 7500 9050 7500
+Wire Wire Line
+	9050 7500 9050 8300
+Wire Wire Line
+	9050 8300 8750 8300
+Connection ~ 8850 7500
+Connection ~ 8750 8300
+Wire Wire Line
+	8300 7500 8150 7500
+Connection ~ 8150 7500
+Text Notes 7550 6900 0    50   Italic 0
+Can’t find a 200k (much less a 250k) pot in the same mech family\nas tone controls; making one out of a dual-ganged 100k.
 $EndSCHEMATC

@@ -1343,26 +1343,6 @@ Wire Wire Line
 Wire Wire Line
 	16200 14300 16200 14400
 $Comp
-L dk_Battery-Holders-Clips-Contacts:BC9VPC BAT1
-U 1 1 5E899F74
-P 2700 14850
-F 0 "BAT1" V 2647 14998 60  0000 L CNN
-F 1 "BC9VPC" V 2753 14998 60  0000 L CNN
-F 2 "digikey:Battery_Holder_9V_BC9VPC-ND" H 2900 15050 60  0001 L CNN
-F 3 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15150 60  0001 L CNN
-F 4 "BC9VPC-ND" H 2900 15250 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC9VPC" H 2900 15350 60  0001 L CNN "MPN"
-F 6 "Battery Products" H 2900 15450 60  0001 L CNN "Category"
-F 7 "Battery Holders, Clips, Contacts" H 2900 15550 60  0001 L CNN "Family"
-F 8 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747" H 2900 15750 60  0001 L CNN "DK_Detail_Page"
-F 10 "BATTERY HOLDER 9V PC PIN" H 2900 15850 60  0001 L CNN "Description"
-F 11 "MPD (Memory Protection Devices)" H 2900 15950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 2900 16050 60  0001 L CNN "Status"
-	1    2700 14850
-	0    1    1    0   
-$EndComp
-$Comp
 L Transistor_FET:DMN2041L Q3
 U 1 1 5E927B65
 P 2800 15550
@@ -4198,5 +4178,25 @@ F 2 "yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B" H 20350 2400 50  0001 C CNN
 F 3 "" H 20350 2400 50  0001 C CNN
 	1    20500 2400
 	-1   0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:BC9VPC BAT1
+U 1 1 5F040678
+P 2700 14850
+F 0 "BAT1" V 2647 14998 60  0000 L CNN
+F 1 "BC9VPC" V 2753 14998 60  0000 L CNN
+F 2 "yellow_fuzz_dev:Battery_Holder_9V_BC9VPC-ND" H 2900 15050 60  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15150 60  0001 L CNN
+F 4 "BC9VPC-ND" H 2900 15250 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC9VPC" H 2900 15350 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 2900 15450 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 2900 15550 60  0001 L CNN "Family"
+F 8 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747" H 2900 15750 60  0001 L CNN "DK_Detail_Page"
+F 10 "BATTERY HOLDER 9V PC PIN" H 2900 15850 60  0001 L CNN "Description"
+F 11 "MPD (Memory Protection Devices)" H 2900 15950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2900 16050 60  0001 L CNN "Status"
+	1    2700 14850
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC

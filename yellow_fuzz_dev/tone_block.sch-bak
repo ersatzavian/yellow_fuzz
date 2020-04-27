@@ -14,40 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_POT_US P9
-U 1 1 5EA9653E
-P 12950 5450
-F 0 "P9" H 12900 5250 50  0000 R CNN
-F 1 "R_POT_US" H 12883 5405 50  0001 R CNN
-F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PCW1J_R24_B_Single_Vertical" H 12950 5450 50  0001 C CNN
-F 3 "~" H 12950 5450 50  0001 C CNN
-F 4 "Bourns" H 12950 5450 50  0001 C CNN "Manufacturer"
-F 5 "PTV111-4420A-A503" H 12950 5450 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 12950 5450 50  0001 C CNN "Supplier"
-F 7 "652-PTV111-4420AA503" H 12950 5450 50  0001 C CNN "Supplier PN"
-F 8 "Log" H 12883 5450 50  0000 R CNN "Taper"
-F 9 "50k" H 12883 5359 50  0000 R CNN "Value"
-	1    12950 5450
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:R_POT_Dual_Separate P8
-U 1 1 5EA9654A
-P 10250 6450
-F 0 "P8" H 10180 6541 50  0000 R CNN
-F 1 "R_POT_Dual_Separate" H 10180 6405 50  0001 R CNN
-F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10250 6450 50  0001 C CNN
-F 3 "~" H 10250 6450 50  0001 C CNN
-F 4 "Bourns" H 10250 6450 50  0001 C CNN "Manufacturer"
-F 5 "PTV112-4420A-A503" H 10250 6450 50  0001 C CNN "Manufactuerer PN"
-F 6 "Mouser" H 10250 6450 50  0001 C CNN "Supplier"
-F 7 "652-PTV112-4420AA503" H 10250 6450 50  0001 C CNN "Supplier PN"
-F 8 "Log" H 10180 6450 50  0000 R CNN "Taper"
-F 9 "50k Dual" H 10180 6359 50  0000 R CNN "Value"
-	1    10250 6450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R59
 U 1 1 5EA96557
 P 6250 3600
@@ -188,19 +154,19 @@ $EndComp
 $Comp
 L Device:R R58
 U 1 1 5EA965B9
-P 4450 3600
-F 0 "R58" H 4500 3750 50  0000 L CNN
-F 1 "2.2k" H 4500 3650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4380 3600 50  0001 C CNN
-F 3 "~" H 4450 3600 50  0001 C CNN
-F 4 "ERJ-3GEYJ222V" H 4450 3600 50  0001 C CNN "Manufacturer PN"
-F 5 "5%" H 4500 3450 50  0000 L CNN "Tolerance"
-F 6 "Panasonic Electronic Components" H 4450 3600 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 4450 3600 50  0001 C CNN "Supplier"
-F 8 "ERJ-3GEYJ222V" H 4450 3600 50  0001 C CNN "Supplier PN"
-F 9 "0.1 W" H 4450 3600 50  0001 C CNN "Power"
-F 10 "0603" H 4500 3550 50  0000 L CNN "Package"
-	1    4450 3600
+P 4450 3650
+F 0 "R58" H 4500 3800 50  0000 L CNN
+F 1 "2.2k" H 4500 3700 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4380 3650 50  0001 C CNN
+F 3 "~" H 4450 3650 50  0001 C CNN
+F 4 "ERJ-3GEYJ222V" H 4450 3650 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" H 4500 3500 50  0000 L CNN "Tolerance"
+F 6 "Panasonic Electronic Components" H 4450 3650 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 4450 3650 50  0001 C CNN "Supplier"
+F 8 "ERJ-3GEYJ222V" H 4450 3650 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 4450 3650 50  0001 C CNN "Power"
+F 10 "0603" H 4500 3600 50  0000 L CNN "Package"
+	1    4450 3650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -365,74 +331,6 @@ F 9 "50V" H 9765 5114 50  0000 L CNN "Voltage"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT_US P5
-U 1 1 5EA96634
-P 5100 3350
-F 0 "P5" H 5050 3150 50  0000 R CNN
-F 1 "R_POT_US" H 5033 3305 50  0001 R CNN
-F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5100 3350 50  0001 C CNN
-F 3 "~" H 5100 3350 50  0001 C CNN
-F 4 "Bourns" H 5100 3350 50  0001 C CNN "Manufacturer"
-F 5 "PTV111-4420A-A104" H 5100 3350 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 5100 3350 50  0001 C CNN "Supplier"
-F 7 "652-PTV111-4420AA104" H 5100 3350 50  0001 C CNN "Supplier PN"
-F 8 "Log" H 5033 3350 50  0000 R CNN "Taper"
-F 9 "100k" H 5033 3259 50  0000 R CNN "Value"
-	1    5100 3350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_POT_US P6
-U 1 1 5EA96640
-P 5100 5000
-F 0 "P6" H 5033 5091 50  0000 R CNN
-F 1 "R_POT_US" H 5033 4955 50  0001 R CNN
-F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5100 5000 50  0001 C CNN
-F 3 "~" H 5100 5000 50  0001 C CNN
-F 4 "Bourns" H 5100 5000 50  0001 C CNN "Manufacturer"
-F 5 "PTV111-4420A-A104" H 5100 5000 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 5100 5000 50  0001 C CNN "Supplier"
-F 7 "652-PTV111-4420AA104" H 5100 5000 50  0001 C CNN "Supplier PN"
-F 8 "Log" H 5033 5000 50  0000 R CNN "Taper"
-F 9 "100k" H 5033 4909 50  0000 R CNN "Value"
-	1    5100 5000
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Device:R_POT_US P7
-U 1 1 5EA9664C
-P 8350 6250
-F 0 "P7" V 8300 6550 50  0000 R CNN
-F 1 "R_POT_US" H 8283 6205 50  0001 R CNN
-F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 8350 6250 50  0001 C CNN
-F 3 "~" H 8350 6250 50  0001 C CNN
-F 4 "Bourns" H 8350 6250 50  0001 C CNN "Manufacturer"
-F 5 "PTV111-4420A-A104" H 8350 6250 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 8350 6250 50  0001 C CNN "Supplier"
-F 7 "652-PTV111-4420AA104" H 8350 6250 50  0001 C CNN "Supplier PN"
-F 8 "Log" V 8550 6550 50  0000 R CNN "Taper"
-F 9 "100k" V 8450 6550 50  0000 R CNN "Value"
-	1    8350 6250
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R_POT_Dual_Separate P8
-U 2 1 5EA96658
-P 10650 6050
-F 0 "P8" V 10800 6000 50  0000 R CNN
-F 1 "R_POT_Dual_Separate" H 10580 6005 50  0001 R CNN
-F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10580 5959 50  0001 R CNN
-F 3 "~" H 10650 6050 50  0001 C CNN
-F 4 "Bourns" H 10650 6050 50  0001 C CNN "Manufacturer"
-F 5 "PTV112-4420A-A503" H 10650 6050 50  0001 C CNN "Manufacturer PN"
-F 6 "Mouser" H 10650 6050 50  0001 C CNN "Supplier"
-F 7 "652-PTV112-4420AA503" H 10650 6050 50  0001 C CNN "Supplier PN"
-F 8 "Log" V 10550 6000 50  0000 R CNN "Taper"
-F 9 "50k Dual" V 10450 6000 50  0000 R CNN "Value"
-	2    10650 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:C C47
 U 1 1 5EA96664
 P 9600 6950
@@ -534,37 +432,17 @@ Connection ~ 3250 6050
 Wire Wire Line
 	3250 6050 3250 6350
 Wire Wire Line
-	4950 3350 4450 3350
-Wire Wire Line
-	4450 3350 4450 3450
-Wire Wire Line
-	4450 3750 4450 3900
-Wire Wire Line
 	4450 4200 4450 4350
-Wire Wire Line
-	5100 3500 5100 4550
-Wire Wire Line
-	4950 5000 3250 5000
-Wire Wire Line
-	5100 3200 5100 3050
-Wire Wire Line
-	5100 3050 4800 3050
 Wire Wire Line
 	4800 3050 4800 5300
 Wire Wire Line
 	4800 5300 5100 5300
-Wire Wire Line
-	5100 5300 5100 5150
-Connection ~ 5100 4550
 Wire Wire Line
 	5100 4550 5100 4700
 Wire Wire Line
 	5950 4350 5800 4350
 Wire Wire Line
 	5800 4350 5800 3600
-Wire Wire Line
-	5800 3050 5100 3050
-Connection ~ 5100 3050
 Wire Wire Line
 	6100 3050 5800 3050
 Connection ~ 5800 3050
@@ -600,14 +478,6 @@ Wire Wire Line
 	7850 5400 7850 5250
 Wire Wire Line
 	7850 4650 8150 4650
-Wire Wire Line
-	7350 5400 7350 6250
-Wire Wire Line
-	7350 6250 8200 6250
-Wire Wire Line
-	8500 6250 9050 6250
-Wire Wire Line
-	9050 6250 9050 6000
 Wire Wire Line
 	9050 5700 9050 5000
 Wire Wire Line
@@ -667,39 +537,11 @@ $EndComp
 Wire Wire Line
 	9800 5250 10250 5250
 Wire Wire Line
-	10250 5250 10250 5800
-Wire Wire Line
-	10500 6050 10250 6050
-Connection ~ 10250 6050
-Wire Wire Line
-	10250 6050 10250 6200
-Wire Wire Line
-	10400 6450 10450 6450
-Wire Wire Line
-	10450 6450 10450 6200
-Wire Wire Line
-	10450 6200 10250 6200
-Connection ~ 10250 6200
-Wire Wire Line
-	10250 6200 10250 6300
-Wire Wire Line
-	10650 5900 10650 5800
-Wire Wire Line
-	10650 5800 10250 5800
-Connection ~ 10250 5800
-Wire Wire Line
-	10250 5800 10250 5950
-Wire Wire Line
-	10250 6800 10250 6600
-Wire Wire Line
 	10250 7100 10250 7300
 Wire Wire Line
 	10250 5950 9600 5950
 Wire Wire Line
 	9600 5950 9600 6800
-Connection ~ 10250 5950
-Wire Wire Line
-	10250 5950 10250 6050
 $Comp
 L power:GND #PWR0172
 U 1 1 5EA96701
@@ -714,8 +556,6 @@ $EndComp
 Wire Wire Line
 	9600 7100 9600 7300
 Wire Wire Line
-	10800 6050 11150 6050
-Wire Wire Line
 	11150 5750 11150 5550
 Wire Wire Line
 	11150 5250 11650 5250
@@ -726,8 +566,6 @@ Wire Wire Line
 Connection ~ 11650 5250
 Wire Wire Line
 	11650 5250 11800 5250
-Wire Wire Line
-	8350 6400 8350 7700
 Wire Wire Line
 	8350 7700 12550 7700
 Wire Wire Line
@@ -752,10 +590,6 @@ F 3 "" H 12950 5800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	12950 4450 12950 4750
-Wire Wire Line
-	12950 5050 12950 5300
-Wire Wire Line
-	12950 5600 12950 5800
 Text Notes 4450 5700 0    236  ~ 47
 Low
 Text Notes 4450 2900 0    236  ~ 47
@@ -766,8 +600,6 @@ Text Notes 10750 6900 0    236  ~ 47
 Mid Freq\n
 Text Notes 13350 6000 0    236  ~ 47
 Level\n
-Wire Wire Line
-	14100 5450 13100 5450
 Text Label 5200 4550 0    50   ~ 0
 TONE_IN
 Text Label 10700 4450 0    50   ~ 0
@@ -983,9 +815,6 @@ Wire Wire Line
 	5100 4550 5950 4550
 Wire Wire Line
 	2550 4700 5100 4700
-Connection ~ 5100 4700
-Wire Wire Line
-	5100 4700 5100 4850
 Text HLabel 14100 5450 2    50   Output ~ 0
 TONE_OUT
 Text Notes 7850 2150 0    50   Italic 0
@@ -1072,4 +901,228 @@ F 12 "Active" H 8650 5750 60  0001 L CNN "Status"
 	1    8450 4550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10250 5250 10250 5950
+Wire Wire Line
+	10500 6500 10550 6500
+Wire Wire Line
+	10550 6500 10550 6150
+Wire Wire Line
+	10550 6150 10250 6150
+Wire Wire Line
+	10250 6150 10250 6050
+Connection ~ 10250 5950
+Wire Wire Line
+	10250 6150 10250 6250
+Connection ~ 10250 6150
+Wire Wire Line
+	10250 6750 10250 6800
+Wire Wire Line
+	10450 6050 10350 6050
+Connection ~ 10250 6050
+Wire Wire Line
+	10250 6050 10250 5950
+Wire Wire Line
+	10950 6050 11150 6050
+Wire Wire Line
+	10700 5800 10700 5750
+Wire Wire Line
+	10700 5750 10350 5750
+Wire Wire Line
+	10350 5750 10350 6050
+Connection ~ 10350 6050
+Wire Wire Line
+	10350 6050 10250 6050
+$Comp
+L yellow_fuzz_dev:PTV112-4420A-A503 P?
+U 1 1 5EB07C1A
+P 10250 6750
+F 0 "P?" V 9864 6663 60  0000 R CNN
+F 1 "PTV112-4420A-A503" H 10440 6770 60  0001 L CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10450 6950 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 10450 7050 60  0001 L CNN
+F 4 "Bourns" H 10450 7150 60  0001 L CNN "Manufacturer"
+F 5 "PTV112-4420A-A503" H 10450 7250 60  0001 L CNN "Manufacturer Part Number"
+F 6 "Mouser" H 10450 7350 60  0001 L CNN "Supplier"
+F 7 "652-PTV112-4420AA503" H 10450 7450 60  0001 L CNN "Supplier Part Number"
+F 8 "Dual" V 10050 6650 50  0000 R CNN "Gangs"
+F 9 "Log" V 10150 6650 50  0000 R CNN "Taper"
+F 10 "50k" V 9950 6650 50  0000 R CNN "Resistance"
+	1    10250 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L yellow_fuzz_dev:PTV112-4420A-A503 P?
+U 2 1 5EB096B3
+P 10950 6050
+F 0 "P?" H 10900 5900 60  0000 C CNN
+F 1 "PTV112-4420A-A503" H 11140 6070 60  0001 L CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 11150 6250 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 11150 6350 60  0001 L CNN
+F 4 "Bourns" H 11150 6450 60  0001 L CNN "Manufacturer"
+F 5 "PTV112-4420A-A503" H 11150 6550 60  0001 L CNN "Manufacturer Part Number"
+F 6 "Mouser" H 11150 6650 60  0001 L CNN "Supplier"
+F 7 "652-PTV112-4420AA503" H 11150 6750 60  0001 L CNN "Supplier Part Number"
+F 8 "Dual" H 10900 5700 50  0000 C CNN "Gangs"
+F 9 "Log" H 10900 5600 50  0000 C CNN "Taper"
+F 10 "50k" H 10900 5800 50  0000 C CNN "Resistance"
+	2    10950 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L yellow_fuzz_dev:PTV111-4420A-A503 P?
+U 1 1 5EB0A21B
+P 12950 5200
+F 0 "P?" V 12791 5012 60  0000 R CNN
+F 1 "PTV111-4420A-A503" H 13140 5220 60  0001 L CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 13150 5400 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 13150 5500 60  0001 L CNN
+F 4 "Bourns" H 13150 5600 60  0001 L CNN "Manufacturer"
+F 5 "PTV111-4420A-A503" H 13150 5700 60  0001 L CNN "Manufacturer Part Number"
+F 6 "Mouser" H 13150 5800 60  0001 L CNN "Supplier"
+F 7 "652-PTV111-4420AA503" H 13150 5900 60  0001 L CNN "Supplier Part Number"
+F 8 "Single" H 12350 5450 50  0001 L CNN "Gangs"
+F 9 "Log" V 12693 5012 50  0000 R CNN "Taper"
+F 10 "50k" V 12602 5012 50  0000 R CNN "Resistance"
+	1    12950 5200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	12950 5700 12950 5750
+Wire Wire Line
+	12950 5750 12850 5750
+Wire Wire Line
+	12850 5750 12850 5700
+Connection ~ 12950 5750
+Wire Wire Line
+	12950 5750 12950 5800
+Wire Wire Line
+	13200 5450 14100 5450
+Wire Wire Line
+	12950 5050 12950 5200
+$Comp
+L yellow_fuzz_dev:PTV111-4420A-A104 P?
+U 1 1 5EB2E1DB
+P 8600 6300
+F 0 "P?" H 8550 6500 60  0000 C CNN
+F 1 "PTV111-4420A-A104" H 8790 6320 60  0001 L CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 8800 6500 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 8800 6600 60  0001 L CNN
+F 4 "Bourns" H 8800 6700 60  0001 L CNN "Manufacturer"
+F 5 "PTV111-4420A-A104" H 8800 6800 60  0001 L CNN "Manufacturer Part Number"
+F 6 "Mouser" H 8800 6900 60  0001 L CNN "Supplier"
+F 7 "652-PTV111-4420AA104" H 8800 7000 60  0001 L CNN "Supplier Part Number"
+F 8 "Single" H 8000 6550 50  0001 L CNN "Gangs"
+F 9 "Log" H 8550 6700 50  0000 C CNN "Taper"
+F 10 "100k" H 8600 6600 50  0000 C CNN "Resistance"
+	1    8600 6300
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EB37E5F
+P 7900 6000
+F 0 "#PWR?" H 7900 5750 50  0001 C CNN
+F 1 "GND" H 7905 5827 50  0000 C CNN
+F 2 "" H 7900 6000 50  0001 C CNN
+F 3 "" H 7900 6000 50  0001 C CNN
+	1    7900 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 6200 8050 6200
+Wire Wire Line
+	8050 6200 8050 5950
+Wire Wire Line
+	8050 5950 7900 5950
+Wire Wire Line
+	7900 5950 7900 6000
+Wire Wire Line
+	8100 6300 7350 6300
+Wire Wire Line
+	7350 5400 7350 6300
+Wire Wire Line
+	8600 6300 9050 6300
+Wire Wire Line
+	9050 6000 9050 6300
+Wire Wire Line
+	8350 6550 8350 7700
+$Comp
+L yellow_fuzz_dev:PTV111-4420A-A104 P?
+U 1 1 5EB4825A
+P 5100 3150
+F 0 "P?" V 5000 2950 60  0000 C CNN
+F 1 "PTV111-4420A-A104" H 5290 3170 60  0001 L CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5300 3350 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 5300 3450 60  0001 L CNN
+F 4 "Bourns" H 5300 3550 60  0001 L CNN "Manufacturer"
+F 5 "PTV111-4420A-A104" H 5300 3650 60  0001 L CNN "Manufacturer Part Number"
+F 6 "Mouser" H 5300 3750 60  0001 L CNN "Supplier"
+F 7 "652-PTV111-4420AA104" H 5300 3850 60  0001 L CNN "Supplier Part Number"
+F 8 "Single" H 4500 3400 50  0001 L CNN "Gangs"
+F 9 "Log" V 4800 2900 50  0000 C CNN "Taper"
+F 10 "100k" V 4900 2900 50  0000 C CNN "Resistance"
+	1    5100 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yellow_fuzz_dev:PTV111-4420A-A104 P?
+U 1 1 5EB49413
+P 5100 5250
+F 0 "P?" V 4800 5000 60  0000 C CNN
+F 1 "PTV111-4420A-A104" H 5290 5270 60  0001 L CNN
+F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5300 5450 60  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 5300 5550 60  0001 L CNN
+F 4 "Bourns" H 5300 5650 60  0001 L CNN "Manufacturer"
+F 5 "PTV111-4420A-A104" H 5300 5750 60  0001 L CNN "Manufacturer Part Number"
+F 6 "Mouser" H 5300 5850 60  0001 L CNN "Supplier"
+F 7 "652-PTV111-4420AA104" H 5300 5950 60  0001 L CNN "Supplier Part Number"
+F 8 "Single" H 4500 5500 50  0001 L CNN "Gangs"
+F 9 "Log" V 5000 5000 50  0000 C CNN "Taper"
+F 10 "100k" V 4900 5000 50  0000 C CNN "Resistance"
+	1    5100 5250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4800 3050 5100 3050
+Wire Wire Line
+	5100 4700 5100 4750
+Connection ~ 5100 4700
+Wire Wire Line
+	5100 5250 5100 5300
+Wire Wire Line
+	4850 5000 3250 5000
+Wire Wire Line
+	4850 3400 4450 3400
+Wire Wire Line
+	4450 3400 4450 3500
+Wire Wire Line
+	4450 3800 4450 3900
+Wire Wire Line
+	5100 3150 5100 3050
+Connection ~ 5100 3050
+Wire Wire Line
+	5100 3050 5800 3050
+Connection ~ 5100 4550
+$Comp
+L power:GND #PWR?
+U 1 1 5EB779C0
+P 5200 3800
+F 0 "#PWR?" H 5200 3550 50  0001 C CNN
+F 1 "GND" H 5205 3627 50  0000 C CNN
+F 2 "" H 5200 3800 50  0001 C CNN
+F 3 "" H 5200 3800 50  0001 C CNN
+	1    5200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4750 5650 4650
+Wire Wire Line
+	5650 4650 5200 4650
+Wire Wire Line
+	5200 4650 5200 4750
+Wire Wire Line
+	5100 3650 5100 4550
+Wire Wire Line
+	5200 3650 5200 3800
 $EndSCHEMATC
