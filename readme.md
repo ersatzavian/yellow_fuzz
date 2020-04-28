@@ -16,8 +16,6 @@ Formerly "yellow fuzz" after BRC's "yellow bikes" that happen to be green. Didn'
 | Add bypass option for preboost stage. | Try to reduce fizz. | Yes |
 | Add series variable resistors (trim pots) to clipping diodes D3/D4. | Try to reduce fizz. | Yes |
 | Add selector switch for 3 different diode options in each direction. | Experiment with higher Vf (LEDs) and give germanium a whirl. | Yes |
-| Add trim pot to tune center frequency of preboost filter. Trim R53 from 20k to 220k, chnage C34 from 27n to 68n. | Retune for bass. |  |
-| Retune dual bandpass filter after distortion stage. Low peak 50 - 150 Hz, High peak 1k - 3k, both with bypasses. | Retune for bass. |  |
 
 ## Parts Needed 
 
