@@ -2964,7 +2964,7 @@ fc = 4 Hz
 Text Notes 2950 10650 0    50   Italic 0
 HPF fc = 5 Hz
 Text Notes 2150 7300 0    50   Italic 0
-Returned pre-distortion boost:\n36dB centered at 224Hz, Q = 3.2.
+Retuned pre-distortion boost:\n36dB centered at 224Hz, Q = 3.2.
 $Comp
 L Device:C C4
 U 1 1 5F16C29E
@@ -3089,24 +3089,6 @@ F 12 "Active" H 12400 9400 60  0001 L CNN "Status"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R25
-U 1 1 5E517E90
-P 10950 8300
-F 0 "R25" V 10900 8050 50  0000 L CNN
-F 1 "10k" V 10900 8450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10880 8300 50  0001 C CNN
-F 3 "~" H 10950 8300 50  0001 C CNN
-F 4 "RC0603JR-071KL" H 10950 8300 50  0001 C CNN "Manufacturer PN"
-F 5 "5%" V 11000 8100 50  0000 C CNN "Tolerance"
-F 6 "Yageo" H 10950 8300 50  0001 C CNN "Manufacturer"
-F 7 "Digi-Key" H 10950 8300 50  0001 C CNN "Supplier"
-F 8 "311-1.0KGRCT-ND" H 10950 8300 50  0001 C CNN "Supplier PN"
-F 9 "0.1 W" H 10950 8300 50  0001 C CNN "Power"
-F 10 "0603" V 11000 8450 50  0000 L CNN "Package"
-	1    10950 8300
-	0    1    1    0   
-$EndComp
-$Comp
 L yellow_fuzz_dev:+4V5 #PWR0162
 U 1 1 5E517E96
 P 11450 7750
@@ -3136,29 +3118,11 @@ Connection ~ 12200 7300
 Wire Wire Line
 	12200 7300 12200 7450
 Wire Wire Line
-	11100 8300 11250 8300
-Wire Wire Line
 	11600 7300 11250 7300
 Wire Wire Line
 	11250 7300 11250 8300
-Connection ~ 11250 8300
 Wire Wire Line
 	11250 8300 12000 8300
-Wire Wire Line
-	10650 8400 10650 8300
-Wire Wire Line
-	10650 8300 10800 8300
-$Comp
-L power:GND #PWR0163
-U 1 1 5E517EAD
-P 10650 8400
-F 0 "#PWR0163" H 10650 8150 50  0001 C CNN
-F 1 "GND" H 10655 8227 50  0000 C CNN
-F 2 "" H 10650 8400 50  0001 C CNN
-F 3 "" H 10650 8400 50  0001 C CNN
-	1    10650 8400
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+9V #PWR0164
 U 1 1 5E517EB3
@@ -3990,7 +3954,7 @@ L yellow_fuzz_dev:TL072CP U1
 U 2 1 5ED33807
 P 8300 9950
 F 0 "U1" H 8500 9800 60  0000 L CNN
-F 1 "TL072CP" H 8500 9700 60  0000 L CNN
+F 1 "TL072CP" H 11700 9650 60  0000 L CNN
 F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 8500 10150 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8500 10250 60  0001 L CNN
 F 4 "296-1775-5-ND" H 8500 10350 60  0001 L CNN "Digi-Key_PN"
@@ -4233,4 +4197,40 @@ Wire Wire Line
 Connection ~ 8150 7500
 Text Notes 7550 6900 0    50   Italic 0
 Can’t find a 200k (much less a 250k) pot in the same mech family\nas tone controls; making one out of a dual-ganged 100k.
+Connection ~ 11250 8300
+$Comp
+L power:GND #PWR0163
+U 1 1 5E517EAD
+P 10650 8400
+F 0 "#PWR0163" H 10650 8150 50  0001 C CNN
+F 1 "GND" H 10655 8227 50  0000 C CNN
+F 2 "" H 10650 8400 50  0001 C CNN
+F 3 "" H 10650 8400 50  0001 C CNN
+	1    10650 8400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 8300 10800 8300
+Wire Wire Line
+	10650 8400 10650 8300
+Wire Wire Line
+	11100 8300 11250 8300
+$Comp
+L Device:R R25
+U 1 1 5E517E90
+P 10950 8300
+F 0 "R25" V 10900 8050 50  0000 L CNN
+F 1 "10k" V 10900 8450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 10880 8300 50  0001 C CNN
+F 3 "~" H 10950 8300 50  0001 C CNN
+F 4 "RC0603JR-071KL" H 10950 8300 50  0001 C CNN "Manufacturer PN"
+F 5 "5%" V 11000 8100 50  0000 C CNN "Tolerance"
+F 6 "Yageo" H 10950 8300 50  0001 C CNN "Manufacturer"
+F 7 "Digi-Key" H 10950 8300 50  0001 C CNN "Supplier"
+F 8 "311-1.0KGRCT-ND" H 10950 8300 50  0001 C CNN "Supplier PN"
+F 9 "0.1 W" H 10950 8300 50  0001 C CNN "Power"
+F 10 "0603" V 11000 8450 50  0000 L CNN "Package"
+	1    10950 8300
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
