@@ -4266,8 +4266,8 @@ F 0 "D6" V 9750 12950 60  0000 C CNN
 F 1 "WP7113QBC_D" V 10450 13000 60  0001 C CNN
 F 2 "digikey:LED_5mm_Radial" H 10050 12950 60  0001 L CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 10050 13050 60  0001 L CNN
-F 4 "754-1489-ND" H 10050 13150 60  0001 L CNN "Digi-Key_PN"
-F 5 "WP7113QBC/D" H 10050 13250 60  0001 L CNN "MPN"
+F 4 "754-1489-ND" H 10050 13150 60  0001 L CNN "Supplier PN"
+F 5 "WP7113QBC/D" H 10050 13250 60  0001 L CNN "Manufacturer PN"
 F 6 "Optoelectronics" H 10050 13350 60  0001 L CNN "Category"
 F 7 "LED Indication - Discrete" H 10050 13450 60  0001 L CNN "Family"
 F 8 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 10050 13550 60  0001 L CNN "DK_Datasheet_Link"
@@ -4275,6 +4275,7 @@ F 9 "/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460" H 10050 1365
 F 10 "LED BLUE CLEAR T-1 3/4 T/H" H 10050 13750 60  0001 L CNN "Description"
 F 11 "Kingbright" H 10050 13850 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 10050 13950 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 9850 12750 50  0001 C CNN "Supplier"
 	1    9850 12750
 	0    1    1    0   
 $EndComp

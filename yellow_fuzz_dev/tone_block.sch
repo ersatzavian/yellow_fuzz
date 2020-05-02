@@ -4,9 +4,9 @@ EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 2 2
-Title ""
+Title "Tone Block"
 Date ""
-Rev ""
+Rev "1.0"
 Comp ""
 Comment1 ""
 Comment2 ""

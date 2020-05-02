@@ -4,7 +4,7 @@ EELAYER END
 $Descr C 22000 17000
 encoding utf-8
 Sheet 1 2
-Title "Yellow Fuzz"
+Title "Graduator Dev"
 Date "2020-01-23"
 Rev "1.0"
 Comp ""
