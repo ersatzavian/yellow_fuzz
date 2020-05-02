@@ -742,8 +742,8 @@ F 0 "U3" H 6450 4300 60  0000 L CNN
 F 1 "TL072CP" H 6450 4200 60  0000 L CNN
 F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 6450 4650 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 6450 4750 60  0001 L CNN
-F 4 "296-1775-5-ND" H 6450 4850 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 6450 4950 60  0001 L CNN "MPN"
+F 4 "296-1775-5-ND" H 6450 4850 60  0001 L CNN "Supplier PN"
+F 5 "TL072CP" H 6450 4950 60  0001 L CNN "Manufacturer PN"
 F 6 "Integrated Circuits (ICs)" H 6450 5050 60  0001 L CNN "Category"
 F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 6450 5150 60  0001 L CNN "Family"
 F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 6450 5250 60  0001 L CNN "DK_Datasheet_Link"
@@ -751,6 +751,7 @@ F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 6450 5
 F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 6450 5450 60  0001 L CNN "Description"
 F 11 "Texas Instruments" H 6450 5550 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 6450 5650 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 6250 4450 50  0001 C CNN "Supplier"
 	1    6250 4450
 	1    0    0    -1  
 $EndComp
@@ -762,8 +763,8 @@ F 0 "U3" V 3500 6800 60  0000 L CNN
 F 1 "TL072CP" V 3600 6800 60  0000 L CNN
 F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 3550 6850 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 3550 6950 60  0001 L CNN
-F 4 "296-1775-5-ND" H 3550 7050 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 3550 7150 60  0001 L CNN "MPN"
+F 4 "296-1775-5-ND" H 3550 7050 60  0001 L CNN "Supplier PN"
+F 5 "TL072CP" H 3550 7150 60  0001 L CNN "Manufacturer PN"
 F 6 "Integrated Circuits (ICs)" H 3550 7250 60  0001 L CNN "Category"
 F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 3550 7350 60  0001 L CNN "Family"
 F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 3550 7450 60  0001 L CNN "DK_Datasheet_Link"
@@ -771,6 +772,7 @@ F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 3550 7
 F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 3550 7650 60  0001 L CNN "Description"
 F 11 "Texas Instruments" H 3550 7750 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 3550 7850 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 3350 6650 50  0001 C CNN "Supplier"
 	2    3350 6650
 	0    1    1    0   
 $EndComp
@@ -782,8 +784,8 @@ F 0 "U4" H 12550 5150 60  0000 L CNN
 F 1 "TL072CP" H 12350 5050 60  0000 L CNN
 F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 12300 5450 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12300 5550 60  0001 L CNN
-F 4 "296-1775-5-ND" H 12300 5650 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 12300 5750 60  0001 L CNN "MPN"
+F 4 "296-1775-5-ND" H 12300 5650 60  0001 L CNN "Supplier PN"
+F 5 "TL072CP" H 12300 5750 60  0001 L CNN "Manufacturer PN"
 F 6 "Integrated Circuits (ICs)" H 12300 5850 60  0001 L CNN "Category"
 F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 12300 5950 60  0001 L CNN "Family"
 F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 12300 6050 60  0001 L CNN "DK_Datasheet_Link"
@@ -791,6 +793,7 @@ F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 12300 
 F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 12300 6250 60  0001 L CNN "Description"
 F 11 "Texas Instruments" H 12300 6350 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 12300 6450 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 12100 5250 50  0001 C CNN "Supplier"
 	2    12100 5250
 	-1   0    0    -1  
 $EndComp
@@ -804,8 +807,8 @@ F 0 "U4" H 8550 4350 60  0000 L CNN
 F 1 "TL072CP" H 8550 4250 60  0000 L CNN
 F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 8650 4750 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8650 4850 60  0001 L CNN
-F 4 "296-1775-5-ND" H 8650 4950 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 8650 5050 60  0001 L CNN "MPN"
+F 4 "296-1775-5-ND" H 8650 4950 60  0001 L CNN "Supplier PN"
+F 5 "TL072CP" H 8650 5050 60  0001 L CNN "Manufacturer PN"
 F 6 "Integrated Circuits (ICs)" H 8650 5150 60  0001 L CNN "Category"
 F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 8650 5250 60  0001 L CNN "Family"
 F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8650 5350 60  0001 L CNN "DK_Datasheet_Link"
@@ -813,6 +816,7 @@ F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 8650 5
 F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 8650 5550 60  0001 L CNN "Description"
 F 11 "Texas Instruments" H 8650 5650 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 8650 5750 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 8450 4550 50  0001 C CNN "Supplier"
 	1    8450 4550
 	1    0    0    -1  
 $EndComp
@@ -857,9 +861,9 @@ F 1 "PTV112-4420A-A503" H 10440 6770 60  0001 L CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 10450 6950 60  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 10450 7050 60  0001 L CNN
 F 4 "Bourns" H 10450 7150 60  0001 L CNN "Manufacturer"
-F 5 "PTV112-4420A-A503" H 10450 7250 60  0001 L CNN "Manufacturer Part Number"
+F 5 "PTV112-4420A-A503" H 10450 7250 60  0001 L CNN "Manufacturer PN"
 F 6 "Mouser" H 10450 7350 60  0001 L CNN "Supplier"
-F 7 "652-PTV112-4420AA503" H 10450 7450 60  0001 L CNN "Supplier Part Number"
+F 7 "652-PTV112-4420AA503" H 10450 7450 60  0001 L CNN "Supplier PN"
 F 8 "Dual" V 10050 6650 50  0000 R CNN "Gangs"
 F 9 "Log" V 10150 6650 50  0000 R CNN "Taper"
 F 10 "50k" V 9950 6650 50  0000 R CNN "Resistance"
@@ -875,9 +879,9 @@ F 1 "PTV112-4420A-A503" H 11140 6070 60  0001 L CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical" H 11150 6250 60  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 11150 6350 60  0001 L CNN
 F 4 "Bourns" H 11150 6450 60  0001 L CNN "Manufacturer"
-F 5 "PTV112-4420A-A503" H 11150 6550 60  0001 L CNN "Manufacturer Part Number"
+F 5 "PTV112-4420A-A503" H 11150 6550 60  0001 L CNN "Manufacturer PN"
 F 6 "Mouser" H 11150 6650 60  0001 L CNN "Supplier"
-F 7 "652-PTV112-4420AA503" H 11150 6750 60  0001 L CNN "Supplier Part Number"
+F 7 "652-PTV112-4420AA503" H 11150 6750 60  0001 L CNN "Supplier PN"
 F 8 "Dual" H 10900 5700 50  0000 C CNN "Gangs"
 F 9 "Log" H 10900 5600 50  0000 C CNN "Taper"
 F 10 "50k" H 10900 5800 50  0000 C CNN "Resistance"
@@ -893,9 +897,9 @@ F 1 "PTV111-4420A-A503" H 13140 5220 60  0001 L CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 13150 5400 60  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 13150 5500 60  0001 L CNN
 F 4 "Bourns" H 13150 5600 60  0001 L CNN "Manufacturer"
-F 5 "PTV111-4420A-A503" H 13150 5700 60  0001 L CNN "Manufacturer Part Number"
+F 5 "PTV111-4420A-A503" H 13150 5700 60  0001 L CNN "Manufacturer PN"
 F 6 "Mouser" H 13150 5800 60  0001 L CNN "Supplier"
-F 7 "652-PTV111-4420AA503" H 13150 5900 60  0001 L CNN "Supplier Part Number"
+F 7 "652-PTV111-4420AA503" H 13150 5900 60  0001 L CNN "Supplier PN"
 F 8 "Single" H 12350 5450 50  0001 L CNN "Gangs"
 F 9 "Log" V 12693 5012 50  0000 R CNN "Taper"
 F 10 "50k" V 12602 5012 50  0000 R CNN "Resistance"
@@ -924,9 +928,9 @@ F 1 "PTV111-4420A-A104" H 8790 6320 60  0001 L CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 8800 6500 60  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 8800 6600 60  0001 L CNN
 F 4 "Bourns" H 8800 6700 60  0001 L CNN "Manufacturer"
-F 5 "PTV111-4420A-A104" H 8800 6800 60  0001 L CNN "Manufacturer Part Number"
+F 5 "PTV111-4420A-A104" H 8800 6800 60  0001 L CNN "Manufacturer PN"
 F 6 "Mouser" H 8800 6900 60  0001 L CNN "Supplier"
-F 7 "652-PTV111-4420AA104" H 8800 7000 60  0001 L CNN "Supplier Part Number"
+F 7 "652-PTV111-4420AA104" H 8800 7000 60  0001 L CNN "Supplier PN"
 F 8 "Single" H 8000 6550 50  0001 L CNN "Gangs"
 F 9 "Log" H 8550 6700 50  0000 C CNN "Taper"
 F 10 "100k" H 8600 6600 50  0000 C CNN "Resistance"
@@ -969,9 +973,9 @@ F 1 "PTV111-4420A-A104" H 5290 3170 60  0001 L CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5300 3350 60  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 5300 3450 60  0001 L CNN
 F 4 "Bourns" H 5300 3550 60  0001 L CNN "Manufacturer"
-F 5 "PTV111-4420A-A104" H 5300 3650 60  0001 L CNN "Manufacturer Part Number"
+F 5 "PTV111-4420A-A104" H 5300 3650 60  0001 L CNN "Manufacturer PN"
 F 6 "Mouser" H 5300 3750 60  0001 L CNN "Supplier"
-F 7 "652-PTV111-4420AA104" H 5300 3850 60  0001 L CNN "Supplier Part Number"
+F 7 "652-PTV111-4420AA104" H 5300 3850 60  0001 L CNN "Supplier PN"
 F 8 "Single" H 4500 3400 50  0001 L CNN "Gangs"
 F 9 "Log" V 4800 2900 50  0000 C CNN "Taper"
 F 10 "100k" V 4900 2900 50  0000 C CNN "Resistance"
@@ -987,9 +991,9 @@ F 1 "PTV111-4420A-A104" H 5290 5270 60  0001 L CNN
 F 2 "yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical" H 5300 5450 60  0001 L CNN
 F 3 "https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf" H 5300 5550 60  0001 L CNN
 F 4 "Bourns" H 5300 5650 60  0001 L CNN "Manufacturer"
-F 5 "PTV111-4420A-A104" H 5300 5750 60  0001 L CNN "Manufacturer Part Number"
+F 5 "PTV111-4420A-A104" H 5300 5750 60  0001 L CNN "Manufacturer PN"
 F 6 "Mouser" H 5300 5850 60  0001 L CNN "Supplier"
-F 7 "652-PTV111-4420AA104" H 5300 5950 60  0001 L CNN "Supplier Part Number"
+F 7 "652-PTV111-4420AA104" H 5300 5950 60  0001 L CNN "Supplier PN"
 F 8 "Single" H 4500 5500 50  0001 L CNN "Gangs"
 F 9 "Log" V 5000 5000 50  0000 C CNN "Taper"
 F 10 "100k" V 4900 5000 50  0000 C CNN "Resistance"

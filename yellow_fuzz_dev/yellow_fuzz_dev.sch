@@ -92,14 +92,15 @@ F 0 "Q4" H 3588 2353 60  0000 L CNN
 F 1 "NSVJ3910SB3T1GOSCT-ND" H 3588 2247 60  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 3600 2500 60  0001 L CNN
 F 3 "" H 3600 2600 60  0001 L CNN
-F 4 "J113FS-ND" H 3600 2700 60  0001 L CNN "Digi-Key_PN"
-F 5 "NSVJ3910SB3T1G" H 3600 2800 60  0001 L CNN "MPN"
+F 4 "J113FS-ND" H 3600 2700 60  0001 L CNN "Supplier PN"
+F 5 "NSVJ3910SB3T1G" H 3600 2800 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 3600 2900 60  0001 L CNN "Category"
 F 7 "Transistors - JFETs" H 3600 3000 60  0001 L CNN "Family"
 F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&pkeyword=&sv=0&pv1989=0&pv1183=u25V&pv2270=u180mV+%40+1%C2%B5A&pv2270=u200mV+%40+100%C2%B5A&pv2270=u300mV+%40+100%C2%B5A&pv2270=u600mV+%40+10%C2%B5A&pv2270=u600mV+%40+100%C2%B5A&sf=1&FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&quantity=&pbfree=1&ColumnSort=0&page=1&stock=1&rohs=1&pageSize=250" H 3600 3200 60  0001 L CNN "DK_Detail_Page"
 F 9 "IC JFET N-CH 25V 50MA 3CPH" H 3600 3300 60  0001 L CNN "Description"
 F 10 "ON Semiconductor" H 3600 3400 60  0001 L CNN "Manufacturer"
 F 11 "Active" H 3600 3500 60  0001 L CNN "Status"
+F 12 "Digi-Key" H 3400 2300 50  0001 C CNN "Supplier"
 	1    3400 2300
 	1    0    0    -1  
 $EndComp
@@ -111,8 +112,8 @@ F 0 "D3" H 8400 15187 60  0000 C CNN
 F 1 "WP7113QBC_D" H 8400 15081 60  0000 C CNN
 F 2 "digikey:LED_5mm_Radial" H 8650 15050 60  0001 L CNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 8650 15150 60  0001 L CNN
-F 4 "754-1489-ND" H 8650 15250 60  0001 L CNN "Digi-Key_PN"
-F 5 "WP7113QBC/D" H 8650 15350 60  0001 L CNN "MPN"
+F 4 "754-1489-ND" H 8650 15250 60  0001 L CNN "Supplier PN"
+F 5 "WP7113QBC/D" H 8650 15350 60  0001 L CNN "Manufacturer PN"
 F 6 "Optoelectronics" H 8650 15450 60  0001 L CNN "Category"
 F 7 "LED Indication - Discrete" H 8650 15550 60  0001 L CNN "Family"
 F 8 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 8650 15650 60  0001 L CNN "DK_Datasheet_Link"
@@ -120,6 +121,7 @@ F 9 "/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460" H 8650 15750
 F 10 "LED BLUE CLEAR T-1 3/4 T/H" H 8650 15850 60  0001 L CNN "Description"
 F 11 "Kingbright" H 8650 15950 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 8650 16050 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 8450 14850 50  0001 C CNN "Supplier"
 	1    8450 14850
 	1    0    0    -1  
 $EndComp
@@ -194,8 +196,8 @@ F 0 "Q9" H 14838 1803 60  0000 L CNN
 F 1 "BC817-25-TP" H 14838 1697 60  0000 L CNN
 F 2 "digikey:SOT-23-3" H 14850 1950 60  0001 L CNN
 F 3 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 14850 2050 60  0001 L CNN
-F 4 "BC817-25-TPMSCT-ND" H 14850 2150 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25-TP" H 14850 2250 60  0001 L CNN "MPN"
+F 4 "BC817-25-TPMSCT-ND" H 14850 2150 60  0001 L CNN "Supplier PN"
+F 5 "BC817-25-TP" H 14850 2250 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 14850 2350 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 14850 2450 60  0001 L CNN "Family"
 F 8 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 14850 2550 60  0001 L CNN "DK_Datasheet_Link"
@@ -203,6 +205,7 @@ F 9 "/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/19601
 F 10 "TRANS NPN 45V 0.8A SOT-23" H 14850 2750 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 14850 2850 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 14850 2950 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 14650 1750 50  0001 C CNN "Supplier"
 	1    14650 1750
 	1    0    0    -1  
 $EndComp
@@ -297,14 +300,15 @@ F 0 "Q11" H 16688 2253 60  0000 L CNN
 F 1 "NSVJ3910SB3T1GOSCT-ND" H 16688 2147 60  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 16700 2400 60  0001 L CNN
 F 3 "" H 16700 2500 60  0001 L CNN
-F 4 "J113FS-ND" H 16700 2600 60  0001 L CNN "Digi-Key_PN"
-F 5 "NSVJ3910SB3T1G" H 16700 2700 60  0001 L CNN "MPN"
+F 4 "J113FS-ND" H 16700 2600 60  0001 L CNN "Supplier PN"
+F 5 "NSVJ3910SB3T1G" H 16700 2700 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 16700 2800 60  0001 L CNN "Category"
 F 7 "Transistors - JFETs" H 16700 2900 60  0001 L CNN "Family"
 F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&pkeyword=&sv=0&pv1989=0&pv1183=u25V&pv2270=u180mV+%40+1%C2%B5A&pv2270=u200mV+%40+100%C2%B5A&pv2270=u300mV+%40+100%C2%B5A&pv2270=u600mV+%40+10%C2%B5A&pv2270=u600mV+%40+100%C2%B5A&sf=1&FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&quantity=&pbfree=1&ColumnSort=0&page=1&stock=1&rohs=1&pageSize=250" H 16700 3100 60  0001 L CNN "DK_Detail_Page"
 F 9 "IC JFET N-CH 25V 50MA 3CPH" H 16700 3200 60  0001 L CNN "Description"
 F 10 "ON Semiconductor" H 16700 3300 60  0001 L CNN "Manufacturer"
 F 11 "Active" H 16700 3400 60  0001 L CNN "Status"
+F 12 "Digi-Key" H 16500 2200 50  0001 C CNN "Supplier"
 	1    16500 2200
 	0    -1   -1   0   
 $EndComp
@@ -334,8 +338,8 @@ F 0 "Q13" H 18588 2153 60  0000 L CNN
 F 1 "BC817-25-TP" H 18588 2047 60  0000 L CNN
 F 2 "digikey:SOT-23-3" H 18600 2300 60  0001 L CNN
 F 3 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 18600 2400 60  0001 L CNN
-F 4 "BC817-25-TPMSCT-ND" H 18600 2500 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25-TP" H 18600 2600 60  0001 L CNN "MPN"
+F 4 "BC817-25-TPMSCT-ND" H 18600 2500 60  0001 L CNN "Supplier PN"
+F 5 "BC817-25-TP" H 18600 2600 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 18600 2700 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 18600 2800 60  0001 L CNN "Family"
 F 8 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 18600 2900 60  0001 L CNN "DK_Datasheet_Link"
@@ -343,6 +347,7 @@ F 9 "/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/19601
 F 10 "TRANS NPN 45V 0.8A SOT-23" H 18600 3100 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 18600 3200 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 18600 3300 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 18400 2100 50  0001 C CNN "Supplier"
 	1    18400 2100
 	1    0    0    -1  
 $EndComp
@@ -496,8 +501,8 @@ F 1 "BAS16W" V 16455 2721 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 16500 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf" H 16500 2800 50  0001 C CNN
 F 4 "ON Semiconductor" V 16500 2800 50  0001 C CNN "Manufacturer"
-F 5 "BAS16WT1G" V 16500 2800 50  0001 C CNN "Manufacturer Part Number"
-F 6 "BAS16WT1GOSCT-ND" V 16500 2800 50  0001 C CNN "Supplier Part Number"
+F 5 "BAS16WT1G" V 16500 2800 50  0001 C CNN "Manufacturer PN"
+F 6 "BAS16WT1GOSCT-ND" V 16500 2800 50  0001 C CNN "Supplier PN"
 F 7 "Digi-Key" V 16500 2800 50  0001 C CNN "Supplier"
 	1    16500 2800
 	0    -1   -1   0   
@@ -510,14 +515,15 @@ F 0 "Q14" V 19550 9700 60  0000 L CNN
 F 1 "NSVJ3910SB3T1GOSCT-ND" V 19450 8650 60  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 19800 10250 60  0001 L CNN
 F 3 "" H 19800 10350 60  0001 L CNN
-F 4 "J113FS-ND" H 19800 10450 60  0001 L CNN "Digi-Key_PN"
-F 5 "NSVJ3910SB3T1G" H 19800 10550 60  0001 L CNN "MPN"
+F 4 "J113FS-ND" H 19800 10450 60  0001 L CNN "Supplier PN"
+F 5 "NSVJ3910SB3T1G" H 19800 10550 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 19800 10650 60  0001 L CNN "Category"
 F 7 "Transistors - JFETs" H 19800 10750 60  0001 L CNN "Family"
 F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&pkeyword=&sv=0&pv1989=0&pv1183=u25V&pv2270=u180mV+%40+1%C2%B5A&pv2270=u200mV+%40+100%C2%B5A&pv2270=u300mV+%40+100%C2%B5A&pv2270=u600mV+%40+10%C2%B5A&pv2270=u600mV+%40+100%C2%B5A&sf=1&FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&quantity=&pbfree=1&ColumnSort=0&page=1&stock=1&rohs=1&pageSize=250" H 19800 10950 60  0001 L CNN "DK_Detail_Page"
 F 9 "IC JFET N-CH 25V 50MA 3CPH" H 19800 11050 60  0001 L CNN "Description"
 F 10 "ON Semiconductor" H 19800 11150 60  0001 L CNN "Manufacturer"
 F 11 "Active" H 19800 11250 60  0001 L CNN "Status"
+F 12 "Digi-Key" V 19600 10050 50  0001 C CNN "Supplier"
 	1    19600 10050
 	0    -1   -1   0   
 $EndComp
@@ -530,8 +536,8 @@ F 1 "BAS16W" V 19555 10571 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 19600 10475 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf" H 19600 10650 50  0001 C CNN
 F 4 "ON Semiconductor" V 19600 10650 50  0001 C CNN "Manufacturer"
-F 5 "BAS16WT1G" V 19600 10650 50  0001 C CNN "Manufacturer Part Number"
-F 6 "BAS16WT1GOSCT-ND" V 19600 10650 50  0001 C CNN "Supplier Part Number"
+F 5 "BAS16WT1G" V 19600 10650 50  0001 C CNN "Manufacturer PN"
+F 6 "BAS16WT1GOSCT-ND" V 19600 10650 50  0001 C CNN "Supplier PN"
 F 7 "Digi-Key" V 19600 10650 50  0001 C CNN "Supplier"
 	1    19600 10650
 	0    -1   -1   0   
@@ -619,6 +625,10 @@ F 0 "D2" H 7050 14800 50  0000 C CNN
 F 1 "DZ2S056X0L" H 7250 14700 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-523" H 7250 14675 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05600L_E.pdf" H 7250 14850 50  0001 C CNN
+F 4 "Digi-Key" H 7250 14850 50  0001 C CNN "Supplier"
+F 5 "DZ2S056M0LCT-ND" H 7250 14850 50  0001 C CNN "Supplier PN"
+F 6 "Panasonic Electronic Components" H 7250 14850 50  0001 C CNN "Manufacturer"
+F 7 "DZ2S056M0L" H 7250 14850 50  0001 C CNN "Manufacturer PN"
 	1    7250 14850
 	1    0    0    -1  
 $EndComp
@@ -835,8 +845,8 @@ F 0 "Q12" H 17988 13303 60  0000 L CNN
 F 1 "BC817-25-TP" H 17988 13197 60  0000 L CNN
 F 2 "digikey:SOT-23-3" H 18000 13450 60  0001 L CNN
 F 3 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 18000 13550 60  0001 L CNN
-F 4 "BC817-25-TPMSCT-ND" H 18000 13650 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25-TP" H 18000 13750 60  0001 L CNN "MPN"
+F 4 "BC817-25-TPMSCT-ND" H 18000 13650 60  0001 L CNN "Supplier PN"
+F 5 "BC817-25-TP" H 18000 13750 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 18000 13850 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 18000 13950 60  0001 L CNN "Family"
 F 8 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 18000 14050 60  0001 L CNN "DK_Datasheet_Link"
@@ -844,6 +854,7 @@ F 9 "/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/19601
 F 10 "TRANS NPN 45V 0.8A SOT-23" H 18000 14250 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 18000 14350 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 18000 14450 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 17800 13250 50  0001 C CNN "Supplier"
 	1    17800 13250
 	1    0    0    -1  
 $EndComp
@@ -855,8 +866,8 @@ F 0 "Q10" H 15488 13303 60  0000 L CNN
 F 1 "BC817-25-TP" H 15488 13197 60  0000 L CNN
 F 2 "digikey:SOT-23-3" H 15500 13450 60  0001 L CNN
 F 3 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 15500 13550 60  0001 L CNN
-F 4 "BC817-25-TPMSCT-ND" H 15500 13650 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25-TP" H 15500 13750 60  0001 L CNN "MPN"
+F 4 "BC817-25-TPMSCT-ND" H 15500 13650 60  0001 L CNN "Supplier PN"
+F 5 "BC817-25-TP" H 15500 13750 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 15500 13850 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 15500 13950 60  0001 L CNN "Family"
 F 8 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 15500 14050 60  0001 L CNN "DK_Datasheet_Link"
@@ -864,6 +875,7 @@ F 9 "/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/19601
 F 10 "TRANS NPN 45V 0.8A SOT-23" H 15500 14250 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 15500 14350 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 15500 14450 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 15300 13250 50  0001 C CNN "Supplier"
 	1    15300 13250
 	-1   0    0    -1  
 $EndComp
@@ -1350,6 +1362,10 @@ F 0 "Q3" H 3005 15596 50  0000 L CNN
 F 1 "DMN2041L" H 3005 15505 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 3000 15475 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/products_inactive_data/DMN2041L.pdf" H 2800 15550 50  0001 L CNN
+F 4 "Digi-Key" H 2800 15550 50  0001 C CNN "Supplier"
+F 5 "DMN2041L-7DICT-ND" H 2800 15550 50  0001 C CNN "Supplier PN"
+F 6 "Diodes Incorporated" H 2800 15550 50  0001 C CNN "Manufacturer"
+F 7 "DMN2041L-7" H 2800 15550 50  0001 C CNN "Manufacturer PN"
 	1    2800 15550
 	-1   0    0    -1  
 $EndComp
@@ -1361,6 +1377,10 @@ F 0 "Q1" H 2305 14246 50  0000 L CNN
 F 1 "DMN2041L" H 2305 14155 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 2300 14125 50  0001 L CIN
 F 3 "https://www.diodes.com/assets/Datasheets/products_inactive_data/DMN2041L.pdf" H 2100 14200 50  0001 L CNN
+F 4 "Digi-Key" H 2100 14200 50  0001 C CNN "Supplier"
+F 5 "DMN2041L-7DICT-ND" H 2100 14200 50  0001 C CNN "Supplier PN"
+F 6 "Diodes Incorporated" H 2100 14200 50  0001 C CNN "Manufacturer"
+F 7 "DMN2041L-7" H 2100 14200 50  0001 C CNN "Manufacturer PN"
 	1    2100 14200
 	-1   0    0    -1  
 $EndComp
@@ -1463,8 +1483,8 @@ F 1 "BAS16W" V 2655 10771 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:SOT-323_SC-70" H 2700 10675 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf" H 2700 10850 50  0001 C CNN
 F 4 "ON Semiconductor" V 2700 10850 50  0001 C CNN "Manufacturer"
-F 5 "BAS16WT1G" V 2700 10850 50  0001 C CNN "Manufacturer Part Number"
-F 6 "BAS16WT1GOSCT-ND" V 2700 10850 50  0001 C CNN "Supplier Part Number"
+F 5 "BAS16WT1G" V 2700 10850 50  0001 C CNN "Manufacturer PN"
+F 6 "BAS16WT1GOSCT-ND" V 2700 10850 50  0001 C CNN "Supplier PN"
 F 7 "Digi-Key" V 2700 10850 50  0001 C CNN "Supplier"
 	1    2700 10850
 	0    -1   -1   0   
@@ -1973,8 +1993,8 @@ F 0 "D7" V 10600 12800 50  0000 R CNN
 F 1 "1N4148" V 10700 13000 50  0000 R CNN
 F 2 "digikey:Diode_DO-35_P10mm" H 10800 12850 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 10800 12950 60  0001 L CNN
-F 4 "1N4148FS-ND" H 10800 13050 60  0001 L CNN "Digi-Key_PN"
-F 5 "1N4148" H 10800 13150 60  0001 L CNN "MPN"
+F 4 "1N4148FS-ND" H 10800 13050 60  0001 L CNN "Supplier PN"
+F 5 "1N4148" H 10800 13150 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 10800 13250 60  0001 L CNN "Category"
 F 7 "Diodes - Rectifiers - Single" H 10800 13350 60  0001 L CNN "Family"
 F 8 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 10800 13450 60  0001 L CNN "DK_Datasheet_Link"
@@ -1982,6 +2002,7 @@ F 9 "/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603" H 10800 1355
 F 10 "DIODE GEN PURP 100V 200MA DO35" H 10800 13650 60  0001 L CNN "Description"
 F 11 "ON Semiconductor" H 10800 13750 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 10800 13850 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 10600 12650 50  0001 C CNN "Supplier"
 	1    10600 12650
 	0    -1   1    0   
 $EndComp
@@ -1993,8 +2014,8 @@ F 0 "D4" V 9350 12950 50  0000 R CNN
 F 1 "1N4148" V 9250 13150 50  0000 R CNN
 F 2 "digikey:Diode_DO-35_P10mm" H 9450 12950 60  0001 L CNN
 F 3 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 9450 13050 60  0001 L CNN
-F 4 "1N4148FS-ND" H 9450 13150 60  0001 L CNN "Digi-Key_PN"
-F 5 "1N4148" H 9450 13250 60  0001 L CNN "MPN"
+F 4 "1N4148FS-ND" H 9450 13150 60  0001 L CNN "Supplier PN"
+F 5 "1N4148" H 9450 13250 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 9450 13350 60  0001 L CNN "Category"
 F 7 "Diodes - Rectifiers - Single" H 9450 13450 60  0001 L CNN "Family"
 F 8 "https://www.onsemi.com/pub/Collateral/1N914-D.PDF" H 9450 13550 60  0001 L CNN "DK_Datasheet_Link"
@@ -2002,6 +2023,7 @@ F 9 "/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603" H 9450 13650
 F 10 "DIODE GEN PURP 100V 200MA DO35" H 9450 13750 60  0001 L CNN "Description"
 F 11 "ON Semiconductor" H 9450 13850 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 9450 13950 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 9250 12750 50  0001 C CNN "Supplier"
 	1    9250 12750
 	0    -1   -1   0   
 $EndComp
@@ -2242,14 +2264,15 @@ F 0 "Q2" V 2600 10500 60  0000 L CNN
 F 1 "NSVJ3910SB3T1GOSCT-ND" V 2500 10450 60  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23_Handsoldering" H 2900 10450 60  0001 L CNN
 F 3 "" H 2900 10550 60  0001 L CNN
-F 4 "J113FS-ND" H 2900 10650 60  0001 L CNN "Digi-Key_PN"
-F 5 "NSVJ3910SB3T1G" H 2900 10750 60  0001 L CNN "MPN"
+F 4 "J113FS-ND" H 2900 10650 60  0001 L CNN "Supplier PN"
+F 5 "NSVJ3910SB3T1G" H 2900 10750 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 2900 10850 60  0001 L CNN "Category"
 F 7 "Transistors - JFETs" H 2900 10950 60  0001 L CNN "Family"
 F 8 "https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&pkeyword=&sv=0&pv1989=0&pv1183=u25V&pv2270=u180mV+%40+1%C2%B5A&pv2270=u200mV+%40+100%C2%B5A&pv2270=u300mV+%40+100%C2%B5A&pv2270=u600mV+%40+10%C2%B5A&pv2270=u600mV+%40+100%C2%B5A&sf=1&FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&quantity=&pbfree=1&ColumnSort=0&page=1&stock=1&rohs=1&pageSize=250" H 2900 11150 60  0001 L CNN "DK_Detail_Page"
 F 9 "IC JFET N-CH 25V 50MA 3CPH" H 2900 11250 60  0001 L CNN "Description"
 F 10 "ON Semiconductor" H 2900 11350 60  0001 L CNN "Manufacturer"
 F 11 "Active" H 2900 11450 60  0001 L CNN "Status"
+F 12 "Digi-Key" V 2700 10250 50  0001 C CNN "Supplier"
 	1    2700 10250
 	0    -1   -1   0   
 $EndComp
@@ -2277,8 +2300,8 @@ F 0 "Q5" H 3888 8453 60  0000 L CNN
 F 1 "BC817-25-TP" H 3888 8347 60  0000 L CNN
 F 2 "digikey:SOT-23-3" H 3900 8600 60  0001 L CNN
 F 3 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 3900 8700 60  0001 L CNN
-F 4 "BC817-25-TPMSCT-ND" H 3900 8800 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25-TP" H 3900 8900 60  0001 L CNN "MPN"
+F 4 "BC817-25-TPMSCT-ND" H 3900 8800 60  0001 L CNN "Supplier PN"
+F 5 "BC817-25-TP" H 3900 8900 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 3900 9000 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 3900 9100 60  0001 L CNN "Family"
 F 8 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 3900 9200 60  0001 L CNN "DK_Datasheet_Link"
@@ -2286,6 +2309,7 @@ F 9 "/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/19601
 F 10 "TRANS NPN 45V 0.8A SOT-23" H 3900 9400 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 3900 9500 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 3900 9600 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 3700 8400 50  0001 C CNN "Supplier"
 	1    3700 8400
 	0    1    1    0   
 $EndComp
@@ -2945,8 +2969,8 @@ F 0 "Q6" V 4000 5900 60  0000 L CNN
 F 1 "BC817-25-TP" V 4100 5900 60  0000 L CNN
 F 2 "digikey:SOT-23-3" H 3950 6300 60  0001 L CNN
 F 3 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 3950 6400 60  0001 L CNN
-F 4 "BC817-25-TPMSCT-ND" H 3950 6500 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25-TP" H 3950 6600 60  0001 L CNN "MPN"
+F 4 "BC817-25-TPMSCT-ND" H 3950 6500 60  0001 L CNN "Supplier PN"
+F 5 "BC817-25-TP" H 3950 6600 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 3950 6700 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 3950 6800 60  0001 L CNN "Family"
 F 8 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 3950 6900 60  0001 L CNN "DK_Datasheet_Link"
@@ -2954,6 +2978,7 @@ F 9 "/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/19601
 F 10 "TRANS NPN 45V 0.8A SOT-23" H 3950 7100 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 3950 7200 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 3950 7300 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 3750 6100 50  0001 C CNN "Supplier"
 	1    3750 6100
 	0    1    1    0   
 $EndComp
@@ -3076,8 +3101,8 @@ F 0 "Q8" V 12450 8250 60  0000 L CNN
 F 1 "BC817-25-TP" V 12550 8250 60  0000 L CNN
 F 2 "digikey:SOT-23-3" H 12400 8400 60  0001 L CNN
 F 3 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 12400 8500 60  0001 L CNN
-F 4 "BC817-25-TPMSCT-ND" H 12400 8600 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25-TP" H 12400 8700 60  0001 L CNN "MPN"
+F 4 "BC817-25-TPMSCT-ND" H 12400 8600 60  0001 L CNN "Supplier PN"
+F 5 "BC817-25-TP" H 12400 8700 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 12400 8800 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 12400 8900 60  0001 L CNN "Family"
 F 8 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 12400 9000 60  0001 L CNN "DK_Datasheet_Link"
@@ -3085,6 +3110,7 @@ F 9 "/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/19601
 F 10 "TRANS NPN 45V 0.8A SOT-23" H 12400 9200 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 12400 9300 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 12400 9400 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 12200 8200 50  0001 C CNN "Supplier"
 	1    12200 8200
 	0    1    1    0   
 $EndComp
@@ -3357,8 +3383,8 @@ F 0 "Q7" V 12400 6150 60  0000 L CNN
 F 1 "BC817-25-TP" V 12500 6150 60  0000 L CNN
 F 2 "digikey:SOT-23-3" H 12400 6350 60  0001 L CNN
 F 3 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 12400 6450 60  0001 L CNN
-F 4 "BC817-25-TPMSCT-ND" H 12400 6550 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC817-25-TP" H 12400 6650 60  0001 L CNN "MPN"
+F 4 "BC817-25-TPMSCT-ND" H 12400 6550 60  0001 L CNN "Supplier PN"
+F 5 "BC817-25-TP" H 12400 6650 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 12400 6750 60  0001 L CNN "Category"
 F 7 "Transistors - Bipolar (BJT) - Single" H 12400 6850 60  0001 L CNN "Family"
 F 8 "https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf" H 12400 6950 60  0001 L CNN "DK_Datasheet_Link"
@@ -3366,6 +3392,7 @@ F 9 "/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/19601
 F 10 "TRANS NPN 45V 0.8A SOT-23" H 12400 7150 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 12400 7250 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 12400 7350 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 12200 6150 50  0001 C CNN "Supplier"
 	1    12200 6150
 	0    1    1    0   
 $EndComp
@@ -3389,9 +3416,9 @@ F 1 "SW_SP3T_A24JP" H 4150 4700 50  0001 L CNN
 F 2 "yellow_fuzz_dev:A24JP" H 4150 4900 50  0001 L CNN
 F 3 "~" H 4425 4425 50  0001 L CNN
 F 4 "NKK Switches" H 4150 4800 50  0001 L CNN "Manufacturer"
-F 5 "A24JP" H 5050 4442 50  0000 C CNN "Manufacturer Part Number"
+F 5 "A24JP" H 5050 4442 50  0000 C CNN "Manufacturer PN"
 F 6 "Digi-Key" H 4150 5100 50  0001 L CNN "Supplier"
-F 7 "360-3408-ND" H 4150 5000 50  0001 L CNN "Supplier Part Number"
+F 7 "360-3408-ND" H 4150 5000 50  0001 L CNN "Supplier PN"
 	1    5050 4250
 	-1   0    0    -1  
 $EndComp
@@ -3427,9 +3454,9 @@ F 1 "SW_SPST_A11JP" H 12700 5100 50  0001 L CNN
 F 2 "yellow_fuzz_dev:A11JP" H 12700 5200 50  0001 L CNN
 F 3 "~" H 13000 4700 50  0001 L CNN
 F 4 "NKK Switches" H 12700 5000 50  0001 L CNN "Manufacturer"
-F 5 "A11JP" H 13300 4750 50  0000 C CNN "Manufactuer Part Number"
+F 5 "A11JP" H 13300 4750 50  0000 C CNN "Manufactuer PN"
 F 6 "Digi-Key" H 12700 4600 50  0001 L CNN "Supplier"
-F 7 "360-2973-ND" H 12700 4500 50  0001 L CNN "Supplier Part Number"
+F 7 "360-2973-ND" H 12700 4500 50  0001 L CNN "Supplier PN"
 	1    13000 4700
 	1    0    0    -1  
 $EndComp
@@ -3442,9 +3469,9 @@ F 1 "SW_SPST_A11JP" H 12700 7150 50  0001 L CNN
 F 2 "yellow_fuzz_dev:A11JP" H 12700 7250 50  0001 L CNN
 F 3 "~" H 13000 6750 50  0001 L CNN
 F 4 "NKK Switches" H 12700 7050 50  0001 L CNN "Manufacturer"
-F 5 "A11JP" H 13350 6800 50  0000 C CNN "Manufactuer Part Number"
+F 5 "A11JP" H 13350 6800 50  0000 C CNN "Manufactuer PN"
 F 6 "Digi-Key" H 12700 6650 50  0001 L CNN "Supplier"
-F 7 "360-2973-ND" H 12700 6550 50  0001 L CNN "Supplier Part Number"
+F 7 "360-2973-ND" H 12700 6550 50  0001 L CNN "Supplier PN"
 	1    13000 6750
 	1    0    0    -1  
 $EndComp
@@ -3491,9 +3518,9 @@ F 1 "SW_SP3T_A24JP" H 8450 12700 50  0001 L CNN
 F 2 "yellow_fuzz_dev:A24JP" H 8450 12900 50  0001 L CNN
 F 3 "~" H 8725 12425 50  0001 L CNN
 F 4 "NKK Switches" H 8450 12800 50  0001 L CNN "Manufacturer"
-F 5 "A24JP" V 9400 12650 50  0000 C CNN "Manufacturer Part Number"
+F 5 "A24JP" V 9400 12650 50  0000 C CNN "Manufacturer PN"
 F 6 "Digi-Key" H 8450 13100 50  0001 L CNN "Supplier"
-F 7 "360-3408-ND" H 8450 13000 50  0001 L CNN "Supplier Part Number"
+F 7 "360-3408-ND" H 8450 13000 50  0001 L CNN "Supplier PN"
 	1    9350 12250
 	0    -1   1    0   
 $EndComp
@@ -3516,9 +3543,9 @@ F 1 "SW_SP3T_A24JP" H 9800 12700 50  0001 L CNN
 F 2 "yellow_fuzz_dev:A24JP" H 9800 12900 50  0001 L CNN
 F 3 "~" H 10075 12425 50  0001 L CNN
 F 4 "NKK Switches" H 9800 12800 50  0001 L CNN "Manufacturer"
-F 5 "A24JP" V 10750 12550 50  0000 C CNN "Manufacturer Part Number"
+F 5 "A24JP" V 10750 12550 50  0000 C CNN "Manufacturer PN"
 F 6 "Digi-Key" H 9800 13100 50  0001 L CNN "Supplier"
-F 7 "360-3408-ND" H 9800 13000 50  0001 L CNN "Supplier Part Number"
+F 7 "360-3408-ND" H 9800 13000 50  0001 L CNN "Supplier PN"
 	1    10700 12250
 	0    -1   1    0   
 $EndComp
@@ -3545,26 +3572,6 @@ Three-position toggle implements \nSP3T when pins 3 and 5 are connected.\n\nNow 
 Text Notes 8400 11650 0    50   Italic 0
 Let’s see if this takes the fizz out maybe.
 $Comp
-L yellow_fuzz_dev-rescue:WP7113QBC_D-dk_LEDs D6
-U 1 1 5F381BCC
-P 9850 12750
-F 0 "D6" V 9750 12950 60  0000 C CNN
-F 1 "WP7113QBC_D" V 10450 13000 60  0001 C CNN
-F 2 "digikey:LED_5mm_Radial" H 10050 12950 60  0001 L CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 10050 13050 60  0001 L CNN
-F 4 "754-1489-ND" H 10050 13150 60  0001 L CNN "Digi-Key_PN"
-F 5 "WP7113QBC/D" H 10050 13250 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 10050 13350 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 10050 13450 60  0001 L CNN "Family"
-F 8 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 10050 13550 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460" H 10050 13650 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED BLUE CLEAR T-1 3/4 T/H" H 10050 13750 60  0001 L CNN "Description"
-F 11 "Kingbright" H 10050 13850 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 10050 13950 60  0001 L CNN "Status"
-	1    9850 12750
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR01
 U 1 1 5F3E56C6
 P 9650 13050
@@ -3574,26 +3581,6 @@ F 2 "" H 9650 13050 50  0001 C CNN
 F 3 "" H 9650 13050 50  0001 C CNN
 	1    9650 13050
 	1    0    0    -1  
-$EndComp
-$Comp
-L yellow_fuzz_dev-rescue:WP7113QBC_D-dk_LEDs D9
-U 1 1 5F3E607D
-P 11200 12650
-F 0 "D9" V 11200 12500 60  0000 C CNN
-F 1 "WP7113QBC_D" V 11100 12200 60  0000 C CNN
-F 2 "digikey:LED_5mm_Radial" H 11400 12850 60  0001 L CNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 11400 12950 60  0001 L CNN
-F 4 "754-1489-ND" H 11400 13050 60  0001 L CNN "Digi-Key_PN"
-F 5 "WP7113QBC/D" H 11400 13150 60  0001 L CNN "MPN"
-F 6 "Optoelectronics" H 11400 13250 60  0001 L CNN "Category"
-F 7 "LED Indication - Discrete" H 11400 13350 60  0001 L CNN "Family"
-F 8 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 11400 13450 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460" H 11400 13550 60  0001 L CNN "DK_Detail_Page"
-F 10 "LED BLUE CLEAR T-1 3/4 T/H" H 11400 13650 60  0001 L CNN "Description"
-F 11 "Kingbright" H 11400 13750 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 11400 13850 60  0001 L CNN "Status"
-	1    11200 12650
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR04
@@ -3614,8 +3601,8 @@ F 0 "D5" V 9600 12500 60  0000 L CNN
 F 1 "1N34A" V 9700 12350 60  0000 L CNN
 F 2 "digikey:DO-35" H 9850 12900 60  0001 L CNN
 F 3 "" H 9850 13000 60  0001 L CNN
-F 4 "2368-1N34A-ND" H 9850 13100 60  0001 L CNN "Digi-Key_PN"
-F 5 "1N34A" H 9850 13200 60  0001 L CNN "MPN"
+F 4 "2368-1N34A-ND" H 9850 13100 60  0001 L CNN "Supplier PN"
+F 5 "1N34A" H 9850 13200 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 9850 13300 60  0001 L CNN "Category"
 F 7 "Diodes - Rectifiers - Single" H 9850 13400 60  0001 L CNN "Family"
 F 8 "" H 9850 13500 60  0001 L CNN "DK_Datasheet_Link"
@@ -3623,6 +3610,7 @@ F 9 "" H 9850 13600 60  0001 L CNN "DK_Detail_Page"
 F 10 "D-GE- 75PRV  .005A" H 9850 13700 60  0001 L CNN "Description"
 F 11 "NTE Electronics, Inc" H 9850 13800 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 9850 13900 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 9650 12700 50  0001 C CNN "Supplier"
 	1    9650 12700
 	0    1    1    0   
 $EndComp
@@ -3657,8 +3645,8 @@ F 0 "D8" V 11050 12800 60  0000 L CNN
 F 1 "1N34A" V 10950 12750 60  0000 L CNN
 F 2 "digikey:DO-35" H 11200 12900 60  0001 L CNN
 F 3 "" H 11200 13000 60  0001 L CNN
-F 4 "2368-1N34A-ND" H 11200 13100 60  0001 L CNN "Digi-Key_PN"
-F 5 "1N34A" H 11200 13200 60  0001 L CNN "MPN"
+F 4 "2368-1N34A-ND" H 11200 13100 60  0001 L CNN "Supplier PN"
+F 5 "1N34A" H 11200 13200 60  0001 L CNN "Manufacturer PN"
 F 6 "Discrete Semiconductor Products" H 11200 13300 60  0001 L CNN "Category"
 F 7 "Diodes - Rectifiers - Single" H 11200 13400 60  0001 L CNN "Family"
 F 8 "" H 11200 13500 60  0001 L CNN "DK_Datasheet_Link"
@@ -3666,6 +3654,7 @@ F 9 "" H 11200 13600 60  0001 L CNN "DK_Detail_Page"
 F 10 "D-GE- 75PRV  .005A" H 11200 13700 60  0001 L CNN "Description"
 F 11 "NTE Electronics, Inc" H 11200 13800 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 11200 13900 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 11000 12700 50  0001 C CNN "Supplier"
 	1    11000 12700
 	0    -1   -1   0   
 $EndComp
@@ -3722,8 +3711,8 @@ F 0 "P1" H 4650 8350 60  0000 C CNN
 F 1 "3386P-1-204TLF" H 4950 8263 60  0000 C CNN
 F 2 "yellow_fuzz_dev:3386P" H 5100 8800 60  0001 L CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 5100 8900 60  0001 L CNN
-F 4 "3386P-1-204TLF-ND" H 5100 9000 60  0001 L CNN "Digi-Key_PN"
-F 5 "3386P-1-204TLF" H 5100 9100 60  0001 L CNN "MPN"
+F 4 "3386P-1-204TLF-ND" H 5100 9000 60  0001 L CNN "Supplier PN"
+F 5 "3386P-1-204TLF" H 5100 9100 60  0001 L CNN "Manufacturer PN"
 F 6 "Potentiometers, Variable Resistors" H 5100 9200 60  0001 L CNN "Category"
 F 7 "Rotary Potentiometers, Rheostats" H 5100 9300 60  0001 L CNN "Family"
 F 8 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 5100 9400 60  0001 L CNN "DK_Datasheet_Link"
@@ -3731,6 +3720,7 @@ F 9 "/product-detail/en/bourns-inc/3386P-1-204TLF/3386P-1-204TLF-ND/2537213" H 5
 F 10 "TRIMMER 200K OHM 0.5W PC PIN TOP" H 5100 9600 60  0001 L CNN "Description"
 F 11 "Bourns Inc." H 5100 9700 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 5100 9800 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 4900 8600 50  0001 C CNN "Supplier"
 	1    4900 8600
 	1    0    0    -1  
 $EndComp
@@ -3917,8 +3907,8 @@ F 0 "S1" H 14750 15250 60  0000 C CNN
 F 1 "1825910-6" H 14950 15141 60  0000 C CNN
 F 2 "yellow_fuzz_dev:Switch_Tactile_THT_6x6mm" H 15150 15100 60  0001 L CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 15150 15200 60  0001 L CNN
-F 4 "450-1650-ND" H 15150 15300 60  0001 L CNN "Digi-Key_PN"
-F 5 "1825910-6" H 15150 15400 60  0001 L CNN "MPN"
+F 4 "450-1650-ND" H 15150 15300 60  0001 L CNN "Supplier PN"
+F 5 "1825910-6" H 15150 15400 60  0001 L CNN "Manufacturer PN"
 F 6 "Switches" H 15150 15500 60  0001 L CNN "Category"
 F 7 "Tactile Switches" H 15150 15600 60  0001 L CNN "Family"
 F 8 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825910&DocType=Customer+Drawing&DocLang=English" H 15150 15700 60  0001 L CNN "DK_Datasheet_Link"
@@ -3926,6 +3916,7 @@ F 9 "/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-N
 F 10 "SWITCH TACTILE SPST-NO 0.05A 24V" H 15150 15900 60  0001 L CNN "Description"
 F 11 "TE Connectivity ALCOSWITCH Switches" H 15150 16000 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 15150 16100 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 14950 14900 50  0001 C CNN "Supplier"
 	1    14950 14900
 	1    0    0    -1  
 $EndComp
@@ -3937,8 +3928,8 @@ F 0 "U1" H 5050 9900 60  0000 L CNN
 F 1 "TL072CP" H 5050 9800 60  0000 L CNN
 F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 5100 10250 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 5100 10350 60  0001 L CNN
-F 4 "296-1775-5-ND" H 5100 10450 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 5100 10550 60  0001 L CNN "MPN"
+F 4 "296-1775-5-ND" H 5100 10450 60  0001 L CNN "Supplier PN"
+F 5 "TL072CP" H 5100 10550 60  0001 L CNN "Manufacturer PN"
 F 6 "Integrated Circuits (ICs)" H 5100 10650 60  0001 L CNN "Category"
 F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 5100 10750 60  0001 L CNN "Family"
 F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 5100 10850 60  0001 L CNN "DK_Datasheet_Link"
@@ -3946,6 +3937,7 @@ F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 5100 1
 F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 5100 11050 60  0001 L CNN "Description"
 F 11 "Texas Instruments" H 5100 11150 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 5100 11250 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 4900 10050 50  0001 C CNN "Supplier"
 	1    4900 10050
 	1    0    0    -1  
 $EndComp
@@ -3957,8 +3949,8 @@ F 0 "U1" H 8500 9800 60  0000 L CNN
 F 1 "TL072CP" H 11700 9650 60  0000 L CNN
 F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 8500 10150 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8500 10250 60  0001 L CNN
-F 4 "296-1775-5-ND" H 8500 10350 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 8500 10450 60  0001 L CNN "MPN"
+F 4 "296-1775-5-ND" H 8500 10350 60  0001 L CNN "Supplier PN"
+F 5 "TL072CP" H 8500 10450 60  0001 L CNN "Manufacturer PN"
 F 6 "Integrated Circuits (ICs)" H 8500 10550 60  0001 L CNN "Category"
 F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 8500 10650 60  0001 L CNN "Family"
 F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 8500 10750 60  0001 L CNN "DK_Datasheet_Link"
@@ -3966,6 +3958,7 @@ F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 8500 1
 F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 8500 10950 60  0001 L CNN "Description"
 F 11 "Texas Instruments" H 8500 11050 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 8500 11150 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 8300 9950 50  0001 C CNN "Supplier"
 	2    8300 9950
 	1    0    0    -1  
 $EndComp
@@ -3977,8 +3970,8 @@ F 0 "U2" H 14250 9700 60  0000 L CNN
 F 1 "TL072CP" H 14250 9600 60  0000 L CNN
 F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 14300 10050 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 14300 10150 60  0001 L CNN
-F 4 "296-1775-5-ND" H 14300 10250 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 14300 10350 60  0001 L CNN "MPN"
+F 4 "296-1775-5-ND" H 14300 10250 60  0001 L CNN "Supplier PN"
+F 5 "TL072CP" H 14300 10350 60  0001 L CNN "Manufacturer PN"
 F 6 "Integrated Circuits (ICs)" H 14300 10450 60  0001 L CNN "Category"
 F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 14300 10550 60  0001 L CNN "Family"
 F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 14300 10650 60  0001 L CNN "DK_Datasheet_Link"
@@ -3986,6 +3979,7 @@ F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 14300 
 F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 14300 10850 60  0001 L CNN "Description"
 F 11 "Texas Instruments" H 14300 10950 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 14300 11050 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 14100 9850 50  0001 C CNN "Supplier"
 	1    14100 9850
 	1    0    0    -1  
 $EndComp
@@ -3997,8 +3991,8 @@ F 0 "U2" H 15850 9800 60  0000 L CNN
 F 1 "TL072CP" H 15850 9700 60  0000 L CNN
 F 2 "yellow_fuzz_dev:DIP-8_W7.62mm" H 15850 10150 60  0001 L CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 15850 10250 60  0001 L CNN
-F 4 "296-1775-5-ND" H 15850 10350 60  0001 L CNN "Digi-Key_PN"
-F 5 "TL072CP" H 15850 10450 60  0001 L CNN "MPN"
+F 4 "296-1775-5-ND" H 15850 10350 60  0001 L CNN "Supplier PN"
+F 5 "TL072CP" H 15850 10450 60  0001 L CNN "Manufacturer PN"
 F 6 "Integrated Circuits (ICs)" H 15850 10550 60  0001 L CNN "Category"
 F 7 "Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps" H 15850 10650 60  0001 L CNN "Family"
 F 8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a" H 15850 10750 60  0001 L CNN "DK_Datasheet_Link"
@@ -4006,6 +4000,7 @@ F 9 "/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421" H 15850 
 F 10 "IC OPAMP JFET 2 CIRCUIT 8DIP" H 15850 10950 60  0001 L CNN "Description"
 F 11 "Texas Instruments" H 15850 11050 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 15850 11150 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 15650 9950 50  0001 C CNN "Supplier"
 	2    15650 9950
 	1    0    0    -1  
 $EndComp
@@ -4017,8 +4012,8 @@ F 0 "P3" V 10400 12100 60  0000 R CNN
 F 1 "3362P-1-102TLF" V 10300 12100 60  0000 R CNN
 F 2 "yellow_fuzz_dev:3362PT" H 10400 11150 60  0001 L CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10400 11250 60  0001 L CNN
-F 4 "3362P-1-102TLF-ND" H 10400 11350 60  0001 L CNN "Digi-Key_PN"
-F 5 "3362P-1-102TLF" H 10400 11450 60  0001 L CNN "MPN"
+F 4 "3362P-1-102TLF-ND" H 10400 11350 60  0001 L CNN "Supplier PN"
+F 5 "3362P-1-102TLF" H 10400 11450 60  0001 L CNN "Manufacturer PN"
 F 6 "Potentiometers, Variable Resistors" H 10400 11550 60  0001 L CNN "Category"
 F 7 "Rotary Potentiometers, Rheostats" H 10400 11650 60  0001 L CNN "Family"
 F 8 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10400 11750 60  0001 L CNN "DK_Datasheet_Link"
@@ -4026,6 +4021,7 @@ F 9 "/product-detail/en/bourns-inc/3362P-1-102TLF/3362P-1-102TLF-ND/2536611" H 1
 F 10 "TRIMMER 1K OHM 0.5W PC PIN TOP" H 10400 11950 60  0001 L CNN "Description"
 F 11 "Bourns Inc." H 10400 12050 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 10400 12150 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 10200 10950 50  0001 C CNN "Supplier"
 	1    10200 10950
 	0    -1   -1   0   
 $EndComp
@@ -4041,8 +4037,8 @@ F 0 "P4" V 10850 11350 60  0000 R CNN
 F 1 "3362P-1-102TLF" V 10700 12100 60  0001 R CNN
 F 2 "yellow_fuzz_dev:3362PT" H 10800 11150 60  0001 L CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10800 11250 60  0001 L CNN
-F 4 "3362P-1-102TLF-ND" H 10800 11350 60  0001 L CNN "Digi-Key_PN"
-F 5 "3362P-1-102TLF" H 10800 11450 60  0001 L CNN "MPN"
+F 4 "3362P-1-102TLF-ND" H 10800 11350 60  0001 L CNN "Supplier PN"
+F 5 "3362P-1-102TLF" H 10800 11450 60  0001 L CNN "Manufacturer PN"
 F 6 "Potentiometers, Variable Resistors" H 10800 11550 60  0001 L CNN "Category"
 F 7 "Rotary Potentiometers, Rheostats" H 10800 11650 60  0001 L CNN "Family"
 F 8 "https://www.bourns.com/docs/Product-Datasheets/3362.pdf" H 10800 11750 60  0001 L CNN "DK_Datasheet_Link"
@@ -4050,6 +4046,7 @@ F 9 "/product-detail/en/bourns-inc/3362P-1-102TLF/3362P-1-102TLF-ND/2536611" H 1
 F 10 "TRIMMER 1K OHM 0.5W PC PIN TOP" H 10800 11950 60  0001 L CNN "Description"
 F 11 "Bourns Inc." H 10800 12050 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 10800 12150 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 10600 10950 50  0001 C CNN "Supplier"
 	1    10600 10950
 	0    1    -1   0   
 $EndComp
@@ -4065,8 +4062,8 @@ F 0 "J1" H 1550 13750 50  0000 C CNN
 F 1 "PJ-202A" H 1633 13634 50  0000 C CNN
 F 2 "yellow_fuzz_dev:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A" H 1900 13700 60  0001 L CNN
 F 3 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 1900 13800 60  0001 L CNN
-F 4 "CP-202A-ND" H 1900 13900 60  0001 L CNN "Digi-Key_PN"
-F 5 "PJ-202A" H 1900 14000 60  0001 L CNN "MPN"
+F 4 "CP-202A-ND" H 1900 13900 60  0001 L CNN "Supplier PN"
+F 5 "PJ-202A" H 1900 14000 60  0001 L CNN "Manufacturer PN"
 F 6 "Connectors, Interconnects" H 1900 14100 60  0001 L CNN "Category"
 F 7 "Barrel - Power Connectors" H 1900 14200 60  0001 L CNN "Family"
 F 8 "https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf" H 1900 14300 60  0001 L CNN "DK_Datasheet_Link"
@@ -4074,6 +4071,7 @@ F 9 "/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007" H 1900 14400 60  0001
 F 10 "CONN PWR JACK 2X5.5MM KINKED PIN" H 1900 14500 60  0001 L CNN "Description"
 F 11 "CUI Inc." H 1900 14600 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 1900 14700 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 1700 13500 50  0001 C CNN "Supplier"
 	1    1700 13500
 	1    0    0    -1  
 $EndComp
@@ -4085,8 +4083,8 @@ F 0 "J3" H 1000 2650 60  0000 C CNN
 F 1 "SN49B12B" H 1200 2550 60  0000 C CNN
 F 2 "yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B" H 1500 2500 60  0001 L CNN
 F 3 "http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf" H 1500 2600 60  0001 L CNN
-F 4 "SC1522-ND" H 1500 2700 60  0001 L CNN "Digi-Key_PN"
-F 5 "SN49B12B" H 1500 2800 60  0001 L CNN "MPN"
+F 4 "SC1522-ND" H 1500 2700 60  0001 L CNN "Supplier PN"
+F 5 "SN49B12B" H 1500 2800 60  0001 L CNN "Manufacturer PN"
 F 6 "Connectors, Interconnects" H 1500 2900 60  0001 L CNN "Category"
 F 7 "Barrel - Audio Connectors" H 1500 3000 60  0001 L CNN "Family"
 F 8 "http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf" H 1500 3100 60  0001 L CNN "DK_Datasheet_Link"
@@ -4094,6 +4092,7 @@ F 9 "/product-detail/en/switchcraft-inc/SN49B12B/SC1522-ND/412780" H 1500 3200 6
 F 10 "CONN JACK STEREO 6.35MM R/A" H 1500 3300 60  0001 L CNN "Description"
 F 11 "Switchcraft Inc." H 1500 3400 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 1500 3500 60  0001 L CNN "Status"
+F 13 "Digi-Key" H 1300 2300 50  0001 C CNN "Supplier"
 	1    1300 2300
 	1    0    0    -1  
 $EndComp
@@ -4105,6 +4104,10 @@ F 0 "J2" H 20500 2550 50  0000 R CNN
 F 1 "RA49B11" H 20500 2450 50  0000 R CNN
 F 2 "yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B" H 20350 2400 50  0001 C CNN
 F 3 "" H 20350 2400 50  0001 C CNN
+F 4 "Switchcraft" H 20500 2400 50  0001 C CNN "Manufacturer"
+F 5 "RA49B11" H 20500 2400 50  0001 C CNN "Manufacturer PN"
+F 6 "Digi-Key" H 20500 2400 50  0001 C CNN "Supplier"
+F 7 "SC2546-ND" H 20500 2400 50  0001 C CNN "Supplier PN"
 	1    20500 2400
 	-1   0    0    -1  
 $EndComp
@@ -4116,8 +4119,8 @@ F 0 "BAT1" V 2647 14998 60  0000 L CNN
 F 1 "BC9VPC" V 2753 14998 60  0000 L CNN
 F 2 "yellow_fuzz_dev:Battery_Holder_9V_BC9VPC-ND" H 2900 15050 60  0001 L CNN
 F 3 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15150 60  0001 L CNN
-F 4 "BC9VPC-ND" H 2900 15250 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC9VPC" H 2900 15350 60  0001 L CNN "MPN"
+F 4 "BC9VPC-ND" H 2900 15250 60  0001 L CNN "Supplier PN"
+F 5 "BC9VPC" H 2900 15350 60  0001 L CNN "Manufacturer PN"
 F 6 "Battery Products" H 2900 15450 60  0001 L CNN "Category"
 F 7 "Battery Holders, Clips, Contacts" H 2900 15550 60  0001 L CNN "Family"
 F 8 "http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf" H 2900 15650 60  0001 L CNN "DK_Datasheet_Link"
@@ -4125,6 +4128,7 @@ F 9 "/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747" H
 F 10 "BATTERY HOLDER 9V PC PIN" H 2900 15850 60  0001 L CNN "Description"
 F 11 "MPD (Memory Protection Devices)" H 2900 15950 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 2900 16050 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 2700 14850 50  0001 C CNN "Supplier"
 	1    2700 14850
 	0    1    1    0   
 $EndComp
@@ -4231,6 +4235,48 @@ F 8 "311-1.0KGRCT-ND" H 10950 8300 50  0001 C CNN "Supplier PN"
 F 9 "0.1 W" H 10950 8300 50  0001 C CNN "Power"
 F 10 "0603" V 11000 8450 50  0000 L CNN "Package"
 	1    10950 8300
+	0    1    1    0   
+$EndComp
+$Comp
+L yellow_fuzz_dev-rescue:WP7113QBC_D-dk_LEDs D9
+U 1 1 5F3E607D
+P 11200 12650
+F 0 "D9" V 11200 12500 60  0000 C CNN
+F 1 "WP7113QBC_D" V 11100 12200 60  0000 C CNN
+F 2 "digikey:LED_5mm_Radial" H 11400 12850 60  0001 L CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 11400 12950 60  0001 L CNN
+F 4 "754-1489-ND" H 11400 13050 60  0001 L CNN "Supplier PN"
+F 5 "WP7113QBC/D" H 11400 13150 60  0001 L CNN "Manufacturer PN"
+F 6 "Optoelectronics" H 11400 13250 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 11400 13350 60  0001 L CNN "Family"
+F 8 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 11400 13450 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460" H 11400 13550 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED BLUE CLEAR T-1 3/4 T/H" H 11400 13650 60  0001 L CNN "Description"
+F 11 "Kingbright" H 11400 13750 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 11400 13850 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 11200 12650 50  0001 C CNN "Supplier"
+	1    11200 12650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L yellow_fuzz_dev-rescue:WP7113QBC_D-dk_LEDs D6
+U 1 1 5F381BCC
+P 9850 12750
+F 0 "D6" V 9750 12950 60  0000 C CNN
+F 1 "WP7113QBC_D" V 10450 13000 60  0001 C CNN
+F 2 "digikey:LED_5mm_Radial" H 10050 12950 60  0001 L CNN
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 10050 13050 60  0001 L CNN
+F 4 "754-1489-ND" H 10050 13150 60  0001 L CNN "Supplier PN"
+F 5 "WP7113QBC/D" H 10050 13250 60  0001 L CNN "Manufacturer PN"
+F 6 "Optoelectronics" H 10050 13350 60  0001 L CNN "Category"
+F 7 "LED Indication - Discrete" H 10050 13450 60  0001 L CNN "Family"
+F 8 "http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf" H 10050 13550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460" H 10050 13650 60  0001 L CNN "DK_Detail_Page"
+F 10 "LED BLUE CLEAR T-1 3/4 T/H" H 10050 13750 60  0001 L CNN "Description"
+F 11 "Kingbright" H 10050 13850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 10050 13950 60  0001 L CNN "Status"
+F 13 "Digi-Key" V 9850 12750 50  0001 C CNN "Supplier"
+	1    9850 12750
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC

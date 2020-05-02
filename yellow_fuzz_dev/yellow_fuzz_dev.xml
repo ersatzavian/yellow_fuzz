@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/tom/yellow_fuzz/yellow_fuzz_dev/yellow_fuzz_dev.sch</source>
-    <date>Friday, May 01, 2020 at 08:41:18 PM</date>
+    <date>Saturday, May 02, 2020 at 08:48:40 AM</date>
     <tool>Eeschema (5.1.5-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -106,11 +106,12 @@
         <field name="Category">Discrete Semiconductor Products</field>
         <field name="DK_Detail_Page">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&amp;pkeyword=&amp;sv=0&amp;pv1989=0&amp;pv1183=u25V&amp;pv2270=u180mV+%40+1%C2%B5A&amp;pv2270=u200mV+%40+100%C2%B5A&amp;pv2270=u300mV+%40+100%C2%B5A&amp;pv2270=u600mV+%40+10%C2%B5A&amp;pv2270=u600mV+%40+100%C2%B5A&amp;sf=1&amp;FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&amp;quantity=&amp;pbfree=1&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;rohs=1&amp;pageSize=250</field>
         <field name="Description">IC JFET N-CH 25V 50MA 3CPH</field>
-        <field name="Digi-Key_PN">J113FS-ND</field>
         <field name="Family">Transistors - JFETs</field>
-        <field name="MPN">NSVJ3910SB3T1G</field>
         <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">NSVJ3910SB3T1G</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">J113FS-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="NSVJ3910SB3T1GOSCT-ND" description="JFET N-CH 35V 625MW TO92"/>
       <sheetpath names="/" tstamps="/"/>
@@ -125,11 +126,12 @@
         <field name="DK_Datasheet_Link">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460</field>
         <field name="Description">LED BLUE CLEAR T-1 3/4 T/H</field>
-        <field name="Digi-Key_PN">754-1489-ND</field>
         <field name="Family">LED Indication - Discrete</field>
-        <field name="MPN">WP7113QBC/D</field>
         <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer PN">WP7113QBC/D</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">754-1489-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="WP7113QBC_D-dk_LEDs" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -144,11 +146,12 @@
         <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
         <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
-        <field name="Digi-Key_PN">BC817-25-TPMSCT-ND</field>
         <field name="Family">Transistors - Bipolar (BJT) - Single</field>
-        <field name="MPN">BC817-25-TP</field>
         <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -229,11 +232,12 @@
         <field name="Category">Discrete Semiconductor Products</field>
         <field name="DK_Detail_Page">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&amp;pkeyword=&amp;sv=0&amp;pv1989=0&amp;pv1183=u25V&amp;pv2270=u180mV+%40+1%C2%B5A&amp;pv2270=u200mV+%40+100%C2%B5A&amp;pv2270=u300mV+%40+100%C2%B5A&amp;pv2270=u600mV+%40+10%C2%B5A&amp;pv2270=u600mV+%40+100%C2%B5A&amp;sf=1&amp;FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&amp;quantity=&amp;pbfree=1&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;rohs=1&amp;pageSize=250</field>
         <field name="Description">IC JFET N-CH 25V 50MA 3CPH</field>
-        <field name="Digi-Key_PN">J113FS-ND</field>
         <field name="Family">Transistors - JFETs</field>
-        <field name="MPN">NSVJ3910SB3T1G</field>
         <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">NSVJ3910SB3T1G</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">J113FS-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="NSVJ3910SB3T1GOSCT-ND" description="JFET N-CH 35V 625MW TO92"/>
       <sheetpath names="/" tstamps="/"/>
@@ -265,11 +269,12 @@
         <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
         <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
-        <field name="Digi-Key_PN">BC817-25-TPMSCT-ND</field>
         <field name="Family">Transistors - Bipolar (BJT) - Single</field>
-        <field name="MPN">BC817-25-TP</field>
         <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -330,11 +335,12 @@
         <field name="Category">Discrete Semiconductor Products</field>
         <field name="DK_Detail_Page">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&amp;pkeyword=&amp;sv=0&amp;pv1989=0&amp;pv1183=u25V&amp;pv2270=u180mV+%40+1%C2%B5A&amp;pv2270=u200mV+%40+100%C2%B5A&amp;pv2270=u300mV+%40+100%C2%B5A&amp;pv2270=u600mV+%40+10%C2%B5A&amp;pv2270=u600mV+%40+100%C2%B5A&amp;sf=1&amp;FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&amp;quantity=&amp;pbfree=1&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;rohs=1&amp;pageSize=250</field>
         <field name="Description">IC JFET N-CH 25V 50MA 3CPH</field>
-        <field name="Digi-Key_PN">J113FS-ND</field>
         <field name="Family">Transistors - JFETs</field>
-        <field name="MPN">NSVJ3910SB3T1G</field>
         <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">NSVJ3910SB3T1G</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">J113FS-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="NSVJ3910SB3T1GOSCT-ND" description="JFET N-CH 35V 625MW TO92"/>
       <sheetpath names="/" tstamps="/"/>
@@ -392,6 +398,12 @@
       <value>DZ2S056X0L</value>
       <footprint>Diode_SMD:D_SOD-523</footprint>
       <datasheet>https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05600L_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">DZ2S056M0L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">DZ2S056M0LCT-ND</field>
+      </fields>
       <libsource lib="Diode" part="DZ2S056X0L" description="150mW Silicon Planar Zener Diode, 5.6V, SOD-523"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE18FB0</tstamp>
@@ -486,11 +498,12 @@
         <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
         <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
-        <field name="Digi-Key_PN">BC817-25-TPMSCT-ND</field>
         <field name="Family">Transistors - Bipolar (BJT) - Single</field>
-        <field name="MPN">BC817-25-TP</field>
         <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -505,11 +518,12 @@
         <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
         <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
-        <field name="Digi-Key_PN">BC817-25-TPMSCT-ND</field>
         <field name="Family">Transistors - Bipolar (BJT) - Single</field>
-        <field name="MPN">BC817-25-TP</field>
         <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -768,6 +782,12 @@
       <value>DMN2041L</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/products_inactive_data/DMN2041L.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer PN">DMN2041L-7</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">DMN2041L-7DICT-ND</field>
+      </fields>
       <libsource lib="Transistor_FET" part="DMN2041L" description="6.4A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E927B65</tstamp>
@@ -776,6 +796,12 @@
       <value>DMN2041L</value>
       <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
       <datasheet>https://www.diodes.com/assets/Datasheets/products_inactive_data/DMN2041L.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer PN">DMN2041L-7</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">DMN2041L-7DICT-ND</field>
+      </fields>
       <libsource lib="Transistor_FET" part="DMN2041L" description="6.4A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E959DE7</tstamp>
@@ -970,11 +996,12 @@
         <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
         <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
         <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
-        <field name="Digi-Key_PN">1N4148FS-ND</field>
         <field name="Family">Diodes - Rectifiers - Single</field>
-        <field name="MPN">1N4148</field>
         <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">1N4148</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">1N4148FS-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="1N4148-dk_Diodes-Rectifiers-Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -989,11 +1016,12 @@
         <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
         <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
         <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
-        <field name="Digi-Key_PN">1N4148FS-ND</field>
         <field name="Family">Diodes - Rectifiers - Single</field>
-        <field name="MPN">1N4148</field>
         <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">1N4148</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">1N4148FS-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="1N4148-dk_Diodes-Rectifiers-Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -1222,11 +1250,12 @@
         <field name="Category">Discrete Semiconductor Products</field>
         <field name="DK_Detail_Page">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&amp;pkeyword=&amp;sv=0&amp;pv1989=0&amp;pv1183=u25V&amp;pv2270=u180mV+%40+1%C2%B5A&amp;pv2270=u200mV+%40+100%C2%B5A&amp;pv2270=u300mV+%40+100%C2%B5A&amp;pv2270=u600mV+%40+10%C2%B5A&amp;pv2270=u600mV+%40+100%C2%B5A&amp;sf=1&amp;FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&amp;quantity=&amp;pbfree=1&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;rohs=1&amp;pageSize=250</field>
         <field name="Description">IC JFET N-CH 25V 50MA 3CPH</field>
-        <field name="Digi-Key_PN">J113FS-ND</field>
         <field name="Family">Transistors - JFETs</field>
-        <field name="MPN">NSVJ3910SB3T1G</field>
         <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">NSVJ3910SB3T1G</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">J113FS-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="NSVJ3910SB3T1GOSCT-ND" description="JFET N-CH 35V 625MW TO92"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1256,11 +1285,12 @@
         <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
         <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
-        <field name="Digi-Key_PN">BC817-25-TPMSCT-ND</field>
         <field name="Family">Transistors - Bipolar (BJT) - Single</field>
-        <field name="MPN">BC817-25-TP</field>
         <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -1472,11 +1502,12 @@
         <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
         <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
-        <field name="Digi-Key_PN">BC817-25-TPMSCT-ND</field>
         <field name="Family">Transistors - Bipolar (BJT) - Single</field>
-        <field name="MPN">BC817-25-TP</field>
         <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -1574,11 +1605,12 @@
         <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
         <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
-        <field name="Digi-Key_PN">BC817-25-TPMSCT-ND</field>
         <field name="Family">Transistors - Bipolar (BJT) - Single</field>
-        <field name="MPN">BC817-25-TP</field>
         <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -1724,11 +1756,12 @@
         <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
         <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
-        <field name="Digi-Key_PN">BC817-25-TPMSCT-ND</field>
         <field name="Family">Transistors - Bipolar (BJT) - Single</field>
-        <field name="MPN">BC817-25-TP</field>
         <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
       <sheetpath names="/" tstamps="/"/>
@@ -1821,55 +1854,18 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F22B1DD</tstamp>
     </comp>
-    <comp ref="D6">
-      <value>WP7113QBC_D</value>
-      <footprint>digikey:LED_5mm_Radial</footprint>
-      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</datasheet>
-      <fields>
-        <field name="Category">Optoelectronics</field>
-        <field name="DK_Datasheet_Link">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460</field>
-        <field name="Description">LED BLUE CLEAR T-1 3/4 T/H</field>
-        <field name="Digi-Key_PN">754-1489-ND</field>
-        <field name="Family">LED Indication - Discrete</field>
-        <field name="MPN">WP7113QBC/D</field>
-        <field name="Manufacturer">Kingbright</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="yellow_fuzz_dev-rescue" part="WP7113QBC_D-dk_LEDs" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F381BCC</tstamp>
-    </comp>
-    <comp ref="D9">
-      <value>WP7113QBC_D</value>
-      <footprint>digikey:LED_5mm_Radial</footprint>
-      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</datasheet>
-      <fields>
-        <field name="Category">Optoelectronics</field>
-        <field name="DK_Datasheet_Link">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
-        <field name="DK_Detail_Page">/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460</field>
-        <field name="Description">LED BLUE CLEAR T-1 3/4 T/H</field>
-        <field name="Digi-Key_PN">754-1489-ND</field>
-        <field name="Family">LED Indication - Discrete</field>
-        <field name="MPN">WP7113QBC/D</field>
-        <field name="Manufacturer">Kingbright</field>
-        <field name="Status">Active</field>
-      </fields>
-      <libsource lib="yellow_fuzz_dev-rescue" part="WP7113QBC_D-dk_LEDs" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F3E607D</tstamp>
-    </comp>
     <comp ref="D5">
       <value>1N34A</value>
       <footprint>digikey:DO-35</footprint>
       <fields>
         <field name="Category">Discrete Semiconductor Products</field>
         <field name="Description">D-GE- 75PRV  .005A</field>
-        <field name="Digi-Key_PN">2368-1N34A-ND</field>
         <field name="Family">Diodes - Rectifiers - Single</field>
-        <field name="MPN">1N34A</field>
         <field name="Manufacturer">NTE Electronics, Inc</field>
+        <field name="Manufacturer PN">1N34A</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">2368-1N34A-ND</field>
       </fields>
       <libsource lib="dk_Diodes-Rectifiers-Single" part="1N914BTR" description="DIODE GEN PURP 100V 200MA DO35"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1881,11 +1877,12 @@
       <fields>
         <field name="Category">Discrete Semiconductor Products</field>
         <field name="Description">D-GE- 75PRV  .005A</field>
-        <field name="Digi-Key_PN">2368-1N34A-ND</field>
         <field name="Family">Diodes - Rectifiers - Single</field>
-        <field name="MPN">1N34A</field>
         <field name="Manufacturer">NTE Electronics, Inc</field>
+        <field name="Manufacturer PN">1N34A</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">2368-1N34A-ND</field>
       </fields>
       <libsource lib="dk_Diodes-Rectifiers-Single" part="1N914BTR" description="DIODE GEN PURP 100V 200MA DO35"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1900,11 +1897,12 @@
         <field name="DK_Datasheet_Link">https://www.bourns.com/docs/Product-Datasheets/3362.pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/bourns-inc/3386P-1-204TLF/3386P-1-204TLF-ND/2537213</field>
         <field name="Description">TRIMMER 200K OHM 0.5W PC PIN TOP</field>
-        <field name="Digi-Key_PN">3386P-1-204TLF-ND</field>
         <field name="Family">Rotary Potentiometers, Rheostats</field>
-        <field name="MPN">3386P-1-204TLF</field>
         <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">3386P-1-204TLF</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">3386P-1-204TLF-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="3386P-1-204TLF" description="TRIMMER 1K OHM 0.5W PC PIN TOP"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2041,11 +2039,12 @@
         <field name="DK_Datasheet_Link">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
         <field name="DK_Detail_Page">/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536</field>
         <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
-        <field name="Digi-Key_PN">450-1650-ND</field>
         <field name="Family">Tactile Switches</field>
-        <field name="MPN">1825910-6</field>
         <field name="Manufacturer">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manufacturer PN">1825910-6</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">450-1650-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="1825910-6" description="SWITCH TACTILE SPST-NO 0.05A 24V"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2060,11 +2059,12 @@
         <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</field>
         <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421</field>
         <field name="Description">IC OPAMP JFET 2 CIRCUIT 8DIP</field>
-        <field name="Digi-Key_PN">296-1775-5-ND</field>
         <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
-        <field name="MPN">TL072CP</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer PN">TL072CP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">296-1775-5-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="TL072CP" description="IC OPAMP JFET 2 CIRCUIT 8DIP"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2079,11 +2079,12 @@
         <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</field>
         <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421</field>
         <field name="Description">IC OPAMP JFET 2 CIRCUIT 8DIP</field>
-        <field name="Digi-Key_PN">296-1775-5-ND</field>
         <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
-        <field name="MPN">TL072CP</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer PN">TL072CP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">296-1775-5-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="TL072CP" description="IC OPAMP JFET 2 CIRCUIT 8DIP"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2136,11 +2137,12 @@
         <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007</field>
         <field name="Description">CONN PWR JACK 2X5.5MM KINKED PIN</field>
-        <field name="Digi-Key_PN">CP-202A-ND</field>
         <field name="Family">Barrel - Power Connectors</field>
-        <field name="MPN">PJ-202A</field>
         <field name="Manufacturer">CUI Inc.</field>
+        <field name="Manufacturer PN">PJ-202A</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CP-202A-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="PJ-202A" description="CONN PWR JACK 2X5.5MM KINKED PIN"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2155,11 +2157,12 @@
         <field name="DK_Datasheet_Link">http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf</field>
         <field name="DK_Detail_Page">/product-detail/en/switchcraft-inc/SN49B12B/SC1522-ND/412780</field>
         <field name="Description">CONN JACK STEREO 6.35MM R/A</field>
-        <field name="Digi-Key_PN">SC1522-ND</field>
         <field name="Family">Barrel - Audio Connectors</field>
-        <field name="MPN">SN49B12B</field>
         <field name="Manufacturer">Switchcraft Inc.</field>
+        <field name="Manufacturer PN">SN49B12B</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">SC1522-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="SN49B12B" description="CONN JACK STEREO 6.35MM R/A"/>
       <sheetpath names="/" tstamps="/"/>
@@ -2168,6 +2171,12 @@
     <comp ref="J2">
       <value>RA49B11</value>
       <footprint>yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B</footprint>
+      <fields>
+        <field name="Manufacturer">Switchcraft</field>
+        <field name="Manufacturer PN">RA49B11</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">SC2546-ND</field>
+      </fields>
       <libsource lib="yellow_fuzz_dev" part="RA49B11" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF93178</tstamp>
@@ -2224,6 +2233,45 @@
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E517E90</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>WP7113QBC_D</value>
+      <footprint>digikey:LED_5mm_Radial</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460</field>
+        <field name="Description">LED BLUE CLEAR T-1 3/4 T/H</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer PN">WP7113QBC/D</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">754-1489-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="WP7113QBC_D-dk_LEDs" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3E607D</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WP7113QBC_D</value>
+      <footprint>digikey:LED_5mm_Radial</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460</field>
+        <field name="Description">LED BLUE CLEAR T-1 3/4 T/H</field>
+        <field name="Digi-Key_PN">754-1489-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">WP7113QBC/D</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="WP7113QBC_D-dk_LEDs" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F381BCC</tstamp>
     </comp>
     <comp ref="R59">
       <value>22k</value>
@@ -2560,11 +2608,12 @@
         <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</field>
         <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421</field>
         <field name="Description">IC OPAMP JFET 2 CIRCUIT 8DIP</field>
-        <field name="Digi-Key_PN">296-1775-5-ND</field>
         <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
-        <field name="MPN">TL072CP</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer PN">TL072CP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">296-1775-5-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="TL072CP" description="IC OPAMP JFET 2 CIRCUIT 8DIP"/>
       <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
@@ -2579,11 +2628,12 @@
         <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</field>
         <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421</field>
         <field name="Description">IC OPAMP JFET 2 CIRCUIT 8DIP</field>
-        <field name="Digi-Key_PN">296-1775-5-ND</field>
         <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
-        <field name="MPN">TL072CP</field>
         <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer PN">TL072CP</field>
         <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">296-1775-5-ND</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="TL072CP" description="IC OPAMP JFET 2 CIRCUIT 8DIP"/>
       <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
@@ -2596,10 +2646,10 @@
       <fields>
         <field name="Gangs">Dual</field>
         <field name="Manufacturer">Bourns</field>
-        <field name="Manufacturer Part Number">PTV112-4420A-A503</field>
+        <field name="Manufacturer PN">PTV112-4420A-A503</field>
         <field name="Resistance">50k</field>
         <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">652-PTV112-4420AA503</field>
+        <field name="Supplier PN">652-PTV112-4420AA503</field>
         <field name="Taper">Log</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="PTV112-4420A-A503" description="POT 50K DUAL GANGED LOG"/>
@@ -2613,10 +2663,10 @@
       <fields>
         <field name="Gangs">Single</field>
         <field name="Manufacturer">Bourns</field>
-        <field name="Manufacturer Part Number">PTV111-4420A-A503</field>
+        <field name="Manufacturer PN">PTV111-4420A-A503</field>
         <field name="Resistance">50k</field>
         <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">652-PTV111-4420AA503</field>
+        <field name="Supplier PN">652-PTV111-4420AA503</field>
         <field name="Taper">Log</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="PTV111-4420A-A503" description="POT 50K OHM LOG"/>
@@ -2630,10 +2680,10 @@
       <fields>
         <field name="Gangs">Single</field>
         <field name="Manufacturer">Bourns</field>
-        <field name="Manufacturer Part Number">PTV111-4420A-A104</field>
+        <field name="Manufacturer PN">PTV111-4420A-A104</field>
         <field name="Resistance">100k</field>
         <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">652-PTV111-4420AA104</field>
+        <field name="Supplier PN">652-PTV111-4420AA104</field>
         <field name="Taper">Log</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="PTV111-4420A-A104" description="POT 100K LOG"/>
@@ -2647,10 +2697,10 @@
       <fields>
         <field name="Gangs">Single</field>
         <field name="Manufacturer">Bourns</field>
-        <field name="Manufacturer Part Number">PTV111-4420A-A104</field>
+        <field name="Manufacturer PN">PTV111-4420A-A104</field>
         <field name="Resistance">100k</field>
         <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">652-PTV111-4420AA104</field>
+        <field name="Supplier PN">652-PTV111-4420AA104</field>
         <field name="Taper">Log</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="PTV111-4420A-A104" description="POT 100K LOG"/>
@@ -2664,10 +2714,10 @@
       <fields>
         <field name="Gangs">Single</field>
         <field name="Manufacturer">Bourns</field>
-        <field name="Manufacturer Part Number">PTV111-4420A-A104</field>
+        <field name="Manufacturer PN">PTV111-4420A-A104</field>
         <field name="Resistance">100k</field>
         <field name="Supplier">Mouser</field>
-        <field name="Supplier Part Number">652-PTV111-4420AA104</field>
+        <field name="Supplier PN">652-PTV111-4420AA104</field>
         <field name="Taper">Log</field>
       </fields>
       <libsource lib="yellow_fuzz_dev" part="PTV111-4420A-A104" description="POT 100K LOG"/>
@@ -3372,142 +3422,142 @@
       <node ref="C2" pin="2"/>
     </net>
     <net code="4" name="+9V">
+      <node ref="U1" pin="8"/>
       <node ref="Q4" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="Q9" pin="3"/>
-      <node ref="Q5" pin="3"/>
-      <node ref="Q6" pin="3"/>
-      <node ref="Q8" pin="3"/>
-      <node ref="Q13" pin="3"/>
-      <node ref="Q7" pin="3"/>
-      <node ref="C10" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U2" pin="8"/>
-      <node ref="U2" pin="8"/>
-      <node ref="R5" pin="2"/>
-      <node ref="R43" pin="1"/>
-      <node ref="C40" pin="1"/>
       <node ref="C45" pin="1"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="C25" pin="1"/>
       <node ref="U3" pin="8"/>
+      <node ref="Q13" pin="3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="C40" pin="1"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R43" pin="1"/>
       <node ref="U3" pin="8"/>
+      <node ref="R5" pin="2"/>
       <node ref="U4" pin="8"/>
+      <node ref="Q7" pin="3"/>
       <node ref="U4" pin="8"/>
+      <node ref="Q5" pin="3"/>
       <node ref="R49" pin="1"/>
       <node ref="R37" pin="1"/>
-      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="8"/>
       <node ref="R14" pin="1"/>
       <node ref="C8" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="8"/>
     </net>
     <net code="5" name="+4V">
-      <node ref="R32" pin="1"/>
+      <node ref="U2" pin="5"/>
       <node ref="C11" pin="1"/>
-      <node ref="R6" pin="1"/>
       <node ref="R14" pin="2"/>
       <node ref="R15" pin="1"/>
-      <node ref="R40" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="R18" pin="1"/>
       <node ref="C13" pin="1"/>
-      <node ref="R19" pin="1"/>
-      <node ref="R48" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="R9" pin="2"/>
-      <node ref="R31" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R62" pin="2"/>
       <node ref="R55" pin="1"/>
-      <node ref="R29" pin="2"/>
       <node ref="R52" pin="1"/>
       <node ref="C12" pin="1"/>
-      <node ref="U2" pin="5"/>
-      <node ref="R57" pin="2"/>
-      <node ref="R62" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="R19" pin="1"/>
     </net>
     <net code="6" name="GND">
       <node ref="C45" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C32" pin="2"/>
-      <node ref="C40" pin="2"/>
-      <node ref="C11" pin="2"/>
+      <node ref="U3" pin="4"/>
       <node ref="R12" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="R15" pin="2"/>
-      <node ref="R65" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="U3" pin="4"/>
       <node ref="Q1" pin="2"/>
-      <node ref="P5" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="P9" pin="1"/>
       <node ref="C25" pin="2"/>
+      <node ref="P9" pin="4"/>
       <node ref="R35" pin="2"/>
-      <node ref="J2" pin="S"/>
+      <node ref="R51" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="D5" pin="K"/>
+      <node ref="R65" pin="2"/>
       <node ref="C47" pin="2"/>
+      <node ref="R47" pin="2"/>
+      <node ref="D8" pin="A"/>
+      <node ref="P7" pin="4"/>
+      <node ref="C18" pin="2"/>
       <node ref="C41" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D9" pin="1"/>
       <node ref="R25" pin="2"/>
-      <node ref="J3" pin="S"/>
+      <node ref="C12" pin="2"/>
       <node ref="R3" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U2" pin="4"/>
+      <node ref="Q10" pin="2"/>
       <node ref="C15" pin="2"/>
-      <node ref="U1" pin="4"/>
-      <node ref="U1" pin="4"/>
-      <node ref="S1" pin="2"/>
+      <node ref="P5" pin="4"/>
+      <node ref="Q12" pin="2"/>
       <node ref="S1" pin="1"/>
       <node ref="D4" pin="1"/>
       <node ref="D7" pin="2"/>
-      <node ref="Q12" pin="2"/>
-      <node ref="Q10" pin="2"/>
-      <node ref="P7" pin="4"/>
-      <node ref="C12" pin="2"/>
-      <node ref="C18" pin="2"/>
-      <node ref="D8" pin="A"/>
-      <node ref="D5" pin="K"/>
-      <node ref="D9" pin="1"/>
-      <node ref="D6" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="R24" pin="2"/>
-      <node ref="U3" pin="4"/>
-      <node ref="U3" pin="4"/>
-      <node ref="U4" pin="4"/>
-      <node ref="P9" pin="4"/>
-      <node ref="C30" pin="2"/>
-      <node ref="P9" pin="1"/>
-      <node ref="C35" pin="2"/>
-      <node ref="R53" pin="2"/>
-      <node ref="R39" pin="2"/>
-      <node ref="U4" pin="4"/>
-      <node ref="R51" pin="2"/>
-      <node ref="R47" pin="2"/>
+      <node ref="S1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J2" pin="S"/>
+      <node ref="J3" pin="S"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R15" pin="2"/>
     </net>
     <net code="7" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1"/>
       <node ref="Q9" pin="2"/>
       <node ref="R35" pin="1"/>
-      <node ref="C26" pin="1"/>
     </net>
     <net code="8" name="Net-(Q9-Pad1)">
-      <node ref="R33" pin="1"/>
       <node ref="Q9" pin="1"/>
+      <node ref="R33" pin="1"/>
     </net>
     <net code="9" name="Net-(C34-Pad1)">
-      <node ref="R48" pin="2"/>
-      <node ref="Q13" pin="1"/>
       <node ref="C34" pin="1"/>
+      <node ref="Q13" pin="1"/>
+      <node ref="R48" pin="2"/>
     </net>
     <net code="10" name="Net-(C26-Pad2)">
-      <node ref="Q11" pin="1"/>
-      <node ref="R40" pin="2"/>
       <node ref="C26" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="Q11" pin="1"/>
     </net>
     <net code="11" name="Net-(D10-Pad1)">
       <node ref="Q11" pin="3"/>
       <node ref="D10" pin="1"/>
     </net>
     <net code="12" name="Net-(C37-Pad1)">
-      <node ref="C37" pin="1"/>
       <node ref="R51" pin="1"/>
       <node ref="Q13" pin="2"/>
+      <node ref="C37" pin="1"/>
     </net>
     <net code="13" name="Net-(J2-PadT)">
-      <node ref="J2" pin="T"/>
       <node ref="R54" pin="1"/>
+      <node ref="J2" pin="T"/>
     </net>
     <net code="14" name="Net-(C37-Pad2)">
       <node ref="R53" pin="1"/>
@@ -3518,15 +3568,15 @@
       <node ref="D10" pin="2"/>
     </net>
     <net code="16" name="Net-(C36-Pad1)">
+      <node ref="Q14" pin="1"/>
       <node ref="C36" pin="1"/>
       <node ref="R52" pin="2"/>
-      <node ref="Q14" pin="1"/>
     </net>
     <net code="17" name="Net-(C34-Pad2)">
       <node ref="C34" pin="2"/>
+      <node ref="R55" pin="2"/>
       <node ref="Q11" pin="2"/>
       <node ref="Q14" pin="2"/>
-      <node ref="R55" pin="2"/>
     </net>
     <net code="18" name="Net-(D11-Pad1)">
       <node ref="Q14" pin="3"/>
@@ -3536,99 +3586,99 @@
       <node ref="D11" pin="2"/>
     </net>
     <net code="20" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
       <node ref="R22" pin="1"/>
+      <node ref="D2" pin="2"/>
     </net>
     <net code="21" name="Net-(D3-Pad1)">
-      <node ref="R22" pin="2"/>
       <node ref="D3" pin="1"/>
+      <node ref="R22" pin="2"/>
     </net>
     <net code="22" name="Net-(C35-Pad1)">
       <node ref="C35" pin="1"/>
       <node ref="R50" pin="2"/>
     </net>
     <net code="23" name="Net-(BAT1-PadNEG)">
-      <node ref="Q3" pin="3"/>
       <node ref="BAT1" pin="NEG"/>
+      <node ref="Q3" pin="3"/>
     </net>
     <net code="24" name="Net-(J1-Pad1)">
-      <node ref="R5" pin="1"/>
-      <node ref="Q1" pin="1"/>
       <node ref="J1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R5" pin="1"/>
     </net>
     <net code="25" name="Net-(J1-Pad2)">
-      <node ref="Q1" pin="3"/>
       <node ref="J1" pin="2"/>
+      <node ref="Q1" pin="3"/>
     </net>
     <net code="26" name="Net-(BAT1-PadPOS)">
-      <node ref="BAT1" pin="POS"/>
       <node ref="J1" pin="3"/>
       <node ref="Q3" pin="1"/>
+      <node ref="BAT1" pin="POS"/>
     </net>
     <net code="27" name="/INPUT_RING">
       <node ref="J3" pin="R"/>
       <node ref="Q3" pin="2"/>
     </net>
     <net code="28" name="Net-(D1-Pad1)">
-      <node ref="Q2" pin="3"/>
       <node ref="D1" pin="1"/>
+      <node ref="Q2" pin="3"/>
     </net>
     <net code="29" name="Net-(D1-Pad2)">
       <node ref="D1" pin="2"/>
     </net>
     <net code="30" name="Net-(C27-Pad1)">
       <node ref="U2" pin="7"/>
-      <node ref="R45" pin="2"/>
       <node ref="R38" pin="1"/>
       <node ref="C27" pin="1"/>
+      <node ref="R45" pin="2"/>
     </net>
     <net code="31" name="Net-(C24-Pad1)">
-      <node ref="C24" pin="1"/>
       <node ref="R34" pin="1"/>
       <node ref="U2" pin="1"/>
+      <node ref="C24" pin="1"/>
       <node ref="R36" pin="2"/>
     </net>
     <net code="32" name="Net-(C19-Pad2)">
       <node ref="C19" pin="2"/>
-      <node ref="R27" pin="1"/>
       <node ref="R26" pin="1"/>
+      <node ref="R27" pin="1"/>
     </net>
     <net code="33" name="Net-(C18-Pad1)">
-      <node ref="C18" pin="1"/>
       <node ref="R27" pin="2"/>
+      <node ref="C18" pin="1"/>
     </net>
     <net code="34" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
       <node ref="SW2" pin="1"/>
+      <node ref="D4" pin="2"/>
     </net>
     <net code="35" name="Net-(D7-Pad1)">
-      <node ref="D7" pin="1"/>
       <node ref="SW3" pin="1"/>
+      <node ref="D7" pin="1"/>
     </net>
     <net code="36" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2"/>
       <node ref="R23" pin="2"/>
+      <node ref="C17" pin="2"/>
     </net>
     <net code="37" name="/tone_block/TONE_IN">
       <node ref="R45" pin="1"/>
       <node ref="U3" pin="3"/>
-      <node ref="P5" pin="1"/>
       <node ref="P6" pin="1"/>
+      <node ref="P5" pin="1"/>
     </net>
     <net code="38" name="Net-(C15-Pad1)">
-      <node ref="C15" pin="1"/>
       <node ref="R21" pin="2"/>
+      <node ref="C15" pin="1"/>
     </net>
     <net code="39" name="Net-(C14-Pad1)">
-      <node ref="U1" pin="5"/>
       <node ref="R19" pin="2"/>
       <node ref="C14" pin="1"/>
+      <node ref="U1" pin="5"/>
     </net>
     <net code="40" name="Net-(C13-Pad2)">
       <node ref="R17" pin="1"/>
-      <node ref="C14" pin="2"/>
       <node ref="R18" pin="2"/>
       <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
     </net>
     <net code="41" name="Net-(C3-Pad1)">
       <node ref="R13" pin="2"/>
@@ -3636,19 +3686,19 @@
       <node ref="C3" pin="1"/>
     </net>
     <net code="42" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
       <node ref="R7" pin="2"/>
       <node ref="Q2" pin="2"/>
-      <node ref="C3" pin="2"/>
     </net>
     <net code="43" name="Net-(C1-Pad2)">
       <node ref="R2" pin="2"/>
-      <node ref="C1" pin="2"/>
       <node ref="Q2" pin="1"/>
+      <node ref="C1" pin="2"/>
     </net>
     <net code="44" name="Net-(Q5-Pad2)">
-      <node ref="Q5" pin="2"/>
       <node ref="R8" pin="2"/>
       <node ref="R3" pin="1"/>
+      <node ref="Q5" pin="2"/>
     </net>
     <net code="45" name="Net-(C4-Pad2)">
       <node ref="R8" pin="1"/>
@@ -3656,100 +3706,100 @@
       <node ref="C4" pin="2"/>
     </net>
     <net code="46" name="Net-(C5-Pad2)">
-      <node ref="Q5" pin="1"/>
       <node ref="R9" pin="1"/>
       <node ref="C5" pin="2"/>
+      <node ref="Q5" pin="1"/>
     </net>
     <net code="47" name="Net-(P3-Pad3)">
-      <node ref="P4" pin="3"/>
-      <node ref="P3" pin="3"/>
       <node ref="R26" pin="2"/>
+      <node ref="P4" pin="3"/>
       <node ref="R23" pin="1"/>
+      <node ref="P3" pin="3"/>
     </net>
     <net code="48" name="/SW_IN_DB">
+      <node ref="R43" pin="2"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C30" pin="1"/>
       <node ref="C29" pin="2"/>
       <node ref="C31" pin="2"/>
-      <node ref="R43" pin="2"/>
-      <node ref="C30" pin="1"/>
-      <node ref="R41" pin="1"/>
     </net>
     <net code="49" name="/SW_IN">
-      <node ref="S1" pin="4"/>
       <node ref="S1" pin="3"/>
+      <node ref="S1" pin="4"/>
       <node ref="R41" pin="2"/>
     </net>
     <net code="50" name="/SW_BASE_A">
-      <node ref="C28" pin="2"/>
       <node ref="Q12" pin="1"/>
+      <node ref="C28" pin="2"/>
       <node ref="C31" pin="1"/>
       <node ref="R42" pin="2"/>
       <node ref="R47" pin="1"/>
     </net>
     <net code="51" name="/SW_BASE_B">
-      <node ref="C33" pin="1"/>
-      <node ref="R46" pin="1"/>
       <node ref="R39" pin="1"/>
-      <node ref="Q10" pin="1"/>
+      <node ref="R46" pin="1"/>
       <node ref="C29" pin="1"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="C33" pin="1"/>
     </net>
     <net code="52" name="/DIST_IN_EN">
       <node ref="D11" pin="3"/>
       <node ref="Q12" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="R50" pin="1"/>
       <node ref="R49" pin="2"/>
       <node ref="C33" pin="2"/>
-      <node ref="R50" pin="1"/>
       <node ref="R46" pin="2"/>
-      <node ref="D1" pin="3"/>
     </net>
     <net code="53" name="/BYPASS_EN">
-      <node ref="R44" pin="2"/>
-      <node ref="Q10" pin="3"/>
-      <node ref="D3" pin="2"/>
-      <node ref="R37" pin="2"/>
-      <node ref="R42" pin="1"/>
       <node ref="C28" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="R42" pin="1"/>
+      <node ref="D3" pin="2"/>
     </net>
     <net code="54" name="Net-(C19-Pad1)">
       <node ref="R32" pin="2"/>
-      <node ref="C19" pin="1"/>
       <node ref="U2" pin="3"/>
+      <node ref="C19" pin="1"/>
     </net>
     <net code="55" name="Net-(C32-Pad1)">
-      <node ref="R44" pin="1"/>
       <node ref="C32" pin="1"/>
       <node ref="D10" pin="3"/>
+      <node ref="R44" pin="1"/>
     </net>
     <net code="56" name="Net-(C27-Pad2)">
-      <node ref="U2" pin="6"/>
-      <node ref="R38" pin="2"/>
-      <node ref="R36" pin="1"/>
       <node ref="C27" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R36" pin="1"/>
     </net>
     <net code="57" name="Net-(C9-Pad1)">
-      <node ref="C9" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="R17" pin="2"/>
       <node ref="U1" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C9" pin="1"/>
     </net>
     <net code="58" name="/BUFFERED_IN">
+      <node ref="R12" pin="1"/>
       <node ref="Q4" pin="2"/>
       <node ref="R33" pin="2"/>
       <node ref="C1" pin="1"/>
-      <node ref="R12" pin="1"/>
     </net>
     <net code="59" name="Net-(Q6-Pad2)">
-      <node ref="Q6" pin="2"/>
       <node ref="R4" pin="1"/>
       <node ref="R10" pin="2"/>
+      <node ref="Q6" pin="2"/>
     </net>
     <net code="60" name="Net-(C6-Pad2)">
+      <node ref="R10" pin="1"/>
       <node ref="C7" pin="1"/>
       <node ref="C6" pin="2"/>
-      <node ref="R10" pin="1"/>
     </net>
     <net code="61" name="Net-(C7-Pad2)">
-      <node ref="C7" pin="2"/>
       <node ref="R11" pin="1"/>
+      <node ref="C7" pin="2"/>
       <node ref="Q6" pin="1"/>
     </net>
     <net code="62" name="Net-(Q8-Pad2)">
@@ -3758,28 +3808,28 @@
       <node ref="R25" pin="1"/>
     </net>
     <net code="63" name="Net-(C23-Pad2)">
-      <node ref="C23" pin="2"/>
-      <node ref="R31" pin="1"/>
       <node ref="Q8" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="C23" pin="2"/>
     </net>
     <net code="64" name="Net-(C22-Pad2)">
+      <node ref="C23" pin="1"/>
       <node ref="C22" pin="2"/>
       <node ref="R30" pin="1"/>
-      <node ref="C23" pin="1"/>
     </net>
     <net code="65" name="Net-(C22-Pad1)">
-      <node ref="C22" pin="1"/>
       <node ref="SW5" pin="1"/>
+      <node ref="C22" pin="1"/>
     </net>
     <net code="66" name="Net-(C20-Pad2)">
+      <node ref="C20" pin="2"/>
       <node ref="C21" pin="1"/>
       <node ref="R28" pin="1"/>
-      <node ref="C20" pin="2"/>
     </net>
     <net code="67" name="Net-(Q7-Pad2)">
-      <node ref="Q7" pin="2"/>
       <node ref="R28" pin="2"/>
       <node ref="R24" pin="1"/>
+      <node ref="Q7" pin="2"/>
     </net>
     <net code="68" name="Net-(C21-Pad2)">
       <node ref="C21" pin="2"/>
@@ -3794,63 +3844,63 @@
       <node ref="SW1" pin="1"/>
     </net>
     <net code="71" name="Net-(SW1-Pad3)">
-      <node ref="SW1" pin="5"/>
       <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="5"/>
     </net>
     <net code="72" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
       <node ref="SW1" pin="4"/>
+      <node ref="C6" pin="1"/>
     </net>
     <net code="73" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1"/>
       <node ref="SW1" pin="6"/>
+      <node ref="C4" pin="1"/>
     </net>
     <net code="74" name="Net-(C24-Pad2)">
-      <node ref="SW5" pin="3"/>
-      <node ref="SW4" pin="3"/>
-      <node ref="U2" pin="2"/>
       <node ref="C24" pin="2"/>
+      <node ref="U2" pin="2"/>
       <node ref="R34" pin="2"/>
+      <node ref="SW4" pin="3"/>
+      <node ref="SW5" pin="3"/>
     </net>
     <net code="75" name="Net-(P2-Pad1)">
-      <node ref="P2" pin="1"/>
       <node ref="R20" pin="1"/>
+      <node ref="P2" pin="1"/>
     </net>
     <net code="76" name="Net-(C16-Pad2)">
       <node ref="R21" pin="1"/>
-      <node ref="C16" pin="2"/>
       <node ref="U1" pin="6"/>
       <node ref="R20" pin="2"/>
+      <node ref="C16" pin="2"/>
     </net>
     <net code="77" name="Net-(SW2-Pad3)">
       <node ref="SW2" pin="3"/>
       <node ref="SW2" pin="5"/>
     </net>
-    <net code="78" name="Net-(SW3-Pad3)">
-      <node ref="SW3" pin="3"/>
-      <node ref="SW3" pin="5"/>
-    </net>
-    <net code="79" name="Net-(D6-Pad1)">
+    <net code="78" name="Net-(D6-Pad1)">
       <node ref="SW2" pin="6"/>
       <node ref="D6" pin="1"/>
     </net>
+    <net code="79" name="Net-(SW3-Pad3)">
+      <node ref="SW3" pin="3"/>
+      <node ref="SW3" pin="5"/>
+    </net>
     <net code="80" name="Net-(D9-Pad2)">
-      <node ref="D9" pin="2"/>
       <node ref="SW3" pin="6"/>
+      <node ref="D9" pin="2"/>
     </net>
     <net code="81" name="Net-(D5-PadA)">
       <node ref="SW2" pin="4"/>
       <node ref="D5" pin="A"/>
     </net>
     <net code="82" name="Net-(D8-PadK)">
-      <node ref="SW3" pin="4"/>
       <node ref="D8" pin="K"/>
+      <node ref="SW3" pin="4"/>
     </net>
     <net code="83" name="Net-(C9-Pad2)">
-      <node ref="SW1" pin="2"/>
-      <node ref="P1" pin="1"/>
       <node ref="P1" pin="2"/>
+      <node ref="P1" pin="1"/>
       <node ref="U1" pin="2"/>
+      <node ref="SW1" pin="2"/>
       <node ref="C9" pin="2"/>
     </net>
     <net code="84" name="Net-(P1-Pad3)">
@@ -3859,39 +3909,39 @@
     </net>
     <net code="85" name="/tone_block/TONE_OUT">
       <node ref="C46" pin="2"/>
-      <node ref="P9" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C36" pin="2"/>
-      <node ref="R63" pin="1"/>
-      <node ref="C44" pin="1"/>
       <node ref="C50" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="R63" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="P9" pin="2"/>
     </net>
     <net code="86" name="Net-(P3-Pad1)">
-      <node ref="SW2" pin="2"/>
       <node ref="P3" pin="2"/>
       <node ref="P3" pin="1"/>
+      <node ref="SW2" pin="2"/>
     </net>
     <net code="87" name="Net-(P4-Pad1)">
-      <node ref="P4" pin="2"/>
       <node ref="P4" pin="1"/>
+      <node ref="P4" pin="2"/>
       <node ref="SW3" pin="2"/>
     </net>
     <net code="88" name="Net-(P2-Pad2)">
-      <node ref="P2" pin="2"/>
-      <node ref="P2" pin="4"/>
       <node ref="P2" pin="3"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P2" pin="2"/>
     </net>
     <net code="89" name="Net-(C16-Pad1)">
-      <node ref="P2" pin="6"/>
-      <node ref="U1" pin="7"/>
-      <node ref="C17" pin="1"/>
       <node ref="C16" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="P2" pin="6"/>
       <node ref="P2" pin="5"/>
+      <node ref="C17" pin="1"/>
     </net>
     <net code="90" name="Net-(C42-Pad1)">
-      <node ref="U3" pin="1"/>
       <node ref="R59" pin="1"/>
       <node ref="C42" pin="1"/>
+      <node ref="U3" pin="1"/>
       <node ref="C43" pin="2"/>
     </net>
     <net code="91" name="Net-(C44-Pad2)">
@@ -3905,27 +3955,27 @@
       <node ref="R58" pin="2"/>
     </net>
     <net code="93" name="Net-(C38-Pad2)">
-      <node ref="R56" pin="1"/>
       <node ref="C38" pin="2"/>
       <node ref="C39" pin="1"/>
+      <node ref="R56" pin="1"/>
     </net>
     <net code="94" name="Net-(C39-Pad2)">
+      <node ref="U3" pin="5"/>
       <node ref="R57" pin="1"/>
       <node ref="C39" pin="2"/>
-      <node ref="U3" pin="5"/>
     </net>
     <net code="95" name="Net-(P8-Pad3)">
-      <node ref="P8" pin="3"/>
       <node ref="R65" pin="1"/>
+      <node ref="P8" pin="3"/>
     </net>
     <net code="96" name="Net-(C48-Pad2)">
       <node ref="C48" pin="2"/>
-      <node ref="U4" pin="3"/>
       <node ref="R62" pin="1"/>
+      <node ref="U4" pin="3"/>
     </net>
     <net code="97" name="Net-(C49-Pad2)">
-      <node ref="R66" pin="1"/>
       <node ref="C49" pin="2"/>
+      <node ref="R66" pin="1"/>
     </net>
     <net code="98" name="Net-(P8-Pad6)">
       <node ref="R66" pin="2"/>
@@ -3937,8 +3987,8 @@
       <node ref="C49" pin="1"/>
     </net>
     <net code="100" name="Net-(R56-Pad2)">
-      <node ref="U3" pin="7"/>
       <node ref="R56" pin="2"/>
+      <node ref="U3" pin="7"/>
       <node ref="U3" pin="6"/>
     </net>
     <net code="101" name="Net-(C47-Pad1)">
@@ -3958,16 +4008,16 @@
       <node ref="R60" pin="2"/>
     </net>
     <net code="104" name="Net-(P7-Pad2)">
-      <node ref="P7" pin="2"/>
       <node ref="U4" pin="5"/>
+      <node ref="P7" pin="2"/>
     </net>
     <net code="105" name="Net-(P7-Pad3)">
-      <node ref="P7" pin="3"/>
       <node ref="R64" pin="2"/>
+      <node ref="P7" pin="3"/>
     </net>
     <net code="106" name="Net-(P5-Pad2)">
-      <node ref="P5" pin="2"/>
       <node ref="R58" pin="1"/>
+      <node ref="P5" pin="2"/>
     </net>
     <net code="107" name="Net-(C38-Pad1)">
       <node ref="C38" pin="1"/>
@@ -3975,10 +4025,10 @@
     </net>
     <net code="108" name="Net-(C42-Pad2)">
       <node ref="U3" pin="2"/>
-      <node ref="R59" pin="2"/>
       <node ref="P5" pin="3"/>
-      <node ref="C42" pin="2"/>
+      <node ref="R59" pin="2"/>
       <node ref="P6" pin="3"/>
+      <node ref="C42" pin="2"/>
     </net>
     <net code="109" name="Net-(P6-Pad4)">
       <node ref="P6" pin="4"/>
