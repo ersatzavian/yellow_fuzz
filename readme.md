@@ -19,16 +19,6 @@ Formerly "yellow fuzz" after BRC's "yellow bikes" that happen to be green. Didn'
 
 ## Parts Needed 
 
-### For Dev Version
-
-* Electromechanical
-  * Foot switch, probably no-click momentary pcb mount - FS5700SPMT2B2M2QE
-    * FS5700SPMT2B2M1QE for form-factor (panel-mount, solder lugs)
-  * Board-mount mini-toggles, the more fun the better.
-* Connectors
-  * 9V Battery Clip
-  * AC Adapter - check barrel sizes from Godlyke adapter I've got.
-
 ### For Form-Factor Version
 * 1/4" Stereo Jack, Panel Mount with header footprint.
 * 1/4" Mono Jack, Panel Mount with header footprint
@@ -36,13 +26,16 @@ Formerly "yellow fuzz" after BRC's "yellow bikes" that happen to be green. Didn'
 
 ## Issues
 
-### Don't Use KiCad
-
-First and foremost: KiCad's BOM workflow (link symbols to footprints at individual part level -> link to ordering information at footprint level to build BOM from layout) makes no sense to me. Either I'm misunderstanding how this tool works or it's been built to serve the workflow some small community of hobbyists was using. Either way, never again. 
-
-This workflow, plus the look and feel of KiCad's schematic editor, made capturing the design about as smooth and rewarding as swallowing a fork.
-
-### OK Actual Issues
+| Issue | Workaround | Fix | Fixed in Master |
+| ----- | ---------- | --- | --------------- |
+| C2 and R6 ref desisators are swapped. HTML BOM shows correct outlines. | Install per HTML BOM. | Swap ref des back. | |
+| R4, R6-7, R12, R14-15, R17-18, R24-26, R33, R51 MPN is for 1k part, should be 10k (part description on BOM is correct, but MPN is wrong). | Install 10k part. | Update component in lib. | | 
+| R14 and R15 ref des are colliding. | N/A | Fix in layout. | |
+| NSVJ3910SB3T1G was replaced in order with J113, which is a through-hole part and won't fit. | Order correct part. | Make sure MPN in design is correct and orderable. | |
+| PTV111-4420-A104 was missing from kit, got extra PTV112-4420-A104 instead. | Cut leads 1 and 2, bend 3-6 down to fit into pads 1-4 to use just one pot of the two in the package. | Order the right thing. | |
+| PTV111-4420-A503 was missing from kit, got extra PTV112-4420-A503 instead. | Cut leads 1 and 2, bend 3-6 down to fit into pads 1-4 to use just one pot of the two in the package. | Order the right thing. | |
+| Nichicon UST1H010MDD1TE footprint is wrong (C1, C19, C26, C36, C43, C46): lead spacing is nto correct, part leads are flared for wider spacing than footprint. | Bend leads back. | Correct footprint. | | 
+| D6 missing MPN info. | N/A | Correct part library ref. | |
 
 ## References
 
