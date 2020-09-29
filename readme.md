@@ -40,7 +40,7 @@ Formerly "yellow fuzz" after BRC's "yellow bikes" that happen to be green. Didn'
 | Used center-positive jack, which might be a problem for a standard pedal board. | Use as center-positive. | Research and consider switching to center-negative. |  |
 | 22 Ohm series-R on power rail, why even would you do that? | Short that. | Remove that. | |
 | Polarity marks on op-amps are not visible enough, and are obscured when sockets are installed (U1 was installed rotated 180 degrees in first build). | Note polarity carefully during build. | Improve op amp polarity marks. | |
-| Pre-distortion boost gain pot P1 is backwards (CCW for more) | Turn it the other way, or snip top-side trace between pins 1-2, short pins 1-3. [images/Rev01/P1_fix_sch.PNG] [images/Rev01/P1_fix_pcb.PNG] | Correct in schematic. | |
+| Pre-distortion boost gain pot P1 is backwards (CCW for more) | Turn it the other way, or snip top-side trace between pins 1-2, short pins 1-3. ![Sch](images/Rev01/P1_fix_sch.PNG) ![Layout](images/Rev01/P1_fix_pcb.PNG) | Correct in schematic. | |
 
 
 
