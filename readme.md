@@ -36,6 +36,13 @@ Formerly "yellow fuzz" after BRC's "yellow bikes" that happen to be green. Didn'
 | PTV111-4420-A503 was missing from kit, got extra PTV112-4420-A503 instead. | Cut leads 1 and 2, bend 3-6 down to fit into pads 1-4 to use just one pot of the two in the package. | Order the right thing. | |
 | Nichicon UST1H010MDD1TE footprint is wrong (C1, C19, C26, C36, C43, C46): lead spacing is nto correct, part leads are flared for wider spacing than footprint. | Bend leads back. | Correct footprint. | | 
 | D6 missing MPN info. | N/A | Correct part library ref. | |
+| No test points, doh. | N/A | Add some ground test points and stage-to-stage test points and jumpers. | |
+| Used center-positive jack, which might be a problem for a standard pedal board. | Use as center-positive. | Research and consider switching to center-negative. |  |
+| 22 Ohm series-R on power rail, why even would you do that? | Short that. | Remove that. | |
+| Polarity marks on op-amps are not visible enough, and are obscured when sockets are installed (U1 was installed rotated 180 degrees in first build). | Note polarity carefully during build. | Improve op amp polarity marks. | |
+| Pre-distortion boost gain pot P1 is backwards (CCW for more) | Turn it the other way, or snip top-side trace between pins 1-2, short pins 1-3. [images/Rev01/P1_fix_sch.PNG] [images/Rev01/P1_fix_pcb.PNG] | Correct in schematic. | |
+
+
 
 ## References
 
