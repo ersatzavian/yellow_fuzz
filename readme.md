@@ -41,6 +41,7 @@ Formerly "yellow fuzz" after BRC's "yellow bikes" that happen to be green. Didn'
 | 22 Ohm series-R on power rail, why even would you do that? | Short that. | Remove that. | |
 | Polarity marks on op-amps are not visible enough, and are obscured when sockets are installed (U1 was installed rotated 180 degrees in first build). | Note polarity carefully during build. | Improve op amp polarity marks. | |
 | Pre-distortion boost gain pot P1 is backwards (CCW for more) | Turn it the other way, or snip top-side trace between pins 1-2, short pins 1-3. ![Sch](/images/Rev01/P1_fix_sch.PNG) ![Layout](/images/Rev01/P1_fix_pcb.PNG) | Correct in schematic. | |
+| Dual pots installed in P5, P6, P7, and P9 with pins 3-6 slid over into pads 1-4 don't match design correctly. | Double-check pinout of these parts and revise rework used to place dual pots in single-pot footprints. | Use the parts on the BOM, duh. | |
 
 
 
