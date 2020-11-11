@@ -20,7 +20,7 @@ Rev01 (non form-factor) has been built, brought up, and play tested.
 
 Controls are described by order in the signal chain, rather than physical layout. 
 
-![Rev01 Controls Labeled](/images/Rev01/controls_labeled.jpg)
+![Rev01 Controls Labeled](/images/Rev01/user_guide/controls_labeled.png)
 
 | Control | Original MT-2 Control, or Experiment | Circuit Block | What's it Do? |
 | ------- | ------------------------------------ | ------------- | ------------- |
