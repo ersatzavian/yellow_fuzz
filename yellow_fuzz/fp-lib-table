@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name yellow_fuzz_dev)(type KiCad)(uri /Users/tom/yellow_fuzz/yellow_fuzz_dev/yellow_fuzz_dev_lib.pretty)(options "")(descr ""))
+  (lib (name digikey)(type KiCad)(uri /Users/tom/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RV112BF-40E1-25A-A100K-0068
+F https://www.mouser.com/datasheet/2/13/RV112B-1658530.pdf
+$ENDCMP
+#
+$CMP RV112BF-40E1-25A-A50K-0068
+F https://www.mouser.com/datasheet/2/13/RV112B-1658530.pdf
+$ENDCMP
+#
+#End Doc Library

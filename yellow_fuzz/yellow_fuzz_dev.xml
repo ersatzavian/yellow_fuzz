@@ -1,0 +1,4046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/tom/yellow_fuzz/yellow_fuzz_dev/yellow_fuzz_dev.sch</source>
+    <date>Saturday, May 02, 2020 at 08:48:40 AM</date>
+    <tool>Eeschema (5.1.5-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Yellow Fuzz</title>
+        <company/>
+        <rev>1.0</rev>
+        <date>2020-01-23</date>
+        <source>yellow_fuzz_dev.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/tone_block/" tstamps="/5E9E73B4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tone_block.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CBF9C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB473</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1427-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CE16A</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0201JR-071ML</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.05 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1MNCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3D0983</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3D1684</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>NSVJ3910SB3T1GOSCT-ND</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Detail_Page">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&amp;pkeyword=&amp;sv=0&amp;pv1989=0&amp;pv1183=u25V&amp;pv2270=u180mV+%40+1%C2%B5A&amp;pv2270=u200mV+%40+100%C2%B5A&amp;pv2270=u300mV+%40+100%C2%B5A&amp;pv2270=u600mV+%40+10%C2%B5A&amp;pv2270=u600mV+%40+100%C2%B5A&amp;sf=1&amp;FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&amp;quantity=&amp;pbfree=1&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;rohs=1&amp;pageSize=250</field>
+        <field name="Description">IC JFET N-CH 25V 50MA 3CPH</field>
+        <field name="Family">Transistors - JFETs</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">NSVJ3910SB3T1G</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">J113FS-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="NSVJ3910SB3T1GOSCT-ND" description="JFET N-CH 35V 625MW TO92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3D3B76</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>WP7113QBC_D</value>
+      <footprint>digikey:LED_5mm_Radial</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460</field>
+        <field name="Description">LED BLUE CLEAR T-1 3/4 T/H</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer PN">WP7113QBC/D</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">754-1489-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="WP7113QBC_D-dk_LEDs" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E402560</tstamp>
+    </comp>
+    <comp ref="Q9">
+      <value>BC817-25-TP</value>
+      <footprint>digikey:SOT-23-3</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
+        <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A3C67</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A7BBA</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A85FF</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0201JR-071ML</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.05 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1MNCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E625FBC</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-104ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-104ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E6267A9</tstamp>
+    </comp>
+    <comp ref="Q11">
+      <value>NSVJ3910SB3T1GOSCT-ND</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Detail_Page">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&amp;pkeyword=&amp;sv=0&amp;pv1989=0&amp;pv1183=u25V&amp;pv2270=u180mV+%40+1%C2%B5A&amp;pv2270=u200mV+%40+100%C2%B5A&amp;pv2270=u300mV+%40+100%C2%B5A&amp;pv2270=u600mV+%40+10%C2%B5A&amp;pv2270=u600mV+%40+100%C2%B5A&amp;sf=1&amp;FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&amp;quantity=&amp;pbfree=1&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;rohs=1&amp;pageSize=250</field>
+        <field name="Description">IC JFET N-CH 25V 50MA 3CPH</field>
+        <field name="Family">Transistors - JFETs</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">NSVJ3910SB3T1G</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">J113FS-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="NSVJ3910SB3T1GOSCT-ND" description="JFET N-CH 35V 625MW TO92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62A43E</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62B849</tstamp>
+    </comp>
+    <comp ref="Q13">
+      <value>BC817-25-TP</value>
+      <footprint>digikey:SOT-23-3</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
+        <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62C82C</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-104ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-104ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62DA6B</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E62E024</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>BAS16W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">BAS16WT1G</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">BAS16WT1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="BAS16W" description="100V, 0.175A, High-speed Switching Diode, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECDEEA4</tstamp>
+    </comp>
+    <comp ref="Q14">
+      <value>NSVJ3910SB3T1GOSCT-ND</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Detail_Page">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&amp;pkeyword=&amp;sv=0&amp;pv1989=0&amp;pv1183=u25V&amp;pv2270=u180mV+%40+1%C2%B5A&amp;pv2270=u200mV+%40+100%C2%B5A&amp;pv2270=u300mV+%40+100%C2%B5A&amp;pv2270=u600mV+%40+10%C2%B5A&amp;pv2270=u600mV+%40+100%C2%B5A&amp;sf=1&amp;FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&amp;quantity=&amp;pbfree=1&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;rohs=1&amp;pageSize=250</field>
+        <field name="Description">IC JFET N-CH 25V 50MA 3CPH</field>
+        <field name="Family">Transistors - JFETs</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">NSVJ3910SB3T1G</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">J113FS-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="NSVJ3910SB3T1GOSCT-ND" description="JFET N-CH 35V 625MW TO92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED02218</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>BAS16W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">BAS16WT1G</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">BAS16WT1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="BAS16W" description="100V, 0.175A, High-speed Switching Diode, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED02B8F</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0201JR-071ML</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.05 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1MNCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED03F0D</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0201JR-071ML</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.05 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1MNCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED04E3C</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DZ2S056X0L</value>
+      <footprint>Diode_SMD:D_SOD-523</footprint>
+      <datasheet>https://industrial.panasonic.com/content/data/SC/ds/ds4/DZ2S05600L_E.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">DZ2S056M0L</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">DZ2S056M0LCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="DZ2S056X0L" description="150mW Silicon Planar Zener Diode, 5.6V, SOD-523"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE18FB0</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Manufacturer PN">ESR03EZPJ122</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.25 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">RHM1.2KDCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE1B567</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer PN">860010372006</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">732-8598-1-ND</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEDC4A5</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">ESK107M6R3AC3AA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">399-6602-ND</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEDDAF0</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEDF447</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEE0098</tstamp>
+    </comp>
+    <comp ref="Q12">
+      <value>BC817-25-TP</value>
+      <footprint>digikey:SOT-23-3</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
+        <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F055CDD</tstamp>
+    </comp>
+    <comp ref="Q10">
+      <value>BC817-25-TP</value>
+      <footprint>digikey:SOT-23-3</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
+        <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F057068</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Rohm Semiconductor</field>
+        <field name="Manufacturer PN">ESR03EZPJ101</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.25 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">RHM100DCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F059AB9</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0201JR-071ML</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.05 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1MNCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F059FDE</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-104ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-104ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F05B5F5</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0756KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-56KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F05BB2A</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0756KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-56KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F05C37F</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0756KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-56KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F05C904</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>56k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0756KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-56KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F05CE99</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB473</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1427-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F07FD9D</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KPX7R9BB103</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1572-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F080518</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>220p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB221</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1077-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F08264E</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>220p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB221</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1077-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F08300E</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>470p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB471</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1078-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F08353E</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>470p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB471</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1078-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F083C7B</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-104ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-104ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F10C1BD</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0201JR-071ML</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.05 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1MNCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F5D20F2</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>DMN2041L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/products_inactive_data/DMN2041L.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer PN">DMN2041L-7</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">DMN2041L-7DICT-ND</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMN2041L" description="6.4A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E927B65</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>DMN2041L</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/products_inactive_data/DMN2041L.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Incorporated</field>
+        <field name="Manufacturer PN">DMN2041L-7</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">DMN2041L-7DICT-ND</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="DMN2041L" description="6.4A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E959DE7</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>22</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603FR-0722RL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-22.0HRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E9946B5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BAS16W</value>
+      <footprint>Package_TO_SOT_SMD:SOT-323_SC-70</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer Part Number">BAS16WT1G</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">BAS16WT1GOSCT-ND</field>
+      </fields>
+      <libsource lib="Diode" part="BAS16W" description="100V, 0.175A, High-speed Switching Diode, SOT-323"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC70480</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0722KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-22KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4E211C</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603JRNPO9BN100</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1058-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4E17AD</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603JRNPO9BN470</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1065-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4E0BD9</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">CRGCQ0603J3K3</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">A130094CT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4E0459</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0722KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-22KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4E00D0</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0722KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-22KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4DDD50</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>15n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB153</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1430-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4D663E</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">RC0603JR-074K7L</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-4.7KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4D5DCE</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4D3D9D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148</value>
+      <footprint>digikey:Diode_DO-35_P10mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/1N914-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
+        <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">1N4148</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">1N4148FS-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="1N4148-dk_Diodes-Rectifiers-Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3FD585</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>digikey:Diode_DO-35_P10mm</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/1N914-D.PDF</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
+        <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">1N4148</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">1N4148FS-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="1N4148-dk_Diodes-Rectifiers-Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3FB77B</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">ERJ-3GEYJ222V</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">ERJ-3GEYJ222V</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3F8B0A</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer PN">860010372001</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">732-8593-1-ND</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3F72A2</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3F67F3</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>47p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603JRNPO9BN470</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1065-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3F592F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3EB0E6</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-104ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-104ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3D248E</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>33n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB333</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1429-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3D19AB</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB473</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1427-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CFE9F</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CF5FF</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CEC0E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-104ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-104ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CD156</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0201JR-071ML</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.05 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1MNCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CB89F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-104ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-104ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3CA59E</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>NSVJ3910SB3T1GOSCT-ND</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23_Handsoldering</footprint>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Detail_Page">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&amp;pkeyword=&amp;sv=0&amp;pv1989=0&amp;pv1183=u25V&amp;pv2270=u180mV+%40+1%C2%B5A&amp;pv2270=u200mV+%40+100%C2%B5A&amp;pv2270=u300mV+%40+100%C2%B5A&amp;pv2270=u600mV+%40+10%C2%B5A&amp;pv2270=u600mV+%40+100%C2%B5A&amp;sf=1&amp;FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&amp;quantity=&amp;pbfree=1&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;rohs=1&amp;pageSize=250</field>
+        <field name="Description">IC JFET N-CH 25V 50MA 3CPH</field>
+        <field name="Family">Transistors - JFETs</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Manufacturer PN">NSVJ3910SB3T1G</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">J113FS-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="NSVJ3910SB3T1GOSCT-ND" description="JFET N-CH 35V 625MW TO92"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3C8B88</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Manufacturer PN">UST1H010MDD1TE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">493-17436-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3C715A</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>BC817-25-TP</value>
+      <footprint>digikey:SOT-23-3</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
+        <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E3D85AB</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-104ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-104ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E4D7F92</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0201JR-071ML</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.05 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1MNCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F8D55D7</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB473</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1427-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F94C5F7</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C104M5RACTU</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">399-7845-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FC22C7A</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C104M5RACTU</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">399-7845-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF4546D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1.0u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603ZRY5V7BB105</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1372-1-ND</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FEC222</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603JRNPO9BN101</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1069-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60FECBAA</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F098D43</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">ERJ-3GEYJ222V</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">ERJ-3GEYJ222V</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F098D50</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0747KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">RC0603JR-0747KL</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F098D5D</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KPX7R9BB103</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1572-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F098D69</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>27n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB273</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-3375-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F098D75</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>BC817-25-TP</value>
+      <footprint>digikey:SOT-23-3</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
+        <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F098D84</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C104M5RACTU</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">399-7845-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F16C29E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB473</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1427-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1962C6</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">ERJ-3GEYJ222V</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">ERJ-3GEYJ222V</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1E85FA</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0747KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">RC0603JR-0747KL</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F1E8F1B</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-07470RL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-470GRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F899524</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>BC817-25-TP</value>
+      <footprint>digikey:SOT-23-3</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
+        <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E517E51</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB473</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1427-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E597302</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>220n</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Manufacturer PN">UVR2AR22MDD</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">493-1137-ND</field>
+        <field name="Voltage">35V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E598616</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>470k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-07470KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-470KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E59A6C2</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A28FB</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1.5n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB152</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1184-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A1AFA</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>15n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB153</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1430-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E5A099B</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E50E8BD</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0747KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">RC0603JR-0747KL</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E50E8A3</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>BC817-25-TP</value>
+      <footprint>digikey:SOT-23-3</footprint>
+      <datasheet>https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
+        <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Manufacturer PN">BC817-25-TP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">BC817-25-TPMSCT-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E50E87E</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_SP3T_A24JP</value>
+      <footprint>yellow_fuzz_dev:A24JP</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">NKK Switches</field>
+        <field name="Manufacturer Part Number">A24JP</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">360-3408-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="SW_SP3T_A24JP" description="Switch, three position, single pole triple throw, 3 position switch, SP3T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECDB775</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>SW_SPST_A11JP</value>
+      <footprint>yellow_fuzz_dev:A11JP</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufactuer Part Number">A11JP</field>
+        <field name="Manufacturer">NKK Switches</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">360-2973-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="SW_SPST_A11JP" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEE74B3</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>SW_SPST_A11JP</value>
+      <footprint>yellow_fuzz_dev:A11JP</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufactuer Part Number">A11JP</field>
+        <field name="Manufacturer">NKK Switches</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">360-2973-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="SW_SPST_A11JP" description="Single Pole Single Throw (SPST) switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EEEC1EA</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F0C21AA</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>SW_SP3T_A24JP</value>
+      <footprint>yellow_fuzz_dev:A24JP</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">NKK Switches</field>
+        <field name="Manufacturer Part Number">A24JP</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">360-3408-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="SW_SP3T_A24JP" description="Switch, three position, single pole triple throw, 3 position switch, SP3T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F11ED8A</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>SW_SP3T_A24JP</value>
+      <footprint>yellow_fuzz_dev:A24JP</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">NKK Switches</field>
+        <field name="Manufacturer Part Number">A24JP</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">360-3408-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="SW_SP3T_A24JP" description="Switch, three position, single pole triple throw, 3 position switch, SP3T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F22B1DD</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N34A</value>
+      <footprint>digikey:DO-35</footprint>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Description">D-GE- 75PRV  .005A</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="Manufacturer">NTE Electronics, Inc</field>
+        <field name="Manufacturer PN">1N34A</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">2368-1N34A-ND</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N914BTR" description="DIODE GEN PURP 100V 200MA DO35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F4A99DE</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N34A</value>
+      <footprint>digikey:DO-35</footprint>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Description">D-GE- 75PRV  .005A</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="Manufacturer">NTE Electronics, Inc</field>
+        <field name="Manufacturer PN">1N34A</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">2368-1N34A-ND</field>
+      </fields>
+      <libsource lib="dk_Diodes-Rectifiers-Single" part="1N914BTR" description="DIODE GEN PURP 100V 200MA DO35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F6F1A3E</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>3386P-1-204TLF</value>
+      <footprint>yellow_fuzz_dev:3386P</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/3362.pdf</datasheet>
+      <fields>
+        <field name="Category">Potentiometers, Variable Resistors</field>
+        <field name="DK_Datasheet_Link">https://www.bourns.com/docs/Product-Datasheets/3362.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/bourns-inc/3386P-1-204TLF/3386P-1-204TLF-ND/2537213</field>
+        <field name="Description">TRIMMER 200K OHM 0.5W PC PIN TOP</field>
+        <field name="Family">Rotary Potentiometers, Rheostats</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">3386P-1-204TLF</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">3386P-1-204TLF-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="3386P-1-204TLF" description="TRIMMER 1K OHM 0.5W PC PIN TOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC00541</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECA28AB</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">ESK107M6R3AC3AA</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">399-6602-ND</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAC6FE6</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer PN">860010372001</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">732-8593-1-ND</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EAC8901</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Manufacturer PN">UST1H010MDD1TE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">493-17436-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB006AF</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Manufacturer PN">UST1H010MDD1TE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">493-17436-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB3A41C</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Manufacturer PN">UST1H010MDD1TE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">493-17436-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EBAB755</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer PN">860010372001</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">732-8593-1-ND</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC4ECE4</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer PN">860010372001</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">732-8593-1-ND</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EC87BB9</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>1825910-6</value>
+      <footprint>yellow_fuzz_dev:Switch_Tactile_THT_6x6mm</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Category">Switches</field>
+        <field name="DK_Datasheet_Link">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="DK_Detail_Page">/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Family">Tactile Switches</field>
+        <field name="Manufacturer">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Manufacturer PN">1825910-6</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">450-1650-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="1825910-6" description="SWITCH TACTILE SPST-NO 0.05A 24V"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ECF5927</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>TL072CP</value>
+      <footprint>yellow_fuzz_dev:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421</field>
+        <field name="Description">IC OPAMP JFET 2 CIRCUIT 8DIP</field>
+        <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer PN">TL072CP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">296-1775-5-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="TL072CP" description="IC OPAMP JFET 2 CIRCUIT 8DIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ED31A23</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TL072CP</value>
+      <footprint>yellow_fuzz_dev:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421</field>
+        <field name="Description">IC OPAMP JFET 2 CIRCUIT 8DIP</field>
+        <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer PN">TL072CP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">296-1775-5-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="TL072CP" description="IC OPAMP JFET 2 CIRCUIT 8DIP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EDA458A</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>3362P-1-102TLF</value>
+      <footprint>yellow_fuzz_dev:3362PT</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/3362.pdf</datasheet>
+      <fields>
+        <field name="Category">Potentiometers, Variable Resistors</field>
+        <field name="DK_Datasheet_Link">https://www.bourns.com/docs/Product-Datasheets/3362.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/bourns-inc/3362P-1-102TLF/3362P-1-102TLF-ND/2536611</field>
+        <field name="Description">TRIMMER 1K OHM 0.5W PC PIN TOP</field>
+        <field name="Digi-Key_PN">3362P-1-102TLF-ND</field>
+        <field name="Family">Rotary Potentiometers, Rheostats</field>
+        <field name="MPN">3362P-1-102TLF</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="3362P-1-102TLF" description="TRIMMER 1K OHM 0.5W PC PIN TOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EE31C7C</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>3362P-1-102TLF</value>
+      <footprint>yellow_fuzz_dev:3362PT</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/3362.pdf</datasheet>
+      <fields>
+        <field name="Category">Potentiometers, Variable Resistors</field>
+        <field name="DK_Datasheet_Link">https://www.bourns.com/docs/Product-Datasheets/3362.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/bourns-inc/3362P-1-102TLF/3362P-1-102TLF-ND/2536611</field>
+        <field name="Description">TRIMMER 1K OHM 0.5W PC PIN TOP</field>
+        <field name="Digi-Key_PN">3362P-1-102TLF-ND</field>
+        <field name="Family">Rotary Potentiometers, Rheostats</field>
+        <field name="MPN">3362P-1-102TLF</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="3362P-1-102TLF" description="TRIMMER 1K OHM 0.5W PC PIN TOP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF0F665</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PJ-202A</value>
+      <footprint>yellow_fuzz_dev:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A</footprint>
+      <datasheet>https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM KINKED PIN</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Manufacturer PN">PJ-202A</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CP-202A-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="PJ-202A" description="CONN PWR JACK 2X5.5MM KINKED PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF8F8A4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>SN49B12B</value>
+      <footprint>yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B</footprint>
+      <datasheet>http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf</datasheet>
+      <fields>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="DK_Datasheet_Link">http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/switchcraft-inc/SN49B12B/SC1522-ND/412780</field>
+        <field name="Description">CONN JACK STEREO 6.35MM R/A</field>
+        <field name="Family">Barrel - Audio Connectors</field>
+        <field name="Manufacturer">Switchcraft Inc.</field>
+        <field name="Manufacturer PN">SN49B12B</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">SC1522-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="SN49B12B" description="CONN JACK STEREO 6.35MM R/A"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF915FE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>RA49B11</value>
+      <footprint>yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B</footprint>
+      <fields>
+        <field name="Manufacturer">Switchcraft</field>
+        <field name="Manufacturer PN">RA49B11</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">SC2546-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="RA49B11" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EF93178</tstamp>
+    </comp>
+    <comp ref="BAT1">
+      <value>BC9VPC</value>
+      <footprint>yellow_fuzz_dev:Battery_Holder_9V_BC9VPC-ND</footprint>
+      <datasheet>http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf</datasheet>
+      <fields>
+        <field name="Category">Battery Products</field>
+        <field name="DK_Datasheet_Link">http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747</field>
+        <field name="Description">BATTERY HOLDER 9V PC PIN</field>
+        <field name="Digi-Key_PN">BC9VPC-ND</field>
+        <field name="Family">Battery Holders, Clips, Contacts</field>
+        <field name="MPN">BC9VPC</field>
+        <field name="Manufacturer">MPD (Memory Protection Devices)</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="BC9VPC" description="BATTERY HOLDER 9V PC PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F040678</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>PTV112-4420A-A104</value>
+      <footprint>yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</datasheet>
+      <fields>
+        <field name="Gangs">Dual</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer Part Number">PTV112-4420A-A104</field>
+        <field name="Resistance">100k</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">652-PTV1124420AA104</field>
+        <field name="Taper">Log</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="PTV112-4420A-A104" description="POT 100K DUAL GANGED LOG"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5EB889C3</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-071KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1.0KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E517E90</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>WP7113QBC_D</value>
+      <footprint>digikey:LED_5mm_Radial</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460</field>
+        <field name="Description">LED BLUE CLEAR T-1 3/4 T/H</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Manufacturer PN">WP7113QBC/D</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">754-1489-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="WP7113QBC_D-dk_LEDs" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3E607D</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>WP7113QBC_D</value>
+      <footprint>digikey:LED_5mm_Radial</footprint>
+      <datasheet>http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</datasheet>
+      <fields>
+        <field name="Category">Optoelectronics</field>
+        <field name="DK_Datasheet_Link">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460</field>
+        <field name="Description">LED BLUE CLEAR T-1 3/4 T/H</field>
+        <field name="Digi-Key_PN">754-1489-ND</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="MPN">WP7113QBC/D</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev-rescue" part="WP7113QBC_D-dk_LEDs" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F381BCC</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0722KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-22KGRCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96557</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>10p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603JRNPO9BN100</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1058-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96563</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Manufacturer PN">UST1H010MDD1TE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">493-17436-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA9656E</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0747KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">RC0603JR-0747KL</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA9657B</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0603JR-0747KL</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">RC0603JR-0747KL</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96588</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>100p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603JRNPO9BN101</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1069-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA965AC</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">ERJ-3GEYJ222V</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">ERJ-3GEYJ222V</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA965B9</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KPX7R9BB103</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1572-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA965C5</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">ERJ-3GEYJ222V</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">ERJ-3GEYJ222V</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA965D2</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>220n</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Manufacturer PN">UVR2AR22MDD</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">493-1137-ND</field>
+        <field name="Voltage">35V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA965DD</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>47n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB473</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1427-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA965E9</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-104ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-104ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA965F6</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">RC0201JR-071ML</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.05 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1MNCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96616</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>8.2n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R8BB822</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-4092-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96664</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>22n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Manufacturer PN">CC0603KRX7R9BB223</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">311-1370-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96670</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">ERJ-3GEYJ222V</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">ERJ-3GEYJ222V</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA9667D</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>10u</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Wurth Elektronik</field>
+        <field name="Manufacturer PN">860010372001</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">732-8593-1-ND</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96688</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>2.2k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Panasonic Electronic Components</field>
+        <field name="Manufacturer PN">ERJ-3GEYJ222V</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">ERJ-3GEYJ222V</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA966E7</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C104M5RACTU</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">399-7845-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA9676A</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C104M5RACTU</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">399-7845-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA967B3</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TL072CP</value>
+      <footprint>yellow_fuzz_dev:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421</field>
+        <field name="Description">IC OPAMP JFET 2 CIRCUIT 8DIP</field>
+        <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer PN">TL072CP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">296-1775-5-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="TL072CP" description="IC OPAMP JFET 2 CIRCUIT 8DIP"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EE12DB9</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TL072CP</value>
+      <footprint>yellow_fuzz_dev:DIP-8_W7.62mm</footprint>
+      <datasheet>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</datasheet>
+      <fields>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421</field>
+        <field name="Description">IC OPAMP JFET 2 CIRCUIT 8DIP</field>
+        <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Manufacturer PN">TL072CP</field>
+        <field name="Status">Active</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">296-1775-5-ND</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="TL072CP" description="IC OPAMP JFET 2 CIRCUIT 8DIP"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EE1DAE2</tstamp>
+    </comp>
+    <comp ref="P8">
+      <value>PTV112-4420A-A503</value>
+      <footprint>yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</datasheet>
+      <fields>
+        <field name="Gangs">Dual</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer PN">PTV112-4420A-A503</field>
+        <field name="Resistance">50k</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier PN">652-PTV112-4420AA503</field>
+        <field name="Taper">Log</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="PTV112-4420A-A503" description="POT 50K DUAL GANGED LOG"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EB07C1A</tstamp>
+    </comp>
+    <comp ref="P9">
+      <value>PTV111-4420A-A503</value>
+      <footprint>yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</datasheet>
+      <fields>
+        <field name="Gangs">Single</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer PN">PTV111-4420A-A503</field>
+        <field name="Resistance">50k</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier PN">652-PTV111-4420AA503</field>
+        <field name="Taper">Log</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="PTV111-4420A-A503" description="POT 50K OHM LOG"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EB0A21B</tstamp>
+    </comp>
+    <comp ref="P7">
+      <value>PTV111-4420A-A104</value>
+      <footprint>yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</datasheet>
+      <fields>
+        <field name="Gangs">Single</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer PN">PTV111-4420A-A104</field>
+        <field name="Resistance">100k</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier PN">652-PTV111-4420AA104</field>
+        <field name="Taper">Log</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="PTV111-4420A-A104" description="POT 100K LOG"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EB2E1DB</tstamp>
+    </comp>
+    <comp ref="P5">
+      <value>PTV111-4420A-A104</value>
+      <footprint>yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</datasheet>
+      <fields>
+        <field name="Gangs">Single</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer PN">PTV111-4420A-A104</field>
+        <field name="Resistance">100k</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier PN">652-PTV111-4420AA104</field>
+        <field name="Taper">Log</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="PTV111-4420A-A104" description="POT 100K LOG"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EB4825A</tstamp>
+    </comp>
+    <comp ref="P6">
+      <value>PTV111-4420A-A104</value>
+      <footprint>yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</datasheet>
+      <fields>
+        <field name="Gangs">Single</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer PN">PTV111-4420A-A104</field>
+        <field name="Resistance">100k</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier PN">652-PTV111-4420AA104</field>
+        <field name="Taper">Log</field>
+      </fields>
+      <libsource lib="yellow_fuzz_dev" part="PTV111-4420A-A104" description="POT 100K LOG"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EB49413</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-331ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-331ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96609</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">KEMET</field>
+        <field name="Manufacturer PN">C0603C104M5RACTU</field>
+        <field name="Package">0603</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">399-7845-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96628</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Manufacturer PN">CR0603-JW-331ELF</field>
+        <field name="Package">0603</field>
+        <field name="Power">0.1 W</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">CR0603-JW-331ELFCT-ND</field>
+        <field name="Tolerance">5%</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA965A0</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>1u</value>
+      <footprint>Capacitor_THT:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Manufacturer">Nichicon</field>
+        <field name="Manufacturer PN">UST1H010MDD1TE</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier PN">493-17436-1-ND</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/tone_block/" tstamps="/5E9E73B4/"/>
+      <tstamp>5EA96593</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAS16W">
+      <description>100V, 0.175A, High-speed Switching Diode, SOT-323</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/BAS16_SER.pdf</docs>
+      <footprints>
+        <fp>SOT?323*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAS16W</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-323_SC-70</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="MM5Zxx">
+      <aliases>
+        <alias>DZ2S030X0L</alias>
+        <alias>DZ2S033X0L</alias>
+        <alias>DZ2S036X0L</alias>
+        <alias>DZ2S039X0L</alias>
+        <alias>DZ2S047X0L</alias>
+        <alias>DZ2S051X0L</alias>
+        <alias>DZ2S056X0L</alias>
+        <alias>DZ2S068X0L</alias>
+        <alias>DZ2S082X0L</alias>
+        <alias>DZ2S100X0L</alias>
+        <alias>DZ2S120X0L</alias>
+        <alias>DZ2S130X0L</alias>
+        <alias>DZ2S150X0L</alias>
+        <alias>DZ2S160X0L</alias>
+        <alias>DZ2S180X0L</alias>
+        <alias>DZ2S200X0L</alias>
+        <alias>DZ2S360X0L</alias>
+        <alias>DZ2S110X0L</alias>
+      </aliases>
+      <description>300mW Zener Diode, SOD-523</description>
+      <docs>https://diotec.com/tl_files/diotec/files/pdf/datasheets/mm5z2v4.pdf</docs>
+      <footprints>
+        <fp>D?SOD?523*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MM5Zxx</field>
+        <field name="Footprint">Diode_SMD:D_SOD-523</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML0030</alias>
+        <alias>IRLML2060</alias>
+        <alias>TSM2302CX</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Diodes-Rectifiers-Single" part="1N914BTR">
+      <description>DIODE GEN PURP 100V 200MA DO35</description>
+      <docs>https://www.onsemi.com/pub/Collateral/1N914-D.PDF</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N914BTR</field>
+        <field name="Footprint">digikey-footprints:DO-35</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="Digi-Key_PN">1N914BCT-ND</field>
+        <field name="MPN">1N914BTR</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N914BTR/1N914BCT-ND/458919</field>
+        <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="A" name="~" type="passive"/>
+        <pin num="K" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="1825910-6">
+      <description>SWITCH TACTILE SPST-NO 0.05A 24V</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">1825910-6</field>
+        <field name="Footprint">yellow_fuzz_dev:Switch_Tactile_THT_6x6mm</field>
+        <field name="Digi-Key_PN">450-1650-ND</field>
+        <field name="MPN">1825910-6</field>
+        <field name="Category">Switches</field>
+        <field name="Family">Tactile Switches</field>
+        <field name="DK_Datasheet_Link">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="DK_Detail_Page">/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Manufacturer">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="3362P-1-102TLF">
+      <description>TRIMMER 1K OHM 0.5W PC PIN TOP</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/3362.pdf</docs>
+      <fields>
+        <field name="Reference">POT</field>
+        <field name="Value">3362P-1-102TLF</field>
+        <field name="Footprint">yellow_fuzz_dev:3362PT</field>
+        <field name="Digi-Key_PN">3362P-1-102TLF-ND</field>
+        <field name="MPN">3362P-1-102TLF</field>
+        <field name="Category">Potentiometers, Variable Resistors</field>
+        <field name="Family">Rotary Potentiometers, Rheostats</field>
+        <field name="DK_Datasheet_Link">https://www.bourns.com/docs/Product-Datasheets/3362.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/bourns-inc/3362P-1-102TLF/3362P-1-102TLF-ND/2536611</field>
+        <field name="Description">TRIMMER 1K OHM 0.5W PC PIN TOP</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="CW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="3386P-1-204TLF">
+      <description>TRIMMER 1K OHM 0.5W PC PIN TOP</description>
+      <docs>https://www.bourns.com/docs/Product-Datasheets/3362.pdf</docs>
+      <fields>
+        <field name="Reference">POT</field>
+        <field name="Value">3386P-1-204TLF</field>
+        <field name="Footprint">yellow_fuzz_dev:3386P</field>
+        <field name="Digi-Key_PN">3386P-1-204TLF-ND</field>
+        <field name="MPN">3386P-1-204TLF</field>
+        <field name="Category">Potentiometers, Variable Resistors</field>
+        <field name="Family">Rotary Potentiometers, Rheostats</field>
+        <field name="DK_Datasheet_Link">https://www.bourns.com/docs/Product-Datasheets/3362.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/bourns-inc/3386P-1-204TLF/3386P-1-204TLF-ND/2537213</field>
+        <field name="Description">TRIMMER 200K OHM 0.5W PC PIN TOP</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="CW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="BC9VPC">
+      <description>BATTERY HOLDER 9V PC PIN</description>
+      <docs>http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">BAT</field>
+        <field name="Value">BC9VPC</field>
+        <field name="Footprint">yellow_fuzz_dev:Battery_Holder_9V_BC9VPC-ND</field>
+        <field name="Digi-Key_PN">BC9VPC-ND</field>
+        <field name="MPN">BC9VPC</field>
+        <field name="Category">Battery Products</field>
+        <field name="Family">Battery Holders, Clips, Contacts</field>
+        <field name="DK_Datasheet_Link">http://www.memoryprotectiondevices.com/datasheets/BC9VPC-datasheet.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/mpd-memory-protection-devices/BC9VPC/BC9VPC-ND/257747</field>
+        <field name="Description">BATTERY HOLDER 9V PC PIN</field>
+        <field name="Manufacturer">MPD (Memory Protection Devices)</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="NEG" name="~" type="power_in"/>
+        <pin num="POS" name="~" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="NSVJ3910SB3T1GOSCT-ND">
+      <description>JFET N-CH 35V 625MW TO92</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NSVJ3910SB3T1GOSCT-ND</field>
+        <field name="Digi-Key_PN">J113FS-ND</field>
+        <field name="MPN">NSVJ3910SB3T1G</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - JFETs</field>
+        <field name="DK_Detail_Page">https://www.digikey.com/products/en/discrete-semiconductor-products/transistors-jfets/288?k=&amp;pkeyword=&amp;sv=0&amp;pv1989=0&amp;pv1183=u25V&amp;pv2270=u180mV+%40+1%C2%B5A&amp;pv2270=u200mV+%40+100%C2%B5A&amp;pv2270=u300mV+%40+100%C2%B5A&amp;pv2270=u600mV+%40+10%C2%B5A&amp;pv2270=u600mV+%40+100%C2%B5A&amp;sf=1&amp;FV=7%7C2%2C7%7C3%2C606%7C378999%2C-8%7C288%2Cmu10mA%7C1186%2Cmu30mA%7C1186%2Cmu50mA%7C1186&amp;quantity=&amp;pbfree=1&amp;ColumnSort=0&amp;page=1&amp;stock=1&amp;rohs=1&amp;pageSize=250</field>
+        <field name="Description">IC JFET N-CH 25V 50MA 3CPH</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="PJ-202A">
+      <description>CONN PWR JACK 2X5.5MM KINKED PIN</description>
+      <docs>https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ-202A</field>
+        <field name="Footprint">yellow_fuzz_dev:Barrel_Jack_5.5mmODx2.1mmID_PJ-202A</field>
+        <field name="Digi-Key_PN">CP-202A-ND</field>
+        <field name="MPN">PJ-202A</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Barrel - Power Connectors</field>
+        <field name="DK_Datasheet_Link">https://www.cui.com/product/resource/digikeypdf/pj-202a.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/cui-inc/PJ-202A/CP-202A-ND/252007</field>
+        <field name="Description">CONN PWR JACK 2X5.5MM KINKED PIN</field>
+        <field name="Manufacturer">CUI Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="PTV111-4420A-A104">
+      <description>POT 100K LOG</description>
+      <docs>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</docs>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PTV111-4420A-A104</field>
+        <field name="Footprint">yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer Part Number">PTV111-4420A-A104</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">652-PTV111-4420AA104</field>
+        <field name="Gangs">Single</field>
+        <field name="Taper">Log</field>
+        <field name="Resistance">100k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="CW" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="PTV111-4420A-A503">
+      <description>POT 50K OHM LOG</description>
+      <docs>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</docs>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PTV111-4420A-A503</field>
+        <field name="Footprint">yellow_fuzz_dev:Potentiometer_Bourns_PTV111_4420A_Single_Vertical</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer Part Number">PTV111-4420A-A503</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">652-PTV111-4420AA503</field>
+        <field name="Gangs">Single</field>
+        <field name="Taper">Log</field>
+        <field name="Resistance">50k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="CW" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="PTV112-4420A-A104">
+      <description>POT 100K DUAL GANGED LOG</description>
+      <docs>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</docs>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PTV112-4420A-A104</field>
+        <field name="Footprint">yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer Part Number">PTV112-4420A-A104</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">652-PTV1124420AA104</field>
+        <field name="Gangs">Dual</field>
+        <field name="Taper">Log</field>
+        <field name="Resistance">100k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="CW" type="passive"/>
+        <pin num="4" name="CCW" type="passive"/>
+        <pin num="5" name="S" type="passive"/>
+        <pin num="6" name="CW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="PTV112-4420A-A503">
+      <description>POT 50K DUAL GANGED LOG</description>
+      <docs>https://www.mouser.com/datasheet/2/54/PTVPTT-56034.pdf</docs>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">PTV112-4420A-A503</field>
+        <field name="Footprint">yellow_fuzz_dev:Potentiometer_Bourns_PTV112_3417A_Dual_Vertical</field>
+        <field name="Manufacturer">Bourns</field>
+        <field name="Manufacturer Part Number">PTV112-4420A-A503</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">652-PTV112-4420AA503</field>
+        <field name="Gangs">Dual</field>
+        <field name="Taper">Log</field>
+        <field name="Resistance">50k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CCW" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="CW" type="passive"/>
+        <pin num="4" name="CCW" type="passive"/>
+        <pin num="5" name="S" type="passive"/>
+        <pin num="6" name="CW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="RA49B11">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RA49B11</field>
+      </fields>
+      <pins>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="SN49B12B">
+      <description>CONN JACK STEREO 6.35MM R/A</description>
+      <docs>http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf</docs>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">SN49B12B</field>
+        <field name="Footprint">yellow_fuzz_dev:Headphone_Jack_6.35mm_SN49B12B</field>
+        <field name="Digi-Key_PN">SC1522-ND</field>
+        <field name="MPN">SN49B12B</field>
+        <field name="Category">Connectors, Interconnects</field>
+        <field name="Family">Barrel - Audio Connectors</field>
+        <field name="DK_Datasheet_Link">http://www.switchcraft.com/Drawings/SN49B_SERIES_CD.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/switchcraft-inc/SN49B12B/SC1522-ND/412780</field>
+        <field name="Description">CONN JACK STEREO 6.35MM R/A</field>
+        <field name="Manufacturer">Switchcraft Inc.</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="R" name="~" type="passive"/>
+        <pin num="S" name="~" type="passive"/>
+        <pin num="T" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="SW_SP3T_A24JP">
+      <description>Switch, three position, single pole triple throw, 3 position switch, SP3T</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW*</fp>
+        <fp>SP3T*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SP3T_A24JP</field>
+        <field name="Footprint">yellow_fuzz_dev:A24JP</field>
+        <field name="Manufacturer">NKK Switches</field>
+        <field name="Manufacturer Part Number">A24JP</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">360-3408-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="SW_SPST_A11JP">
+      <description>Single Pole Single Throw (SPST) switch</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_SPST_A11JP</field>
+        <field name="Footprint">yellow_fuzz_dev:A11JP</field>
+        <field name="Manufacturer">NKK Switches</field>
+        <field name="Manufactuer Part Number">A11JP</field>
+        <field name="Supplier">Digi-Key</field>
+        <field name="Supplier Part Number">360-2973-ND</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev" part="TL072CP">
+      <description>IC OPAMP JFET 2 CIRCUIT 8DIP</description>
+      <docs>http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL072CP</field>
+        <field name="Footprint">yellow_fuzz_dev:DIP-8_W7.62mm</field>
+        <field name="Digi-Key_PN">296-1775-5-ND</field>
+        <field name="MPN">TL072CP</field>
+        <field name="Category">Integrated Circuits (ICs)</field>
+        <field name="Family">Linear - Amplifiers - Instrumentation, OP Amps, Buffer Amps</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&amp;gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Ftl071a</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/TL072CP/296-1775-5-ND/277421</field>
+        <field name="Description">IC OPAMP JFET 2 CIRCUIT 8DIP</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="VCC-" type="power_in"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="VCC+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev-rescue" part="1N4148-dk_Diodes-Rectifiers-Single">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148-dk_Diodes-Rectifiers-Single</field>
+        <field name="Footprint">digikey-footprints:Diode_DO-35_P10mm</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="Digi-Key_PN">1N4148FS-ND</field>
+        <field name="MPN">1N4148</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Diodes - Rectifiers - Single</field>
+        <field name="DK_Datasheet_Link">https://www.onsemi.com/pub/Collateral/1N914-D.PDF</field>
+        <field name="DK_Detail_Page">/product-detail/en/on-semiconductor/1N4148/1N4148FS-ND/458603</field>
+        <field name="Description">DIODE GEN PURP 100V 200MA DO35</field>
+        <field name="Manufacturer">ON Semiconductor</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev-rescue" part="BC817-25-TP-dk_NPN_Single">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817-25-TP-dk_NPN_Single</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="Digi-Key_PN">BC817-25-TPMSCT-ND</field>
+        <field name="MPN">BC817-25-TP</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - Bipolar (BJT) - Single</field>
+        <field name="DK_Datasheet_Link">https://www.mccsemi.com/pdf/Products/BC817-16~BC817-40(SOT-23).pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/micro-commercial-co/BC817-25-TP/BC817-25-TPMSCT-ND/1960198</field>
+        <field name="Description">TRANS NPN 45V 0.8A SOT-23</field>
+        <field name="Manufacturer">Micro Commercial Co</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="yellow_fuzz_dev-rescue" part="WP7113QBC_D-dk_LEDs">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WP7113QBC_D-dk_LEDs</field>
+        <field name="Footprint">digikey-footprints:LED_5mm_Radial</field>
+        <field name="Datasheet">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
+        <field name="Digi-Key_PN">754-1489-ND</field>
+        <field name="MPN">WP7113QBC/D</field>
+        <field name="Category">Optoelectronics</field>
+        <field name="Family">LED Indication - Discrete</field>
+        <field name="DK_Datasheet_Link">http://www.kingbrightusa.com/images/catalog/SPEC/WP7113QBC-D.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/kingbright/WP7113QBC-D/754-1489-ND/2261460</field>
+        <field name="Description">LED BLUE CLEAR T-1 3/4 T/H</field>
+        <field name="Manufacturer">Kingbright</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/Users/tom/kicad-symbols/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Users/tom/kicad-symbols/Diode.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/Users/tom/kicad-symbols/Transistor_FET.lib</uri>
+    </library>
+    <library logical="dk_Diodes-Rectifiers-Single">
+      <uri>/Users/tom/digikey-kicad-library/digikey-symbols/dk_Diodes-Rectifiers-Single.lib</uri>
+    </library>
+    <library logical="yellow_fuzz_dev">
+      <uri>/Users/tom/yellow_fuzz/yellow_fuzz_dev/yellow_fuzz_dev.lib</uri>
+    </library>
+    <library logical="yellow_fuzz_dev-rescue">
+      <uri>/Users/tom/yellow_fuzz/yellow_fuzz_dev/yellow_fuzz_dev-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(J3-PadT)">
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="T"/>
+    </net>
+    <net code="2" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="Q4" pin="3"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="4" name="+9V">
+      <node ref="U1" pin="8"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="Q9" pin="3"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="Q13" pin="3"/>
+      <node ref="C10" pin="1"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="C40" pin="1"/>
+      <node ref="Q8" pin="3"/>
+      <node ref="R43" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="U4" pin="8"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="R49" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="5" name="+4V">
+      <node ref="U2" pin="5"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R57" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R62" pin="2"/>
+      <node ref="R55" pin="1"/>
+      <node ref="R52" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="R29" pin="2"/>
+      <node ref="R31" pin="2"/>
+      <node ref="R32" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R48" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="6" name="GND">
+      <node ref="C45" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="R12" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="P9" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="P9" pin="4"/>
+      <node ref="R35" pin="2"/>
+      <node ref="R51" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="R39" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="D5" pin="K"/>
+      <node ref="R65" pin="2"/>
+      <node ref="C47" pin="2"/>
+      <node ref="R47" pin="2"/>
+      <node ref="D8" pin="A"/>
+      <node ref="P7" pin="4"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D9" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="Q10" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="P5" pin="4"/>
+      <node ref="Q12" pin="2"/>
+      <node ref="S1" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="S1" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J2" pin="S"/>
+      <node ref="J3" pin="S"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1"/>
+      <node ref="Q9" pin="2"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="8" name="Net-(Q9-Pad1)">
+      <node ref="Q9" pin="1"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="9" name="Net-(C34-Pad1)">
+      <node ref="C34" pin="1"/>
+      <node ref="Q13" pin="1"/>
+      <node ref="R48" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C26-Pad2)">
+      <node ref="C26" pin="2"/>
+      <node ref="R40" pin="2"/>
+      <node ref="Q11" pin="1"/>
+    </net>
+    <net code="11" name="Net-(D10-Pad1)">
+      <node ref="Q11" pin="3"/>
+      <node ref="D10" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C37-Pad1)">
+      <node ref="R51" pin="1"/>
+      <node ref="Q13" pin="2"/>
+      <node ref="C37" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J2-PadT)">
+      <node ref="R54" pin="1"/>
+      <node ref="J2" pin="T"/>
+    </net>
+    <net code="14" name="Net-(C37-Pad2)">
+      <node ref="R53" pin="1"/>
+      <node ref="R54" pin="2"/>
+      <node ref="C37" pin="2"/>
+    </net>
+    <net code="15" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="16" name="Net-(C36-Pad1)">
+      <node ref="Q14" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="R52" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C34-Pad2)">
+      <node ref="C34" pin="2"/>
+      <node ref="R55" pin="2"/>
+      <node ref="Q11" pin="2"/>
+      <node ref="Q14" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D11-Pad1)">
+      <node ref="Q14" pin="3"/>
+      <node ref="D11" pin="1"/>
+    </net>
+    <net code="19" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D2-Pad2)">
+      <node ref="R22" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="22" name="Net-(C35-Pad1)">
+      <node ref="C35" pin="1"/>
+      <node ref="R50" pin="2"/>
+    </net>
+    <net code="23" name="Net-(BAT1-PadNEG)">
+      <node ref="BAT1" pin="NEG"/>
+      <node ref="Q3" pin="3"/>
+    </net>
+    <net code="24" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="25" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="26" name="Net-(BAT1-PadPOS)">
+      <node ref="J1" pin="3"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="BAT1" pin="POS"/>
+    </net>
+    <net code="27" name="/INPUT_RING">
+      <node ref="J3" pin="R"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="28" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="29" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="30" name="Net-(C27-Pad1)">
+      <node ref="U2" pin="7"/>
+      <node ref="R38" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R45" pin="2"/>
+    </net>
+    <net code="31" name="Net-(C24-Pad1)">
+      <node ref="R34" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R36" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C19-Pad2)">
+      <node ref="C19" pin="2"/>
+      <node ref="R26" pin="1"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="33" name="Net-(C18-Pad1)">
+      <node ref="R27" pin="2"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="34" name="Net-(D4-Pad2)">
+      <node ref="SW2" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="35" name="Net-(D7-Pad1)">
+      <node ref="SW3" pin="1"/>
+      <node ref="D7" pin="1"/>
+    </net>
+    <net code="36" name="Net-(C17-Pad2)">
+      <node ref="R23" pin="2"/>
+      <node ref="C17" pin="2"/>
+    </net>
+    <net code="37" name="/tone_block/TONE_IN">
+      <node ref="R45" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="P6" pin="1"/>
+      <node ref="P5" pin="1"/>
+    </net>
+    <net code="38" name="Net-(C15-Pad1)">
+      <node ref="R21" pin="2"/>
+      <node ref="C15" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C14-Pad1)">
+      <node ref="R19" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="40" name="Net-(C13-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="41" name="Net-(C3-Pad1)">
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="43" name="Net-(C1-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(Q5-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C4-Pad2)">
+      <node ref="R8" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="46" name="Net-(C5-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q5" pin="1"/>
+    </net>
+    <net code="47" name="Net-(P3-Pad3)">
+      <node ref="R26" pin="2"/>
+      <node ref="P4" pin="3"/>
+      <node ref="R23" pin="1"/>
+      <node ref="P3" pin="3"/>
+    </net>
+    <net code="48" name="/SW_IN_DB">
+      <node ref="R43" pin="2"/>
+      <node ref="R41" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C31" pin="2"/>
+    </net>
+    <net code="49" name="/SW_IN">
+      <node ref="S1" pin="3"/>
+      <node ref="S1" pin="4"/>
+      <node ref="R41" pin="2"/>
+    </net>
+    <net code="50" name="/SW_BASE_A">
+      <node ref="Q12" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R42" pin="2"/>
+      <node ref="R47" pin="1"/>
+    </net>
+    <net code="51" name="/SW_BASE_B">
+      <node ref="R39" pin="1"/>
+      <node ref="R46" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="Q10" pin="1"/>
+      <node ref="C33" pin="1"/>
+    </net>
+    <net code="52" name="/DIST_IN_EN">
+      <node ref="D11" pin="3"/>
+      <node ref="Q12" pin="3"/>
+      <node ref="D1" pin="3"/>
+      <node ref="R50" pin="1"/>
+      <node ref="R49" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="R46" pin="2"/>
+    </net>
+    <net code="53" name="/BYPASS_EN">
+      <node ref="C28" pin="1"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R37" pin="2"/>
+      <node ref="Q10" pin="3"/>
+      <node ref="R42" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="54" name="Net-(C19-Pad1)">
+      <node ref="R32" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="55" name="Net-(C32-Pad1)">
+      <node ref="C32" pin="1"/>
+      <node ref="D10" pin="3"/>
+      <node ref="R44" pin="1"/>
+    </net>
+    <net code="56" name="Net-(C27-Pad2)">
+      <node ref="C27" pin="2"/>
+      <node ref="R38" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="R36" pin="1"/>
+    </net>
+    <net code="57" name="Net-(C9-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="58" name="/BUFFERED_IN">
+      <node ref="R12" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R33" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="59" name="Net-(Q6-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="60" name="Net-(C6-Pad2)">
+      <node ref="R10" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C7-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="62" name="Net-(Q8-Pad2)">
+      <node ref="R30" pin="2"/>
+      <node ref="Q8" pin="2"/>
+      <node ref="R25" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C23-Pad2)">
+      <node ref="Q8" pin="1"/>
+      <node ref="R31" pin="1"/>
+      <node ref="C23" pin="2"/>
+    </net>
+    <net code="64" name="Net-(C22-Pad2)">
+      <node ref="C23" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="65" name="Net-(C22-Pad1)">
+      <node ref="SW5" pin="1"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="66" name="Net-(C20-Pad2)">
+      <node ref="C20" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="R28" pin="1"/>
+    </net>
+    <net code="67" name="Net-(Q7-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="Q7" pin="2"/>
+    </net>
+    <net code="68" name="Net-(C21-Pad2)">
+      <node ref="C21" pin="2"/>
+      <node ref="Q7" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="69" name="Net-(C20-Pad1)">
+      <node ref="SW4" pin="1"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="70" name="Net-(SW1-Pad1)">
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="71" name="Net-(SW1-Pad3)">
+      <node ref="SW1" pin="3"/>
+      <node ref="SW1" pin="5"/>
+    </net>
+    <net code="72" name="Net-(C6-Pad1)">
+      <node ref="SW1" pin="4"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="73" name="Net-(C4-Pad1)">
+      <node ref="SW1" pin="6"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="74" name="Net-(C24-Pad2)">
+      <node ref="C24" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R34" pin="2"/>
+      <node ref="SW4" pin="3"/>
+      <node ref="SW5" pin="3"/>
+    </net>
+    <net code="75" name="Net-(P2-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="76" name="Net-(C16-Pad2)">
+      <node ref="R21" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C16" pin="2"/>
+    </net>
+    <net code="77" name="Net-(SW2-Pad3)">
+      <node ref="SW2" pin="3"/>
+      <node ref="SW2" pin="5"/>
+    </net>
+    <net code="78" name="Net-(D6-Pad1)">
+      <node ref="SW2" pin="6"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="79" name="Net-(SW3-Pad3)">
+      <node ref="SW3" pin="3"/>
+      <node ref="SW3" pin="5"/>
+    </net>
+    <net code="80" name="Net-(D9-Pad2)">
+      <node ref="SW3" pin="6"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D5-PadA)">
+      <node ref="SW2" pin="4"/>
+      <node ref="D5" pin="A"/>
+    </net>
+    <net code="82" name="Net-(D8-PadK)">
+      <node ref="D8" pin="K"/>
+      <node ref="SW3" pin="4"/>
+    </net>
+    <net code="83" name="Net-(C9-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="84" name="Net-(P1-Pad3)">
+      <node ref="P1" pin="3"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="85" name="/tone_block/TONE_OUT">
+      <node ref="C46" pin="2"/>
+      <node ref="C50" pin="1"/>
+      <node ref="C44" pin="1"/>
+      <node ref="R63" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="P9" pin="2"/>
+    </net>
+    <net code="86" name="Net-(P3-Pad1)">
+      <node ref="P3" pin="2"/>
+      <node ref="P3" pin="1"/>
+      <node ref="SW2" pin="2"/>
+    </net>
+    <net code="87" name="Net-(P4-Pad1)">
+      <node ref="P4" pin="1"/>
+      <node ref="P4" pin="2"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="88" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="3"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="89" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="P2" pin="6"/>
+      <node ref="P2" pin="5"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="90" name="Net-(C42-Pad1)">
+      <node ref="R59" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C43" pin="2"/>
+    </net>
+    <net code="91" name="Net-(C44-Pad2)">
+      <node ref="R63" pin="2"/>
+      <node ref="R61" pin="1"/>
+      <node ref="C44" pin="2"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="92" name="Net-(C41-Pad1)">
+      <node ref="C41" pin="1"/>
+      <node ref="R58" pin="2"/>
+    </net>
+    <net code="93" name="Net-(C38-Pad2)">
+      <node ref="C38" pin="2"/>
+      <node ref="C39" pin="1"/>
+      <node ref="R56" pin="1"/>
+    </net>
+    <net code="94" name="Net-(C39-Pad2)">
+      <node ref="U3" pin="5"/>
+      <node ref="R57" pin="1"/>
+      <node ref="C39" pin="2"/>
+    </net>
+    <net code="95" name="Net-(P8-Pad3)">
+      <node ref="R65" pin="1"/>
+      <node ref="P8" pin="3"/>
+    </net>
+    <net code="96" name="Net-(C48-Pad2)">
+      <node ref="C48" pin="2"/>
+      <node ref="R62" pin="1"/>
+      <node ref="U4" pin="3"/>
+    </net>
+    <net code="97" name="Net-(C49-Pad2)">
+      <node ref="C49" pin="2"/>
+      <node ref="R66" pin="1"/>
+    </net>
+    <net code="98" name="Net-(P8-Pad6)">
+      <node ref="R66" pin="2"/>
+      <node ref="P8" pin="6"/>
+    </net>
+    <net code="99" name="Net-(C49-Pad1)">
+      <node ref="U4" pin="6"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C49" pin="1"/>
+    </net>
+    <net code="100" name="Net-(R56-Pad2)">
+      <node ref="R56" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="101" name="Net-(C47-Pad1)">
+      <node ref="P8" pin="1"/>
+      <node ref="P8" pin="2"/>
+      <node ref="P8" pin="4"/>
+      <node ref="P8" pin="5"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C48" pin="1"/>
+    </net>
+    <net code="102" name="Net-(C50-Pad2)">
+      <node ref="C50" pin="2"/>
+      <node ref="P9" pin="3"/>
+    </net>
+    <net code="103" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1"/>
+      <node ref="R60" pin="2"/>
+    </net>
+    <net code="104" name="Net-(P7-Pad2)">
+      <node ref="U4" pin="5"/>
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="105" name="Net-(P7-Pad3)">
+      <node ref="R64" pin="2"/>
+      <node ref="P7" pin="3"/>
+    </net>
+    <net code="106" name="Net-(P5-Pad2)">
+      <node ref="R58" pin="1"/>
+      <node ref="P5" pin="2"/>
+    </net>
+    <net code="107" name="Net-(C38-Pad1)">
+      <node ref="C38" pin="1"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="108" name="Net-(C42-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="P5" pin="3"/>
+      <node ref="R59" pin="2"/>
+      <node ref="P6" pin="3"/>
+      <node ref="C42" pin="2"/>
+    </net>
+    <net code="109" name="Net-(P6-Pad4)">
+      <node ref="P6" pin="4"/>
+    </net>
+    <net code="110" name="Net-(C46-Pad1)">
+      <node ref="R64" pin="1"/>
+      <node ref="C46" pin="1"/>
+    </net>
+    <net code="111" name="Net-(C43-Pad1)">
+      <node ref="R61" pin="2"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R60" pin="1"/>
+    </net>
+  </nets>
+</export>
