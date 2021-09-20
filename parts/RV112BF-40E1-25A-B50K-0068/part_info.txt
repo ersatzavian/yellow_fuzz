@@ -1,0 +1,9 @@
+Manufacturer=Alpha (Taiwan)
+PartNumber=RV112BF-40E1-25A-B50K-0068
+PartCategory=Variable Resistor
+PackageCategory=Other
+PinCount=8
+Version=1.1
+Released=2019-06-17 10:44:46
+Downloaded=2021-09-16 01:52:56
+3D=Y
